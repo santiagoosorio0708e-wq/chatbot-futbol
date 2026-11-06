@@ -313,3 +313,28 @@ def analizar_con_openai(
     return json.loads(contenido)
 
 
+def analizar_heuristica_rapida(
+    jugador: Dict[str, str],
+    opinion_usuario: str
+) -> Dict[str, Any]:
+    """
+    Motor local de alta velocidad. Proporciona análisis futbolístico objetivo
+    incluso si no hay conexión a internet o cuota de API.
+    """
+    texto = opinion_usuario.lower()
+    
+    frases_negativas = [
+        "no es tan bueno", "no es bueno", "no me parece bueno", "no rinde", 
+        "no sirve", "no me gusta", "pecho frio", "sobre valorado", "sobrevalorado",
+        "muy malo", "bastante malo"
+    ]
+    palabras_negativas = [
+        "malo", "pesimo", "pésimo", "tronco", "fracaso", "desastre", "paquete", "odio", 
+        "horrible", "mediocre", "inflado", "limitado"
+    ]
+    
+    score_neg = 0
+    texto_limpio = texto
+    for fn in frases_negativas:
+        if fn in texto_limpio:
+            score_neg += 2
