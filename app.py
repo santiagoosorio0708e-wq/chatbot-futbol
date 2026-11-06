@@ -273,3 +273,38 @@ if seccion == "Emitir opinión":
                 </div>
                 <div style="font-size: 0.96rem; color: #f0f2f6;">{msg['contenido']}</div>
             </div>
+            """, unsafe_allow_html=True)
+        elif msg["tipo"] == "asistente":
+            color = msg.get("color_rendimiento", "verde")
+            sentimiento = msg.get("sentimiento", "neutral")
+            registro_id = msg.get("id_registro", "")
+            analisis = msg.get("analisis", "")
+            rendimiento = msg.get("rendimiento", "")
+            titulos = msg.get("titulos", [])
+            
+            icono_semaforo = "🟢" if color == "verde" else ("🟡" if color == "amarillo" else "🔴")
+            
+            titulos_html = "".join([f'<span class="trophy-badge">🏆 {t}</span>' for t in titulos])
+            
+            st.markdown(f"""
+            <div class="chat-card-assistant border-{color}">
+                <div class="badge-bot-container">
+                    <div class="badge-bot-left">
+                        <span class="icon-circle-bot">🤖</span>
+                        <span class="badge-bot-name">{msg['jugador_nombre']}</span>
+                    </div>
+                    <span class="semaforo-pill semaforo-{color}">{icono_semaforo} Rendimiento: {color.capitalize()}</span>
+                </div>
+                <div class="opinion-saved-header">
+                    Opinión guardada. Sentimiento estimado: <strong>{sentimiento}</strong>.
+                </div>
+                <div class="analysis-text">{analisis}</div>
+                {f'<div style="margin-bottom: 8px; color: #8b949e; font-size: 0.88rem;"><strong>Evaluación deportiva:</strong> {rendimiento}</div>' if rendimiento else ''}
+                {f'<div style="margin-bottom: 10px;">{titulos_html}</div>' if titulos_html else ''}
+                <div class="record-id">Registro: {registro_id}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    # Input para enviar opinión con validación entre 5 y 1000 caracteres
+    opinion_input = st.chat_input("Opinión sobre el jugador seleccionado (5 a 1000 caracteres)")
+
