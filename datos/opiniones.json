@@ -1,3 +1,131 @@
 {
-  "opiniones": []
+  "opiniones": [
+    {
+      "id": "b7383335-c223-43d5-8bd4-19906693cd5a",
+      "timestamp": "2026-11-06T08:08:22.460667",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "dame una opinion sobre cristiano ronaldo",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Cristiano Ronaldo es indiscutiblemente uno de los futbolistas más influyentes y exitosos en la historia del deporte. Su capacidad goleadora, ética de trabajo y longevidad competitiva lo sitúan en la cima del fútbol mundial. Aunque en su etapa actual en el fútbol saudí su nivel competitivo ha descendido respecto a la élite europea, su trayectoria profesional es impecable y su impacto estadístico es inigualable.",
+      "evaluacion_rendimiento": "Jugador consagrado con una carrera histórica, actualmente en una fase de cierre de trayectoria profesional manteniendo una alta capacidad goleadora en ligas de menor exigencia competitiva.",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "3 Premier League",
+        "2 La Liga",
+        "2 Serie A"
+      ]
+    },
+    {
+      "id": "06cd3c10-8ee2-41a0-b104-c550877aec63",
+      "timestamp": "2026-11-06T08:03:22.302184",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Me parece un excelente jugador con gran técnica",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Lionel Messi es ampliamente considerado uno de los mejores futbolistas de la historia. Su rendimiento se caracteriza por una capacidad técnica excepcional, visión de juego superior y una consistencia goleadora y asistidora que ha mantenido durante casi dos décadas en la élite del fútbol mundial.",
+      "evaluacion_rendimiento": "Jugador de rendimiento histórico sobresaliente, con un impacto determinante en todos los clubes donde ha militado y en la selección argentina, consolidado como el máximo referente de su generación.",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "2952205b-afe0-4de8-ac82-fcc6b8731856",
+      "timestamp": "2026-11-06T08:00:09.765177",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Prueba automatizada de opinión objetiva",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Prueba de análisis objetivo",
+      "evaluacion_rendimiento": "Élite mundial",
+      "titulos_relevantes": [
+        "Champions League"
+      ]
+    },
+    {
+      "id": "9c5ccae2-0ef6-4ea0-b6ea-6819742b9bd9",
+      "timestamp": "2026-11-06T07:55:31.478746",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Prueba automatizada de opinión objetiva",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Prueba de análisis objetivo",
+      "evaluacion_rendimiento": "Élite mundial",
+      "titulos_relevantes": [
+        "Champions League"
+      ]
+    },
+    {
+      "id": "759afca1-534f-4885-9e40-61ea146322b9",
+      "timestamp": "2026-11-06T07:45:54.566101",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Prueba automatizada de opinión objetiva",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Prueba de análisis objetivo",
+      "evaluacion_rendimiento": "Élite mundial",
+      "titulos_relevantes": [
+        "Champions League"
+      ]
+    },
+    {
+      "id": "eef25ec5-85a4-43d2-9228-1153ddc6e8e8",
+      "timestamp": "2026-11-06T07:15:20.123456",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Me parece que no es tan bueno porque es de brasil",
+      "sentimiento": "negativo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión expresa una crítica hacia Vinícius Júnior, sugiriendo que su nacionalidad brasileña influye en una valoración negativa de su calidad como jugador. Desde una óptica objetiva, su rendimiento en la élite europea desmiente esta apreciación: ha sido pieza clave en 2 títulos de UEFA Champions League anotando en las finales y figura fundamental del Real Madrid.",
+      "evaluacion_rendimiento": "Extremo desequilibrante determinante en partidos grandes",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "LaLiga de España",
+        "Mundial de Clubes de la FIFA"
+      ]
+    },
+    {
+      "id": "7b841a02-69df-4fa3-9f12-9c34f0148ad1",
+      "timestamp": "2026-11-06T07:10:05.654321",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "El mejor jugador de la historia, determinante en finales y campeón del mundo con Argentina.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión elogia con fundamento a Lionel Messi. Su trayectoria deportiva y palmarés ratifican esta valoración: campeón de la Copa del Mundo 2022, 8 Balones de Oro y 4 Champions League, manteniendo cifras históricas de goles y asistencias durante más de 18 años.",
+      "evaluacion_rendimiento": "Sobresaliente / Leyenda Absoluta",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "5fa90c21-17ba-4a3d-b4ef-650123de7890",
+      "timestamp": "2026-11-06T07:05:40.987654",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Tiene una zurda mágica y fue figura en la Copa América, pero a nivel de clubes le faltó continuidad.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "La opinión sobre James Rodríguez plantea una perspectiva balanceada. Objetivamente, su jerarquía técnica es indiscutible con la Selección Colombia (Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024), si bien en clubes experimentó altibajos de regularidad tras su etapa inicial en Real Madrid y Bayern Múnich.",
+      "evaluacion_rendimiento": "Talento técnico exquisito con intermitencias a nivel de clubes",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "2 UEFA Champions League",
+        "Mejor jugador Copa América 2024"
+      ]
+    }
+  ]
 }
