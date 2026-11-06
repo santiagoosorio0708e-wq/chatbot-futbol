@@ -178,3 +178,93 @@ ESQUEMA_JSON_DICT = {
             "type": "array",
             "items": {"type": "string"},
             "description": "Lista de títulos clave ganados con club o selección."
+        }
+    },
+    "required": ["sentimiento", "color_rendimiento", "analisis_objetivo", "evaluacion_rendimiento", "titulos_relevantes"]
+}
+
+
+def analizar_con_gemini(
+    jugador: Dict[str, str],
+    opinion_usuario: str,
+    modelo: str = "gemini-3.1-flash-lite"
+) -> Dict[str, Any]:
+    """Ejecuta el análisis llamando a Google Gemini con temperatura 0 y JSON Schema."""
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise ValueError("Clave GEMINI_API_KEY no encontrada")
+
+    from google import genai
+    from google.genai import types
+
+    client = genai.Client(api_key=api_key)
+    
+    info_jugador = BASE_JUGADORES.get(jugador.get("id"), {})
+    titulos_ref = ", ".join(info_jugador.get("titulos", []))
+
+    system_instruction = (
+        "Eres el asistente y analista futbolístico experto del sistema 'Tribuna Global'. "
+        "Tu misión es analizar la opinión de un aficionado sobre un futbolista específico y generar "
+        "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
+        "y sus títulos obtenidos a nivel de clubes y selecciones.\n"
+        "Reglas de semáforo (color_rendimiento):\n"
+        "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
+        "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
+        "- rojo: Jugador con bajo rendimiento sostenido, críticas profundas o deficiencias tácticas.\n"
+        "Reglas de sentimiento:\n"
+        "- positivo: El aficionado elogia o destaca al jugador.\n"
+        "- neutral: Opinión descriptiva, ambigua o equilibrada.\n"
+        "- negativo: El aficionado critica, desmerece o ataca al jugador.\n"
+        "Responde estrictamente en formato JSON."
+    )
+
+    prompt = (
+        f"Futbolista: {jugador.get('nombre')} ({jugador.get('pais')})\n"
+        f"Títulos de referencia: {titulos_ref}\n"
+        f"Opinión del aficionado: \"{opinion_usuario}\"\n"
+        f"Genera el análisis objetivo estructurado."
+    )
+
+    config = types.GenerateContentConfig(
+        system_instruction=system_instruction,
+        temperature=0.0,
+        response_mime_type="application/json",
+        response_schema=ESQUEMA_JSON_DICT
+    )
+
+    # Intentar con el modelo especificado o fallback rápido dentro de Gemini
+    modelos_a_probar = [modelo, "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"]
+    ultimo_error = None
+    for m in modelos_a_probar:
+        try:
+            nombre_m = m.replace("models/", "")
+            response = client.models.generate_content(
+                model=nombre_m,
+                contents=prompt,
+                config=config
+            )
+            return json.loads(response.text)
+        except Exception as e:
+            ultimo_error = e
+            continue
+            
+    raise ultimo_error or RuntimeError("No se pudo completar la llamada con Gemini")
+
+
+def analizar_con_openai(
+    jugador: Dict[str, str],
+    opinion_usuario: str,
+    modelo: str = "gpt-4o-mini"
+) -> Dict[str, Any]:
+    """Ejecuta el análisis llamando al modelo OpenAI con temperatura 0 y JSON Schema."""
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY no encontrada")
+
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key)
+
+    info_jugador = BASE_JUGADORES.get(jugador.get("id"), {})
+    titulos_texto = ", ".join(info_jugador.get("titulos", []))
+
+    system_prompt = (
