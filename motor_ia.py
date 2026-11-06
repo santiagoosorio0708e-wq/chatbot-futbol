@@ -338,3 +338,33 @@ def analizar_heuristica_rapida(
     for fn in frases_negativas:
         if fn in texto_limpio:
             score_neg += 2
+            texto_limpio = texto_limpio.replace(fn, " ")
+
+    palabras_positivas = [
+        "excelente", "crack", "mejor", "bueno", "increible", "increíble", "genio", 
+        "idolo", "ídolo", "goleador", "leyenda", "fenomenal", "top", "grande", 
+        "capo", "magia", "espectacular", "determinante", "figura"
+    ]
+    
+    score_pos = sum(1 for p in palabras_positivas if re.search(rf"\b{re.escape(p)}\b", texto_limpio))
+    score_neg += sum(1 for n in palabras_negativas if re.search(rf"\b{re.escape(n)}\b", texto_limpio))
+    
+    if score_neg > score_pos:
+        sentimiento = "negativo"
+    elif score_pos > score_neg:
+        sentimiento = "positivo"
+    else:
+        sentimiento = "neutral"
+
+    info = BASE_JUGADORES.get(jugador.get("id"), {
+        "titulos": ["Títulos nacionales e internacionales"],
+        "rendimiento_historico": "Jugador profesional de alto rendimiento",
+        "color_default": "verde"
+    })
+
+    nombre = jugador.get("nombre", "el jugador")
+    pais = jugador.get("pais", "su país")
+    titulos = info.get("titulos", [])
+    titulos_str = ", ".join(titulos[:3])
+    color = info.get("color_default", "verde")
+    
