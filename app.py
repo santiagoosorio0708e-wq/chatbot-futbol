@@ -118,3 +118,73 @@ st.markdown("""
         justify-content: center;
         width: 28px;
         height: 28px;
+        border-radius: 50%;
+        background-color: #d97706;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .badge-bot-name {
+        font-weight: 600;
+        color: #f0f2f6;
+        font-size: 0.92rem;
+    }
+    
+    /* Semáforo Tags */
+    .semaforo-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 3px 10px;
+        border-radius: 12px;
+        font-size: 0.78rem;
+        font-weight: 600;
+    }
+    .semaforo-verde {
+        background-color: rgba(35, 134, 54, 0.2);
+        color: #3fb950;
+        border: 1px solid #238636;
+    }
+    .semaforo-amarillo {
+        background-color: rgba(210, 153, 34, 0.2);
+        color: #e3b341;
+        border: 1px solid #d29922;
+    }
+    .semaforo-rojo {
+        background-color: rgba(218, 54, 51, 0.2);
+        color: #f85149;
+        border: 1px solid #da3633;
+    }
+    
+    .opinion-saved-header {
+        color: #e6edf3;
+        font-size: 0.95rem;
+        margin-bottom: 8px;
+    }
+    .analysis-text {
+        color: #c9d1d9;
+        font-size: 0.94rem;
+        line-height: 1.55;
+        margin-bottom: 14px;
+    }
+    .trophy-badge {
+        display: inline-block;
+        background-color: #21262d;
+        color: #79c0ff;
+        padding: 3px 9px;
+        border-radius: 6px;
+        font-size: 0.78rem;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        border: 1px solid #30363d;
+    }
+    .record-id {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+        font-size: 0.82rem;
+        color: #8b949e;
+        margin-top: 10px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# Cargar catálogo de futbolistas
+catalogo = gestor_datos.cargar_catalogo_jugadores()
