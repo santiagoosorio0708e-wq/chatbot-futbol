@@ -268,3 +268,48 @@ def analizar_con_openai(
     titulos_texto = ", ".join(info_jugador.get("titulos", []))
 
     system_prompt = (
+        "Eres el asistente y analista futbolístico experto del sistema 'Tribuna Global'. "
+        "Tu misión es analizar la opinión de un aficionado sobre un futbolista específico y generar "
+        "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
+        "y sus títulos obtenidos a nivel de clubes y selecciones.\n"
+        "Reglas de semáforo (color_rendimiento):\n"
+        "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
+        "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
+        "- rojo: Jugador con bajo rendimiento sostenido, críticas profundas o deficiencias tácticas.\n"
+        "Reglas de sentimiento:\n"
+        "- positivo: El aficionado elogia o destaca al jugador.\n"
+        "- neutral: Opinión descriptiva, ambigua o equilibrada.\n"
+        "- negativo: El aficionado critica, desmerece o ataca al jugador.\n"
+        "Debes responder estrictamente en formato JSON según el esquema indicado."
+    )
+
+    user_prompt = (
+        f"Futbolista: {jugador.get('nombre')} ({jugador.get('pais')})\n"
+        f"Palmarés de referencia: {titulos_texto}\n"
+        f"Opinión del aficionado: \"{opinion_usuario}\"\n"
+        f"Por favor realiza el análisis estructurado objetivo."
+    )
+
+    esquema_openai = {
+        "type": "json_schema",
+        "json_schema": {
+            "name": "analisis_opinion_futbol",
+            "strict": True,
+            "schema": {**ESQUEMA_JSON_DICT, "additionalProperties": False}
+        }
+    }
+
+    response = client.chat.completions.create(
+        model=modelo,
+        temperature=0,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        response_format=esquema_openai
+    )
+
+    contenido = response.choices[0].message.content
+    return json.loads(contenido)
+
+
