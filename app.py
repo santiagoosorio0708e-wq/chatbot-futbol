@@ -433,3 +433,44 @@ elif seccion == "Consultar opiniones":
 
     # Botones de exportación
     if todas_opiniones:
+        st.markdown("#### Exportar Base de Datos")
+        col_exp1, col_exp2 = st.columns(2)
+        with col_exp1:
+            df_export = pd.DataFrame(todas_opiniones)
+            csv_data = df_export.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="📥 Descargar Historial en CSV",
+                data=csv_data,
+                file_name="opiniones_futbol_tribuna_global.csv",
+                mime="text/csv",
+                use_container_width=True
+            )
+        with col_exp2:
+            json_data = json.dumps({"opiniones": todas_opiniones}, ensure_ascii=False, indent=2).encode('utf-8')
+            st.download_button(
+                label="📥 Descargar Historial en JSON",
+                data=json_data,
+                file_name="opiniones_futbol_tribuna_global.json",
+                mime="application/json",
+                use_container_width=True
+            )
+
+    st.markdown("---")
+
+    if not opiniones_filtradas:
+        st.info("No se encontraron opiniones registradas con los filtros seleccionados.")
+    else:
+        st.markdown(f"**Mostrando {len(opiniones_filtradas)} opiniones encontradas:**")
+        for reg in opiniones_filtradas:
+            color = reg.get("color_rendimiento", "verde")
+            icono_color = "🟢" if color == "verde" else ("🟡" if color == "amarillo" else "🔴")
+            
+            with st.expander(f"{icono_color} {reg.get('jugador_nombre')} — Sentimiento: {reg.get('sentimiento', '').upper()} (ID: {reg.get('id', '')[:8]}...)", expanded=False):
+                st.markdown(f"**Opinión del aficionado:** *\"{reg.get('opinion_usuario', '')}\"*")
+                st.markdown(f"**Análisis objetivo:** {reg.get('analisis_objetivo', '')}")
+                if reg.get("evaluacion_rendimiento"):
+                    st.markdown(f"**Evaluación deportiva:** {reg.get('evaluacion_rendimiento')}")
+                if reg.get("titulos_relevantes"):
+                    titulos_str = ", ".join(reg.get("titulos_relevantes"))
+                    st.markdown(f"**Palmarés clave:** 🏆 {titulos_str}")
+                st.caption(f"Registro UUID: {reg.get('id')} | Fecha y hora: {reg.get('timestamp', '')}")
