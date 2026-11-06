@@ -143,3 +143,38 @@ BASE_JUGADORES = {
         "titulos": ["Copa del Mundo 2002", "UEFA Champions League 2006", "Balón de Oro 2005", "Copa Libertadores 2013"],
         "rendimiento_historico": "Magia pura e inventiva que redefinió el fútbol mundial",
         "color_default": "verde"
+    },
+    "j020": {
+        "nombre": "Ronaldo Nazário",
+        "pais": "Brasil",
+        "titulos": ["2 Copas del Mundo (1994, 2002)", "2 Balones de Oro", "Copa América (1997, 1999)"],
+        "rendimiento_historico": "El Fenómeno, delantero más explosivo e imparable de su era",
+        "color_default": "verde"
+    }
+}
+
+ESQUEMA_JSON_DICT = {
+    "type": "object",
+    "properties": {
+        "sentimiento": {
+            "type": "string",
+            "enum": ["positivo", "neutral", "negativo"],
+            "description": "Sentimiento estimado de la opinión del usuario hacia el jugador."
+        },
+        "color_rendimiento": {
+            "type": "string",
+            "enum": ["verde", "amarillo", "rojo"],
+            "description": "Semáforo objetivo de rendimiento y títulos (verde = alto/consagrado, amarillo = regular/en desarrollo/irregular, rojo = bajo/crítico)."
+        },
+        "analisis_objetivo": {
+            "type": "string",
+            "description": "Opinión futbolística objetiva e independiente que sintetiza el rendimiento real en cancha y títulos del jugador frente a lo expresado por el aficionado."
+        },
+        "evaluacion_rendimiento": {
+            "type": "string",
+            "description": "Síntesis del rendimiento y momento futbolístico del jugador."
+        },
+        "titulos_relevantes": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Lista de títulos clave ganados con club o selección."
