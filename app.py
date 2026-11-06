@@ -398,3 +398,38 @@ elif seccion == "Consultar opiniones":
     m1, m2, m3, m4 = st.columns(4)
     with m1:
         st.metric("Total Opiniones", len(todas_opiniones))
+    with m2:
+        verde_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "verde")
+        st.metric("🟢 Rendimiento Alto", verde_count)
+    with m3:
+        amarillo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "amarillo")
+        st.metric("🟡 Rendimiento Regular", amarillo_count)
+    with m4:
+        rojo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "rojo")
+        st.metric("🔴 Rendimiento Crítico", rojo_count)
+
+    # Gráficos analíticos de distribución si hay registros
+    if todas_opiniones:
+        st.markdown("### Análisis Estadístico de la Tribuna")
+        g_col1, g_col2 = st.columns(2)
+        with g_col1:
+            st.caption("Distribución por Semáforo de Rendimiento")
+            df_colores = pd.DataFrame({
+                "Categoría": ["🟢 Alto (Verde)", "🟡 Regular (Amarillo)", "🔴 Crítico (Rojo)"],
+                "Total": [verde_count, amarillo_count, rojo_count]
+            }).set_index("Categoría")
+            st.bar_chart(df_colores, color="#238636")
+            
+        with g_col2:
+            st.caption("Distribución por Sentimiento de Aficionados")
+            pos_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "positivo")
+            neu_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "neutral")
+            neg_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "negativo")
+            df_sentimientos = pd.DataFrame({
+                "Sentimiento": ["👍 Positivo", "⚖️ Neutral", "👎 Negativo"],
+                "Total": [pos_count, neu_count, neg_count]
+            }).set_index("Sentimiento")
+            st.bar_chart(df_sentimientos, color="#1f6feb")
+
+    # Botones de exportación
+    if todas_opiniones:
