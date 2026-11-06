@@ -58,3 +58,63 @@ st.markdown("""
         padding: 16px 20px;
         margin-bottom: 16px;
         border: 1px solid #30363d;
+    }
+    .badge-user-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+    .icon-circle-user {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #e02424;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .badge-user-name {
+        font-weight: 600;
+        color: #f0f2f6;
+        font-size: 0.92rem;
+    }
+
+    /* Tarjeta de mensaje de la IA (Réplica Captura 2 con Semáforo) */
+    .chat-card-assistant {
+        background-color: #161b22;
+        border-radius: 10px;
+        padding: 16px 20px;
+        margin-bottom: 24px;
+        border: 1px solid #30363d;
+        border-left: 5px solid #3b82f6;
+    }
+    .chat-card-assistant.border-verde {
+        border-left: 5px solid #238636 !important;
+    }
+    .chat-card-assistant.border-amarillo {
+        border-left: 5px solid #d29922 !important;
+    }
+    .chat-card-assistant.border-rojo {
+        border-left: 5px solid #da3633 !important;
+    }
+    
+    .badge-bot-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+    .badge-bot-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .icon-circle-bot {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
