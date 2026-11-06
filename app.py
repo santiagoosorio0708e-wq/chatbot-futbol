@@ -358,3 +358,43 @@ if seccion == "Emitir opinión":
                 st.rerun()
 
 elif seccion == "Consultar opiniones":
+    st.markdown('<div class="section-header">Base de Datos de Opiniones y Evaluaciones</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-caption">Consulta el registro histórico de opiniones almacenadas y su evaluación objetiva.</div>', unsafe_allow_html=True)
+    
+    todas_opiniones = gestor_datos.cargar_opiniones()
+    
+    # Filtros superiores
+    col1, col2, col3 = st.columns([2, 1.5, 1.5])
+    with col1:
+        filtro_jugador = st.selectbox(
+            "Filtrar por futbolista:",
+            ["Todos los futbolistas"] + [f"{j['nombre']} ({j['pais']})" for j in catalogo]
+        )
+    with col2:
+        filtro_sentimiento = st.selectbox(
+            "Filtrar por sentimiento:",
+            ["Todos", "positivo", "neutral", "negativo"]
+        )
+    with col3:
+        filtro_color = st.selectbox(
+            "Semáforo de rendimiento:",
+            ["Todos", "verde", "amarillo", "rojo"]
+        )
+        
+    # Aplicar filtros
+    opiniones_filtradas = todas_opiniones
+    if filtro_jugador != "Todos los futbolistas":
+        nombre_filtro = filtro_jugador.split(" (")[0]
+        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("jugador_nombre") == nombre_filtro]
+        
+    if filtro_sentimiento != "Todos":
+        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("sentimiento") == filtro_sentimiento]
+        
+    if filtro_color != "Todos":
+        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("color_rendimiento") == filtro_color]
+
+    # Métricas de resumen
+    st.markdown("### Métricas Generales")
+    m1, m2, m3, m4 = st.columns(4)
+    with m1:
+        st.metric("Total Opiniones", len(todas_opiniones))
