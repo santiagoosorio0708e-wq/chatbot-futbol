@@ -308,3 +308,53 @@ if seccion == "Emitir opinión":
     # Input para enviar opinión con validación entre 5 y 1000 caracteres
     opinion_input = st.chat_input("Opinión sobre el jugador seleccionado (5 a 1000 caracteres)")
 
+    if opinion_input:
+        texto = opinion_input.strip()
+        if len(texto) < 5:
+            st.warning("⚠️ La opinión es demasiado corta. Debe tener al menos 5 caracteres.")
+        elif len(texto) > 1000:
+            st.warning("⚠️ La opinión es demasiado larga. No puede superar los 1000 caracteres.")
+        else:
+            with st.spinner("Analizando objetivamente con IA..."):
+                # Procesar análisis con IA
+                resultado = motor_ia.procesar_opinion(
+                    jugador=jugador_actual,
+                    opinion_usuario=texto,
+                    modelo=modelo
+                )
+                
+                # Persistir en JSON
+                registro = gestor_datos.guardar_opinion(
+                    jugador_id=jugador_actual["id"],
+                    jugador_nombre=jugador_actual["nombre"],
+                    opinion_usuario=texto,
+                    sentimiento=resultado.get("sentimiento", "neutral"),
+                    analisis_objetivo=resultado.get("analisis_objetivo", ""),
+                    color_rendimiento=resultado.get("color_rendimiento", "verde"),
+                    titulos_relevantes=resultado.get("titulos_relevantes", []),
+                    evaluacion_rendimiento=resultado.get("evaluacion_rendimiento", "")
+                )
+                
+                # Agregar al historial de la sesión
+                st.session_state.mensajes.append({
+                    "tipo": "usuario",
+                    "jugador_id": jugador_actual["id"],
+                    "jugador_nombre": jugador_actual["nombre"],
+                    "contenido": texto
+                })
+                
+                st.session_state.mensajes.append({
+                    "tipo": "asistente",
+                    "jugador_id": jugador_actual["id"],
+                    "jugador_nombre": jugador_actual["nombre"],
+                    "sentimiento": resultado.get("sentimiento", "neutral"),
+                    "color_rendimiento": resultado.get("color_rendimiento", "verde"),
+                    "analisis": resultado.get("analisis_objetivo", ""),
+                    "rendimiento": resultado.get("evaluacion_rendimiento", ""),
+                    "titulos": resultado.get("titulos_relevantes", []),
+                    "id_registro": registro["id"]
+                })
+                
+                st.rerun()
+
+elif seccion == "Consultar opiniones":
