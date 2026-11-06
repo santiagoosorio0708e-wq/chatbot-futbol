@@ -368,3 +368,63 @@ def analizar_heuristica_rapida(
     titulos_str = ", ".join(titulos[:3])
     color = info.get("color_default", "verde")
     
+    if sentimiento == "negativo":
+        analisis = (
+            f"La opinión expresa una crítica o reparo hacia {nombre}. Sin embargo, desde una perspectiva objetiva, "
+            f"el rendimiento de {nombre} en la cancha está respaldado por logros contundentes con {pais} y sus clubes, "
+            f"incluyendo: {titulos_str}. Su impacto deportivo desmiente juicios infundados."
+        )
+    elif sentimiento == "positivo":
+        analisis = (
+            f"La opinión elogia con fundamento a {nombre}. Los datos avalan esta percepción: su rendimiento en la cancha "
+            f"ha sido clave en la conquista de trofeos de máxima jerarquía como {titulos_str}, "
+            f"consolidándose como un referente para {pais}."
+        )
+    else:
+        analisis = (
+            f"La opinión sobre {nombre} plantea una perspectiva balanceada. Objetivamente, el balance de su carrera "
+            f"demuestra regularidad competitiva y un palmarés que incluye {titulos_str}, "
+            f"marcando presencia destacada tanto en clubes como representando a {pais}."
+        )
+
+    return {
+        "sentimiento": sentimiento,
+        "color_rendimiento": color,
+        "analisis_objetivo": analisis,
+        "evaluacion_rendimiento": info.get("rendimiento_historico", "Alto rendimiento deportivo"),
+        "titulos_relevantes": titulos
+    }
+
+
+def procesar_opinion(
+    jugador: Dict[str, str],
+    opinion_usuario: str,
+    modelo: str = "gemini-3.1-flash-lite"
+) -> Dict[str, Any]:
+    """
+    Punto de entrada principal para el análisis.
+    1. Si hay clave Gemini (AQ... o AIza...), usa Google Gemini con JSON Schema.
+    2. Si hay clave OpenAI (sk-...), usa OpenAI con JSON Schema.
+    3. Si falla la llamada externa, utiliza el motor heurístico local ultra rápido.
+    """
+    gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    openai_key = os.getenv("OPENAI_API_KEY")
+
+    # Si la clave configurada es de Gemini (empieza con AQ. o AIza)
+    if gemini_key and (gemini_key.startswith("AQ.") or gemini_key.startswith("AIza") or "gemini" in modelo.lower()):
+        try:
+            return analizar_con_gemini(jugador, opinion_usuario, modelo=modelo)
+        except Exception as e:
+            print(f"Aviso: Fallo temporal en Gemini ({e}), usando motor heurístico de contingencia.")
+            return analizar_heuristica_rapida(jugador, opinion_usuario)
+
+    # Si la clave configurada es de OpenAI
+    if openai_key and openai_key.startswith("sk-"):
+        try:
+            return analizar_con_openai(jugador, opinion_usuario, modelo=modelo)
+        except Exception as e:
+            print(f"Aviso: Fallo temporal en OpenAI ({e}), usando motor heurístico de contingencia.")
+            return analizar_heuristica_rapida(jugador, opinion_usuario)
+
+    # Fallback si no hay clave externa válida o en pruebas
+    return analizar_heuristica_rapida(jugador, opinion_usuario)
