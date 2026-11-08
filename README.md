@@ -16,6 +16,15 @@
 
 ---
 
+> [!IMPORTANT]
+> ### ⚡ Instrucciones de Evaluación Rápida (1 Clic para Profesores y Evaluadores)
+> Para ejecutar y calificar este proyecto de forma automática sin pasos manuales:
+> * **En Windows:** Haz doble clic en el archivo [`iniciar_chatbot.bat`](iniciar_chatbot.bat) o [`run.bat`](run.bat). El script instala dependencias faltantes y abre el navegador automáticamente en [http://localhost:8501](http://localhost:8501).
+> * **En Visual Studio Code:** Al abrir la carpeta en VS Code se detecta la tarea automática en `.vscode/tasks.json`, o puedes presionar **F5** para iniciar.
+> * **En Linux / macOS:** Ejecuta en tu terminal: `bash run.sh`.
+
+---
+
 <details>
 <summary>📑 <strong>Tabla de Contenidos (Haz clic para desplegar)</strong></summary>
 

@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Iniciar Tribuna Global (Streamlit)",
+      "type": "shell",
+      "command": "py -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501",
+      "windows": {
+        "command": "py -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501"
+      },
+      "osx": {
+        "command": "python3 -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501"
+      },
+      "linux": {
+        "command": "python3 -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}

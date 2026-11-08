@@ -107,3 +107,4 @@ if __name__ == "__main__":
         ejecutar_diagnostico()
     else:
         modo_interactivo()
+

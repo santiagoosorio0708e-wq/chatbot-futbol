@@ -32,8 +32,8 @@ wheels/
 .streamlit/secrets.toml
 
 # IDE
-.vscode/
 .idea/
+.vscode/*.log
 
 # Logs y bases de datos temporales
 *.log
