@@ -17,11 +17,25 @@
 ---
 
 > [!IMPORTANT]
-> ### ⚡ Instrucciones de Evaluación Rápida (1 Clic para Profesores y Evaluadores)
-> Para ejecutar y calificar este proyecto de forma automática sin pasos manuales:
-> * **En Windows:** Haz doble clic en el archivo [`iniciar_chatbot.bat`](iniciar_chatbot.bat) o [`run.bat`](run.bat). El script instala dependencias faltantes y abre el navegador automáticamente en [http://localhost:8501](http://localhost:8501).
-> * **En Visual Studio Code:** Al abrir la carpeta en VS Code se detecta la tarea automática en `.vscode/tasks.json`, o puedes presionar **F5** para iniciar.
-> * **En Linux / macOS:** Ejecuta en tu terminal: `bash run.sh`.
+> ### ⚡ Acceso Directo e Instrucciones de Evaluación (Para el Profesor y Evaluadores)
+> 
+> Esta solución cuenta con un motor de Inteligencia Artificial desarrollado en Python/Streamlit que corre en el **puerto 8501**. Se puede ejecutar y abrir de dos formas:
+> 
+> #### 🔗 Enlace Directo a la Aplicación en Vivo:
+> 👉 **[http://localhost:8501](http://localhost:8501)** *(o también [http://127.0.0.1:8501](http://127.0.0.1:8501))*
+> 
+> ---
+> 
+> #### 🛠️ Las 2 Formas Oficiales de Ejecución:
+> 
+> 1. **Forma 1 · Ejecución Rápida con 1 Clic (Recomendada):**
+>    * Haz doble clic en el archivo [`iniciar_chatbot.bat`](iniciar_chatbot.bat) o [`run.bat`](run.bat).
+>    * El script inteligente verifica Python, instala dependencias faltantes de `requirements.txt` e inicia el backend abriendo automáticamente la página en [http://localhost:8501](http://localhost:8501).
+>    * *(En Linux o macOS ejecutar: `bash run.sh`)*.
+> 
+> 2. **Forma 2 · Desde Visual Studio Code (F5 o Live Server):**
+>    * **Con F5 / Tareas de VS Code:** Presiona la tecla **F5** o abre la carpeta; la tarea configurada en [`.vscode/tasks.json`](.vscode/tasks.json) iniciará el servidor de IA de inmediato.
+>    * **Con la extensión Live Server:** Si inicias Live Server (puerto `5500` / `5501`), el archivo [`index.html`](index.html) intercepta la petición automáticamente y te redirige en 3 segundos a [http://localhost:8501](http://localhost:8501) (aclarando que el motor de IA de Python opera en el puerto 8501).
 
 ---
 
@@ -76,16 +90,28 @@ Chatbot-IA/
 ├── .streamlit/
 │   └── config.toml               # Configuración de tema oscuro y servidor Streamlit
 │
+├── .vscode/
+│   ├── launch.json               # Configuración de depuración F5 en VS Code
+│   └── tasks.json                # Tarea automatizada al abrir carpeta en VS Code
+│
 ├── datos/
 │   ├── jugadores.json            # Catálogo oficial con identificadores estables (j001 - j020)
 │   └── opiniones.json            # Registro histórico de opiniones persistidas con UUID
 │
+├── tests/
+│   └── test_chatbot.py           # Suite de pruebas unitarias automatizadas con pytest
+│
 ├── .env.example                  # Plantilla de variables de entorno para claves API
 ├── .gitignore                    # Reglas de exclusión para no exponer credenciales
 ├── app.py                        # Interfaz gráfica Streamlit y orquestador UI/UX
-├── gestor_datos.py               # Capa de acceso a datos, filtrado y almacenamiento
+├── demo_cli.py                   # Herramienta de consola y diagnóstico sin navegador
+├── gestor_datos.py               # Capa de acceso a datos, filtrado y persistencia
+├── index.html                    # Redirección amigable e interfaz puente para Live Server
+├── iniciar_chatbot.bat           # Lanzador automático inteligente en Windows (1 clic)
 ├── motor_ia.py                   # Motor analítico, prompts, JSON Schema y fallback heurístico
 ├── requirements.txt              # Dependencias del proyecto
+├── run.bat                       # Alias de ejecución rápida en Windows
+├── run.sh                        # Script de ejecución para Linux y macOS
 └── README.md                     # Documentación profesional del sistema
 ```
 

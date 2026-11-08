@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribuna Global · Redirección al Asistente IA</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #f0f2f6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 14px;
+            padding: 36px 30px;
+            max-width: 580px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.6);
+        }
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 1.85rem;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+        p {
+            color: #8b949e;
+            line-height: 1.6;
+            font-size: 0.96rem;
+            margin-bottom: 22px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #e02424;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 13px 26px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .btn:hover {
+            background-color: #b91c1c;
+            transform: scale(1.02);
+        }
+        .notice {
+            margin-top: 26px;
+            padding: 14px 18px;
+            background-color: #21262d;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            color: #c9d1d9;
+            border-left: 4px solid #d29922;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .notice code {
+            background-color: #161b22;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #58a6ff;
+            font-family: monospace;
+        }
+        .countdown {
+            font-weight: bold;
+            color: #58a6ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">⚽</div>
+        <h1>Tribuna Global · Chatbot IA</h1>
+        <p>Esta aplicación cuenta con un backend de Inteligencia Artificial desarrollado en Python (Streamlit). Su servidor interactivo opera en el puerto oficial <strong>8501</strong>.</p>
+        
+        <a href="http://localhost:8501" class="btn" id="btn-redirect">🚀 Entrar a Tribuna Global (localhost:8501)</a>
+        
+        <div class="notice">
+            <strong>💡 Nota para el Evaluador / Profesor:</strong><br>
+            La extensión <em>Live Server</em> de VS Code (puerto 5500/5501) sirve únicamente para páginas HTML estáticas. El motor de IA completo se ejecuta en <strong>http://localhost:8501</strong>.<br><br>
+            Si el servidor aún no está activo, simplemente haz doble clic en <code>iniciar_chatbot.bat</code> o presiona <code>F5</code> en VS Code.
+        </div>
+        
+        <p style="margin-top: 22px; font-size: 0.86rem; color: #8b949e;">
+            Redirigiendo automáticamente a <a href="http://localhost:8501" style="color: #58a6ff;">localhost:8501</a> en <span class="countdown" id="timer">3</span> segundos...
+        </p>
+    </div>
+
+    <script>
+        let seconds = 3;
+        const timerElem = document.getElementById('timer');
+        const interval = setInterval(() => {
+            seconds--;
+            if (timerElem) timerElem.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(interval);
+                window.location.href = "http://localhost:8501";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

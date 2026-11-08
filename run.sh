@@ -31,3 +31,4 @@ elif command -v open &>/dev/null; then
 fi
 
 $PY_CMD -m streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+
