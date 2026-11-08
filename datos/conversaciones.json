@@ -79,8 +79,29 @@
             "2 Copas América"
           ],
           "id_registro": "7b841a02-69df-4fa3-9f12-9c34f0148ad1"
+        },
+        {
+          "tipo": "usuario",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
+          "contenido": "cual de los dos entre messi y cristiano es el mejor de la historia"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
+          "sentimiento": "neutral",
+          "color_rendimiento": "verde",
+          "analisis": "La comparación entre Lionel Messi y Cristiano Ronaldo es el debate más significativo del fútbol moderno. Messi destaca por su capacidad creativa, visión de juego, regate y precisión en la distribución, consolidándose como un organizador y finalizador total. Cristiano Ronaldo, por su parte, es el epítome del atleta de élite, con una capacidad goleadora inigualable, potencia física, juego aéreo y una mentalidad competitiva que le ha permitido triunfar en múltiples ligas europeas. Mientras Messi posee una mayor influencia en la construcción del juego, Ronaldo ostenta el récord de máximo goleador histórico y una eficacia letal en el área. Ambos han redefinido la excelencia futbolística durante dos décadas, siendo la elección del 'mejor' una cuestión de preferencia táctica entre el genio creativo y el goleador absoluto.",
+          "rendimiento": "Ambos jugadores mantienen un estatus de leyenda absoluta con rendimientos que han marcado hitos históricos en el fútbol mundial, superando los estándares de longevidad y consistencia en la élite.",
+          "titulos": [
+            "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
+            "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, Máximo goleador histórico"
+          ],
+          "id_registro": "2d3cbf99-d9f3-483e-9a2c-247a452647cc"
         }
-      ]
+      ],
+      "fecha_actualizacion": "2026-11-08T13:08:29.074457"
     }
   ]
 }

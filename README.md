@@ -17,7 +17,7 @@
 ---
 
 > [!IMPORTANT]
-> ### ⚡ Acceso Directo e Instrucciones de Evaluación (Para el Profesor y Evaluadores)
+> ### ⚡ Acceso Directo e Instrucciones
 > 
 > Esta solución cuenta con un motor de Inteligencia Artificial desarrollado en Python/Streamlit que corre en el **puerto 8501**. Se puede ejecutar y abrir de dos formas:
 > 
