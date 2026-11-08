@@ -27,8 +27,29 @@
             "Mundial de Clubes de la FIFA"
           ],
           "id_registro": "eef25ec5-85a4-43d2-9228-1153ddc6e8e8"
+        },
+        {
+          "tipo": "usuario",
+          "jugador_id": "j006",
+          "jugador_nombre": "Vinícius Júnior",
+          "contenido": "Compara a Messi con Cristiano Ronaldo"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j006",
+          "jugador_nombre": "Vinícius Júnior",
+          "sentimiento": "neutral",
+          "color_rendimiento": "verde",
+          "analisis": "La comparación entre Lionel Messi y Cristiano Ronaldo es el debate más significativo de la era moderna. Messi destaca por su capacidad creativa, visión de juego, regate en espacios reducidos y una técnica individual que le permite ser tanto goleador como asistente. Por su parte, Cristiano Ronaldo se define por su capacidad atlética, potencia física, posicionamiento letal en el área y una mentalidad competitiva que le permitió dominar la Champions League. Mientras Messi posee un estilo más asociativo y técnico, Ronaldo destaca por su eficiencia física y capacidad de resolución en momentos críticos. Ambos han redefinido los estándares de rendimiento individual con múltiples Balones de Oro y títulos continentales.",
+          "rendimiento": "Ambos jugadores se encuentran en la etapa final de sus carreras, habiendo consolidado legados históricos. Messi mantiene un nivel de influencia técnica superior en la creación de juego, mientras que Ronaldo ha evolucionado hacia un rol de finalizador puro con una longevidad física excepcional.",
+          "titulos": [
+            "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
+            "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, múltiples títulos de liga en Inglaterra, España e Italia"
+          ],
+          "id_registro": "b437b204-d13e-47f1-913c-6227cc25839d"
         }
-      ]
+      ],
+      "fecha_actualizacion": "2026-11-08T12:59:14.804997"
     },
     {
       "id": "conv-messi-cr7-02",

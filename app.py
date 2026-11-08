@@ -1,10 +1,15 @@
 """Aplicación principal Tribuna Global en Streamlit."""
 import os
 import json
+import importlib
 import pandas as pd
 import streamlit as st
 import gestor_datos
 import motor_ia
+
+# Forzar recarga en caliente de módulos locales para evitar errores de caché en Streamlit
+importlib.reload(gestor_datos)
+importlib.reload(motor_ia)
 
 # Configuración inicial de la página
 st.set_page_config(
