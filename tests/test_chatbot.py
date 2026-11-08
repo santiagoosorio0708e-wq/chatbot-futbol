@@ -74,3 +74,48 @@ def test_persistencia_opinion():
     encontrado = any(op["id"] == registro["id"] for op in opiniones_vini)
     assert encontrado, "El registro guardado no fue encontrado en la persistencia."
 
+
+def test_deteccion_jugador_comparado_y_analisis():
+    """Verifica que el sistema detecte comparaciones entre dos futbolistas y no se bloquee."""
+    messi = gestor_datos.buscar_jugador_por_id("j001")
+    texto_consulta = "Dame una opinión sobre Messi y compáralo con Cristiano Ronaldo"
+    
+    jugador_comp = motor_ia.detectar_jugador_comparado(texto_consulta, "j001")
+    assert jugador_comp is not None
+    assert "Cristiano" in jugador_comp["nombre"]
+    
+    resultado = motor_ia.procesar_opinion(messi, texto_consulta)
+    assert "analisis_objetivo" in resultado
+    assert "Cristiano" in resultado["analisis_objetivo"] or "Ronaldo" in resultado["analisis_objetivo"]
+    assert resultado["color_rendimiento"] in ["verde", "amarillo", "rojo"]
+
+
+def test_persistencia_conversaciones_locales():
+    """Verifica la persistencia completa del historial de conversaciones en datos/conversaciones.json."""
+    id_conv_prueba = "test-conv-1234"
+    mensajes_prueba = [
+        {"tipo": "usuario", "jugador_nombre": "Lionel Messi", "contenido": "¿Cuántas Champions tiene?"},
+        {"tipo": "asistente", "jugador_nombre": "Lionel Messi", "analisis": "Tiene 4 Champions League."}
+    ]
+    
+    guardado = gestor_datos.guardar_conversacion(
+        conv_id=id_conv_prueba,
+        titulo="Test Chat Messi",
+        jugador_id="j001",
+        jugador_nombre="Lionel Messi",
+        mensajes=mensajes_prueba
+    )
+    
+    assert guardado["id"] == id_conv_prueba
+    assert len(guardado["mensajes"]) == 2
+    
+    # Recuperar por ID
+    recuperado = gestor_datos.obtener_conversacion_por_id(id_conv_prueba)
+    assert recuperado is not None
+    assert recuperado["titulo"] == "Test Chat Messi"
+    
+    # Limpiar después del test
+    gestor_datos.eliminar_conversacion(id_conv_prueba)
+    assert gestor_datos.obtener_conversacion_por_id(id_conv_prueba) is None
+
+

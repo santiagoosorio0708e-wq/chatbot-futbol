@@ -23,8 +23,9 @@ def ejecutar_diagnostico():
 
     # 2. Persistencia
     opiniones = gestor_datos.cargar_opiniones()
-    print(f"\n[2/3] Base de Datos Local: {len(opiniones)} opiniones registradas.")
-    print("      ✅ Persistencia en datos/opiniones.json operativa con UUIDs.")
+    convs = gestor_datos.cargar_conversaciones()
+    print(f"\n[2/3] Base de Datos Local: {len(opiniones)} opiniones y {len(convs)} conversaciones registradas.")
+    print("      ✅ Persistencia en datos/opiniones.json y datos/conversaciones.json operativa.")
 
     # 3. Conexión de IA y Semáforo
     print("\n[3/3] Probando evaluación de IA con Semáforo...")

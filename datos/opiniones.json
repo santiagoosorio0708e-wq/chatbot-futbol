@@ -1,6 +1,53 @@
 {
   "opiniones": [
     {
+      "id": "7a6066ca-3f3c-43b0-b0e6-8a6f93043998",
+      "timestamp": "2026-11-08T12:50:55.852346",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Prueba automatizada de opinión objetiva",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Prueba de análisis objetivo",
+      "evaluacion_rendimiento": "Élite mundial",
+      "titulos_relevantes": [
+        "Champions League"
+      ]
+    },
+    {
+      "id": "33b20344-b672-4417-8d75-a4ebcce5bea5",
+      "timestamp": "2026-11-08T12:50:28.403875",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Prueba automatizada de opinión objetiva",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Prueba de análisis objetivo",
+      "evaluacion_rendimiento": "Élite mundial",
+      "titulos_relevantes": [
+        "Champions League"
+      ]
+    },
+    {
+      "id": "6e66f0c9-1482-4ffd-b23b-666847a5cc5a",
+      "timestamp": "2026-11-08T12:43:47.467245",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "dame una opinion sobre leo messi y es mejor que cristiano ronaldo?",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Lionel Messi es ampliamente considerado uno de los mejores futbolistas de la historia debido a su capacidad técnica, visión de juego y consistencia goleadora. La comparación con Cristiano Ronaldo es un debate subjetivo basado en estilos distintos: Messi destaca por su creatividad y juego asociativo, mientras que Ronaldo sobresale por su capacidad atlética y eficacia goleadora. Ambos han dominado el fútbol mundial durante dos décadas, pero el palmarés de Messi, culminado con la Copa del Mundo 2022, le otorga un estatus de leyenda absoluta en el deporte.",
+      "evaluacion_rendimiento": "Rendimiento histórico excepcional con una carrera longeva marcada por la excelencia técnica, la capacidad de liderazgo y una influencia determinante en el resultado de los partidos.",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América",
+        "10 Ligas de España",
+        "2 Ligue 1"
+      ]
+    },
+    {
       "id": "b7383335-c223-43d5-8bd4-19906693cd5a",
       "timestamp": "2026-11-06T08:08:22.460667",
       "jugador_id": "j002",

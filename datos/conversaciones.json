@@ -1,0 +1,65 @@
+{
+  "conversaciones": [
+    {
+      "id": "conv-vini-mbappe-01",
+      "titulo": "Vinícius Júnior · Comparativa con Mbappé",
+      "fecha": "2026-11-08T12:00:00",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "mensajes": [
+        {
+          "tipo": "usuario",
+          "jugador_id": "j006",
+          "jugador_nombre": "Vinícius Júnior",
+          "contenido": "Dame una opinión sobre Vinícius Júnior y compáralo con Kylian Mbappé"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j006",
+          "jugador_nombre": "Vinícius Júnior",
+          "sentimiento": "neutral",
+          "color_rendimiento": "verde",
+          "analisis": "Análisis comparativo: Vinícius Júnior destaca como uno de los extremos más desequilibrantes del planeta, determinante en dos finales de Champions League con el Real Madrid. En comparación con Kylian Mbappé, el francés posee una mayor cuota goleadora en el área y fue campeón del mundo en 2018 con Francia, mientras que Vinícius sobresale por su regate en corto, aceleración y desborde vertical. Ambos representan la cúspide ofensiva del fútbol actual.",
+          "rendimiento": "Extremo desequilibrante determinante en partidos grandes",
+          "titulos": [
+            "2 UEFA Champions League (gol en final)",
+            "LaLiga de España",
+            "Mundial de Clubes de la FIFA"
+          ],
+          "id_registro": "eef25ec5-85a4-43d2-9228-1153ddc6e8e8"
+        }
+      ]
+    },
+    {
+      "id": "conv-messi-cr7-02",
+      "titulo": "Lionel Messi · Comparativa con Cristiano Ronaldo",
+      "fecha": "2026-11-08T11:30:00",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "mensajes": [
+        {
+          "tipo": "usuario",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
+          "contenido": "Dame una opinión sobre Messi y compáralo con Cristiano Ronaldo"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
+          "sentimiento": "positivo",
+          "color_rendimiento": "verde",
+          "analisis": "Lionel Messi y Cristiano Ronaldo representan la mayor dualidad deportiva del siglo XXI. Objetivamente, Messi destaca por su visión de juego, precisión en el pase asociativo y un palmarés que incluye la Copa del Mundo 2022 y 8 Balones de Oro. Por su parte, Cristiano Ronaldo sobresale por su potencia física, instinto goleador letal y sus 5 Champions League con la Eurocopa 2016. Ambos exhiben un rendimiento sobresaliente.",
+          "rendimiento": "Sobresaliente / Leyenda Absoluta",
+          "titulos": [
+            "Copa del Mundo 2022",
+            "8 Balones de Oro",
+            "4 UEFA Champions League",
+            "2 Copas América"
+          ],
+          "id_registro": "7b841a02-69df-4fa3-9f12-9c34f0148ad1"
+        }
+      ]
+    }
+  ]
+}

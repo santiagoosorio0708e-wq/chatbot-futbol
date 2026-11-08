@@ -4,7 +4,8 @@ Soporta modelos de Google Gemini (SDK google-genai) y OpenAI con salida JSON est
 import json
 import os
 import re
-from typing import Any, Dict
+import concurrent.futures
+from typing import Any, Dict, Optional
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -184,6 +185,23 @@ ESQUEMA_JSON_DICT = {
 }
 
 
+def detectar_jugador_comparado(texto: str, jugador_actual_id: str) -> Optional[Dict[str, Any]]:
+    """Detecta si en la consulta se menciona a otro futbolista para realizar una comparativa."""
+    texto_l = texto.lower()
+    for j_id, j_info in BASE_JUGADORES.items():
+        if j_id == jugador_actual_id:
+            continue
+        nombre_l = j_info["nombre"].lower()
+        partes = nombre_l.split()
+        # Verificar nombre completo o primer/último nombre característico (ej: 'Cristiano', 'Ronaldo', 'Mbappé', 'Neymar', 'Haaland', 'Messi')
+        if nombre_l in texto_l:
+            return j_info
+        for p in partes:
+            if len(p) >= 4 and p in texto_l:
+                return j_info
+    return None
+
+
 def analizar_con_gemini(
     jugador: Dict[str, str],
     opinion_usuario: str,
@@ -202,26 +220,40 @@ def analizar_con_gemini(
     info_jugador = BASE_JUGADORES.get(jugador.get("id"), {})
     titulos_ref = ", ".join(info_jugador.get("titulos", []))
 
+    # Detectar si hay un futbolista de comparación
+    jugador_comp = detectar_jugador_comparado(opinion_usuario, jugador.get("id"))
+    prompt_comparativo = ""
+    if jugador_comp:
+        titulos_comp = ", ".join(jugador_comp.get("titulos", []))
+        prompt_comparativo = (
+            f"\nFutbolista secundario detectado para comparación: {jugador_comp['nombre']} ({jugador_comp['pais']})\n"
+            f"Títulos de referencia de {jugador_comp['nombre']}: {titulos_comp}\n"
+            f"INSTRUCCIÓN DE COMPARACIÓN: El aficionado solicita contrastar a {jugador.get('nombre')} con {jugador_comp['nombre']}. "
+            f"Tu análisis objetivo DEBE comparar el estilo, rendimiento en cancha y los títulos de ambos futbolistas.\n"
+        )
+
     system_instruction = (
         "Eres el asistente y analista futbolístico experto del sistema 'Tribuna Global'. "
-        "Tu misión es analizar la opinión de un aficionado sobre un futbolista específico y generar "
+        "Tu misión es analizar la opinión o pregunta de un aficionado sobre un futbolista específico y generar "
         "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
-        "y sus títulos obtenidos a nivel de clubes y selecciones.\n"
+        "y sus títulos obtenidos a nivel de clubes y selecciones. Si se pide una comparación con otro futbolista, "
+        "debes contrastar objetivamente a ambos futbolistas destacando sus méritos deportivos.\n"
         "Reglas de semáforo (color_rendimiento):\n"
         "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
         "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
         "- rojo: Jugador con bajo rendimiento sostenido, críticas profundas o deficiencias tácticas.\n"
         "Reglas de sentimiento:\n"
         "- positivo: El aficionado elogia o destaca al jugador.\n"
-        "- neutral: Opinión descriptiva, ambigua o equilibrada.\n"
+        "- neutral: Opinión descriptiva, pregunta futbolística o comparativa equilibrada.\n"
         "- negativo: El aficionado critica, desmerece o ataca al jugador.\n"
         "Responde estrictamente en formato JSON."
     )
 
     prompt = (
-        f"Futbolista: {jugador.get('nombre')} ({jugador.get('pais')})\n"
+        f"Futbolista principal: {jugador.get('nombre')} ({jugador.get('pais')})\n"
         f"Títulos de referencia: {titulos_ref}\n"
-        f"Opinión del aficionado: \"{opinion_usuario}\"\n"
+        f"{prompt_comparativo}"
+        f"Consulta/Opinión del aficionado: \"{opinion_usuario}\"\n"
         f"Genera el análisis objetivo estructurado."
     )
 
@@ -367,6 +399,31 @@ def analizar_heuristica_rapida(
     titulos = info.get("titulos", [])
     titulos_str = ", ".join(titulos[:3])
     color = info.get("color_default", "verde")
+
+    # Si se detecta un futbolista secundario para comparar
+    jugador_comp = detectar_jugador_comparado(opinion_usuario, jugador.get("id"))
+    if jugador_comp:
+        nombre2 = jugador_comp["nombre"]
+        pais2 = jugador_comp["pais"]
+        info2 = jugador_comp
+        titulos2_str = ", ".join(info2.get("titulos", [])[:2])
+        analisis = (
+            f"Análisis comparativo objetivo entre {nombre} y {nombre2}: "
+            f"{nombre} ({pais}) se distingue por {info.get('rendimiento_historico', 'su rendimiento de élite')} "
+            f"con títulos de referencia como {titulos_str}. Por su parte, {nombre2} ({pais2}) "
+            f"destaca por {info2.get('rendimiento_historico', 'su gran nivel competitivo')} con trofeos destacados como {titulos2_str}. "
+            f"Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial."
+        )
+        titulos_comb = titulos[:2] + [f"{nombre2}: {t}" for t in info2.get("titulos", [])[:2]]
+        eval_rend = f"Comparativa de élite: {nombre} vs {nombre2}"
+        color_comp = "verde" if (info.get("color_default") == "verde" or info2.get("color_default") == "verde") else "amarillo"
+        return {
+            "sentimiento": "neutral",
+            "color_rendimiento": color_comp,
+            "analisis_objetivo": analisis,
+            "evaluacion_rendimiento": eval_rend,
+            "titulos_relevantes": titulos_comb
+        }
     
     if sentimiento == "negativo":
         analisis = (
@@ -396,6 +453,13 @@ def analizar_heuristica_rapida(
     }
 
 
+def ejecutar_con_timeout(fn, timeout_segundos: float = 7.0):
+    """Ejecuta una función en un hilo con tiempo límite para evitar bloqueos."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(fn)
+        return future.result(timeout=timeout_segundos)
+
+
 def procesar_opinion(
     jugador: Dict[str, str],
     opinion_usuario: str,
@@ -403,9 +467,9 @@ def procesar_opinion(
 ) -> Dict[str, Any]:
     """
     Punto de entrada principal para el análisis.
-    1. Si hay clave Gemini (AQ... o AIza...), usa Google Gemini con JSON Schema.
-    2. Si hay clave OpenAI (sk-...), usa OpenAI con JSON Schema.
-    3. Si falla la llamada externa, utiliza el motor heurístico local ultra rápido.
+    1. Si hay clave Gemini (AQ... o AIza...), usa Google Gemini con JSON Schema protegido por timeout.
+    2. Si hay clave OpenAI (sk-...), usa OpenAI con JSON Schema protegido por timeout.
+    3. Si falla la llamada externa o excede 7 segundos, utiliza el motor heurístico local ultra rápido.
     """
     gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     openai_key = os.getenv("OPENAI_API_KEY")
@@ -413,17 +477,17 @@ def procesar_opinion(
     # Si la clave configurada es de Gemini (empieza con AQ. o AIza)
     if gemini_key and (gemini_key.startswith("AQ.") or gemini_key.startswith("AIza") or "gemini" in modelo.lower()):
         try:
-            return analizar_con_gemini(jugador, opinion_usuario, modelo=modelo)
+            return ejecutar_con_timeout(lambda: analizar_con_gemini(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
         except Exception as e:
-            print(f"Aviso: Fallo temporal en Gemini ({e}), usando motor heurístico de contingencia.")
+            print(f"Aviso: Contingencia activada en Gemini ({e}), usando motor heurístico inmediato.")
             return analizar_heuristica_rapida(jugador, opinion_usuario)
 
     # Si la clave configurada es de OpenAI
     if openai_key and openai_key.startswith("sk-"):
         try:
-            return analizar_con_openai(jugador, opinion_usuario, modelo=modelo)
+            return ejecutar_con_timeout(lambda: analizar_con_openai(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
         except Exception as e:
-            print(f"Aviso: Fallo temporal en OpenAI ({e}), usando motor heurístico de contingencia.")
+            print(f"Aviso: Contingencia activada en OpenAI ({e}), usando motor heurístico inmediato.")
             return analizar_heuristica_rapida(jugador, opinion_usuario)
 
     # Fallback si no hay clave externa válida o en pruebas

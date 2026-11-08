@@ -196,7 +196,24 @@ if not catalogo:
 opciones_jugadores = {f"{j['nombre']} · {j['pais']}": j for j in catalogo}
 lista_nombres = list(opciones_jugadores.keys())
 
+# Cargar conversaciones persistidas localmente
+convs_locales = gestor_datos.cargar_conversaciones()
+
 # Inicializar estado de sesión
+if "conv_activa_id" not in st.session_state:
+    if convs_locales:
+        st.session_state.conv_activa_id = convs_locales[0]["id"]
+        st.session_state.mensajes = convs_locales[0].get("mensajes", [])
+        jug_id_ini = convs_locales[0].get("jugador_id", "j001")
+        for opt_n, j_val in opciones_jugadores.items():
+            if j_val["id"] == jug_id_ini:
+                st.session_state.jugador_seleccionado = opt_n
+                break
+    else:
+        import uuid
+        st.session_state.conv_activa_id = f"conv_{uuid.uuid4().hex[:8]}"
+        st.session_state.mensajes = []
+
 if "mensajes" not in st.session_state:
     st.session_state.mensajes = []
 
@@ -242,13 +259,68 @@ with st.sidebar.expander("🔑 Credenciales de API (Opcional)", expanded=False):
 
 st.sidebar.markdown("---")
 
-# Botón Nueva conversación
-if st.sidebar.button("Nueva conversación", use_container_width=True):
-    st.session_state.mensajes = []
-    st.rerun()
+# --- HISTORIAL DE CONVERSACIONES PERSISTIDO LOCALMENTE ---
+st.sidebar.markdown("## 💬 Historial de Conversaciones")
+
+col_nav1, col_nav2 = st.sidebar.columns([3.8, 1.2])
+with col_nav1:
+    if st.button("➕ Nuevo Chat", use_container_width=True, type="primary"):
+        import uuid
+        nuevo_id = f"conv_{uuid.uuid4().hex[:8]}"
+        st.session_state.conv_activa_id = nuevo_id
+        st.session_state.mensajes = []
+        st.rerun()
+
+with col_nav2:
+    if st.session_state.get("conv_activa_id") and st.button("🗑️", help="Eliminar conversación actual"):
+        gestor_datos.eliminar_conversacion(st.session_state.conv_activa_id)
+        convs_restantes = gestor_datos.cargar_conversaciones()
+        if convs_restantes:
+            st.session_state.conv_activa_id = convs_restantes[0]["id"]
+            st.session_state.mensajes = convs_restantes[0].get("mensajes", [])
+            for opt_n, j_val in opciones_jugadores.items():
+                if j_val["id"] == convs_restantes[0].get("jugador_id"):
+                    st.session_state.jugador_seleccionado = opt_n
+                    break
+        else:
+            import uuid
+            st.session_state.conv_activa_id = f"conv_{uuid.uuid4().hex[:8]}"
+            st.session_state.mensajes = []
+        st.rerun()
+
+# Listado de conversaciones guardadas localmente
+convs_recientes = gestor_datos.cargar_conversaciones()
+if convs_recientes:
+    mapa_titulos = {c["id"]: f"⚽ {c.get('titulo', 'Chat')}" for c in convs_recientes}
+    ids_validos = list(mapa_titulos.keys())
+    
+    idx_chat_actual = 0
+    if st.session_state.get("conv_activa_id") in ids_validos:
+        idx_chat_actual = ids_validos.index(st.session_state.conv_activa_id)
+        
+    chat_seleccionado_id = st.sidebar.selectbox(
+        "Tus chats guardados:",
+        options=ids_validos,
+        format_func=lambda x: mapa_titulos.get(x, x),
+        index=idx_chat_actual,
+        key="selector_historial_chat"
+    )
+    
+    # Cambiar de conversación al seleccionar del historial
+    if chat_seleccionado_id != st.session_state.get("conv_activa_id"):
+        st.session_state.conv_activa_id = chat_seleccionado_id
+        data_chat = gestor_datos.obtener_conversacion_por_id(chat_seleccionado_id)
+        if data_chat:
+            st.session_state.mensajes = data_chat.get("mensajes", [])
+            j_id_sel = data_chat.get("jugador_id")
+            for opt_n, j_val in opciones_jugadores.items():
+                if j_val["id"] == j_id_sel:
+                    st.session_state.jugador_seleccionado = opt_n
+                    break
+        st.rerun()
 
 st.sidebar.caption(
-    "La nueva conversación limpia el chat y los envíos pendientes; conserva los registros guardados."
+    "Todas las conversaciones se guardan automáticamente en datos/conversaciones.json."
 )
 
 
@@ -257,13 +329,15 @@ st.markdown('<div class="main-title">⚽ Tribuna Global</div>', unsafe_allow_htm
 st.markdown('<div class="subtitle">Opiniones de aficionados sobre futbolistas. Las categorías son estimaciones de IA.</div>', unsafe_allow_html=True)
 
 if seccion == "Emitir opinión":
-    st.markdown(f'<div class="section-header">Opiniones sobre {jugador_actual["nombre"]}</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-caption">Cada envío se analiza de forma independiente y se asocia al jugador seleccionado.</div>', unsafe_allow_html=True)
+    # Obtener datos de la conversación activa
+    conv_activa = gestor_datos.obtener_conversacion_por_id(st.session_state.get("conv_activa_id"))
+    titulo_header = conv_activa.get("titulo", f"Opiniones sobre {jugador_actual['nombre']}") if conv_activa else f"Opiniones sobre {jugador_actual['nombre']}"
+    
+    st.markdown(f'<div class="section-header">{titulo_header}</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-caption">Cada envío se analiza con IA y se guarda en tu historial local de conversaciones.</div>', unsafe_allow_html=True)
 
-    # Filtrar mensajes asociados al jugador actual o mostrados en la sesión
-    mensajes_jugador = [m for m in st.session_state.mensajes if m.get("jugador_id") == jugador_actual["id"]]
-
-    for msg in mensajes_jugador:
+    # Mostrar todos los mensajes de la conversación activa
+    for msg in st.session_state.mensajes:
         if msg["tipo"] == "usuario":
             st.markdown(f"""
             <div class="chat-card-user">
@@ -306,7 +380,7 @@ if seccion == "Emitir opinión":
             """, unsafe_allow_html=True)
 
     # Input para enviar opinión con validación entre 5 y 1000 caracteres
-    opinion_input = st.chat_input("Opinión sobre el jugador seleccionado (5 a 1000 caracteres)")
+    opinion_input = st.chat_input("Opinión o pregunta sobre el jugador seleccionado (5 a 1000 caracteres)")
 
     if opinion_input:
         texto = opinion_input.strip()
@@ -323,7 +397,7 @@ if seccion == "Emitir opinión":
                     modelo=modelo
                 )
                 
-                # Persistir en JSON
+                # Persistir opinión individual en JSON para estadísticas
                 registro = gestor_datos.guardar_opinion(
                     jugador_id=jugador_actual["id"],
                     jugador_nombre=jugador_actual["nombre"],
@@ -355,122 +429,171 @@ if seccion == "Emitir opinión":
                     "id_registro": registro["id"]
                 })
                 
+                # Asegurar identificador de conversación activa
+                if not st.session_state.get("conv_activa_id"):
+                    import uuid
+                    st.session_state.conv_activa_id = f"conv_{uuid.uuid4().hex[:8]}"
+
+                # Generar o conservar título de conversación
+                resumen_msg = texto[:38] + ("..." if len(texto) > 38 else "")
+                conv_previa_data = gestor_datos.obtener_conversacion_por_id(st.session_state.conv_activa_id)
+                if conv_previa_data and conv_previa_data.get("titulo"):
+                    titulo_final = conv_previa_data.get("titulo")
+                else:
+                    jugador_comp = motor_ia.detectar_jugador_comparado(texto, jugador_actual["id"])
+                    if jugador_comp:
+                        titulo_final = f"{jugador_actual['nombre']} vs {jugador_comp['nombre']}"
+                    else:
+                        titulo_final = f"{jugador_actual['nombre']} · {resumen_msg}"
+
+                # Guardar la conversación completa localmente en datos/conversaciones.json
+                gestor_datos.guardar_conversacion(
+                    conv_id=st.session_state.conv_activa_id,
+                    titulo=titulo_final,
+                    jugador_id=jugador_actual["id"],
+                    jugador_nombre=jugador_actual["nombre"],
+                    mensajes=st.session_state.mensajes
+                )
+                
                 st.rerun()
 
 elif seccion == "Consultar opiniones":
-    st.markdown('<div class="section-header">Base de Datos de Opiniones y Evaluaciones</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-caption">Consulta el registro histórico de opiniones almacenadas y su evaluación objetiva.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-header">Base de Datos de Opiniones y Conversaciones</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-caption">Consulta el registro histórico de opiniones individuales y las conversaciones completas guardadas localmente.</div>', unsafe_allow_html=True)
     
-    todas_opiniones = gestor_datos.cargar_opiniones()
-    
-    # Filtros superiores
-    col1, col2, col3 = st.columns([2, 1.5, 1.5])
-    with col1:
-        filtro_jugador = st.selectbox(
-            "Filtrar por futbolista:",
-            ["Todos los futbolistas"] + [f"{j['nombre']} ({j['pais']})" for j in catalogo]
-        )
-    with col2:
-        filtro_sentimiento = st.selectbox(
-            "Filtrar por sentimiento:",
-            ["Todos", "positivo", "neutral", "negativo"]
-        )
-    with col3:
-        filtro_color = st.selectbox(
-            "Semáforo de rendimiento:",
-            ["Todos", "verde", "amarillo", "rojo"]
-        )
-        
-    # Aplicar filtros
-    opiniones_filtradas = todas_opiniones
-    if filtro_jugador != "Todos los futbolistas":
-        nombre_filtro = filtro_jugador.split(" (")[0]
-        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("jugador_nombre") == nombre_filtro]
-        
-    if filtro_sentimiento != "Todos":
-        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("sentimiento") == filtro_sentimiento]
-        
-    if filtro_color != "Todos":
-        opiniones_filtradas = [op for op in opiniones_filtradas if op.get("color_rendimiento") == filtro_color]
+    tab_opiniones, tab_conversaciones = st.tabs(["📊 Opiniones Individuales y Filtros", "💬 Registro de Conversaciones Guardadas"])
 
-    # Métricas de resumen
-    st.markdown("### Métricas Generales")
-    m1, m2, m3, m4 = st.columns(4)
-    with m1:
-        st.metric("Total Opiniones", len(todas_opiniones))
-    with m2:
-        verde_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "verde")
-        st.metric("🟢 Rendimiento Alto", verde_count)
-    with m3:
-        amarillo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "amarillo")
-        st.metric("🟡 Rendimiento Regular", amarillo_count)
-    with m4:
-        rojo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "rojo")
-        st.metric("🔴 Rendimiento Crítico", rojo_count)
-
-    # Gráficos analíticos de distribución si hay registros
-    if todas_opiniones:
-        st.markdown("### Análisis Estadístico de la Tribuna")
-        g_col1, g_col2 = st.columns(2)
-        with g_col1:
-            st.caption("Distribución por Semáforo de Rendimiento")
-            df_colores = pd.DataFrame({
-                "Categoría": ["🟢 Alto (Verde)", "🟡 Regular (Amarillo)", "🔴 Crítico (Rojo)"],
-                "Total": [verde_count, amarillo_count, rojo_count]
-            }).set_index("Categoría")
-            st.bar_chart(df_colores, color="#238636")
-            
-        with g_col2:
-            st.caption("Distribución por Sentimiento de Aficionados")
-            pos_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "positivo")
-            neu_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "neutral")
-            neg_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "negativo")
-            df_sentimientos = pd.DataFrame({
-                "Sentimiento": ["👍 Positivo", "⚖️ Neutral", "👎 Negativo"],
-                "Total": [pos_count, neu_count, neg_count]
-            }).set_index("Sentimiento")
-            st.bar_chart(df_sentimientos, color="#1f6feb")
-
-    # Botones de exportación
-    if todas_opiniones:
-        st.markdown("#### Exportar Base de Datos")
-        col_exp1, col_exp2 = st.columns(2)
-        with col_exp1:
-            df_export = pd.DataFrame(todas_opiniones)
-            csv_data = df_export.to_csv(index=False).encode('utf-8')
-            st.download_button(
-                label="📥 Descargar Historial en CSV",
-                data=csv_data,
-                file_name="opiniones_futbol_tribuna_global.csv",
-                mime="text/csv",
-                use_container_width=True
+    with tab_opiniones:
+        todas_opiniones = gestor_datos.cargar_opiniones()
+        
+        # Filtros superiores
+        col1, col2, col3 = st.columns([2, 1.5, 1.5])
+        with col1:
+            filtro_jugador = st.selectbox(
+                "Filtrar por futbolista:",
+                ["Todos los futbolistas"] + [f"{j['nombre']} ({j['pais']})" for j in catalogo]
             )
-        with col_exp2:
-            json_data = json.dumps({"opiniones": todas_opiniones}, ensure_ascii=False, indent=2).encode('utf-8')
-            st.download_button(
-                label="📥 Descargar Historial en JSON",
-                data=json_data,
-                file_name="opiniones_futbol_tribuna_global.json",
-                mime="application/json",
-                use_container_width=True
+        with col2:
+            filtro_sentimiento = st.selectbox(
+                "Filtrar por sentimiento:",
+                ["Todos", "positivo", "neutral", "negativo"]
             )
-
-    st.markdown("---")
-
-    if not opiniones_filtradas:
-        st.info("No se encontraron opiniones registradas con los filtros seleccionados.")
-    else:
-        st.markdown(f"**Mostrando {len(opiniones_filtradas)} opiniones encontradas:**")
-        for reg in opiniones_filtradas:
-            color = reg.get("color_rendimiento", "verde")
-            icono_color = "🟢" if color == "verde" else ("🟡" if color == "amarillo" else "🔴")
+        with col3:
+            filtro_color = st.selectbox(
+                "Semáforo de rendimiento:",
+                ["Todos", "verde", "amarillo", "rojo"]
+            )
             
-            with st.expander(f"{icono_color} {reg.get('jugador_nombre')} — Sentimiento: {reg.get('sentimiento', '').upper()} (ID: {reg.get('id', '')[:8]}...)", expanded=False):
-                st.markdown(f"**Opinión del aficionado:** *\"{reg.get('opinion_usuario', '')}\"*")
-                st.markdown(f"**Análisis objetivo:** {reg.get('analisis_objetivo', '')}")
-                if reg.get("evaluacion_rendimiento"):
-                    st.markdown(f"**Evaluación deportiva:** {reg.get('evaluacion_rendimiento')}")
-                if reg.get("titulos_relevantes"):
-                    titulos_str = ", ".join(reg.get("titulos_relevantes"))
-                    st.markdown(f"**Palmarés clave:** 🏆 {titulos_str}")
-                st.caption(f"Registro UUID: {reg.get('id')} | Fecha y hora: {reg.get('timestamp', '')}")
+        # Aplicar filtros
+        opiniones_filtradas = todas_opiniones
+        if filtro_jugador != "Todos los futbolistas":
+            nombre_filtro = filtro_jugador.split(" (")[0]
+            opiniones_filtradas = [op for op in opiniones_filtradas if op.get("jugador_nombre") == nombre_filtro]
+            
+        if filtro_sentimiento != "Todos":
+            opiniones_filtradas = [op for op in opiniones_filtradas if op.get("sentimiento") == filtro_sentimiento]
+            
+        if filtro_color != "Todos":
+            opiniones_filtradas = [op for op in opiniones_filtradas if op.get("color_rendimiento") == filtro_color]
+
+        # Métricas de resumen
+        st.markdown("### Métricas Generales")
+        m1, m2, m3, m4 = st.columns(4)
+        with m1:
+            st.metric("Total Opiniones", len(todas_opiniones))
+        with m2:
+            verde_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "verde")
+            st.metric("🟢 Rendimiento Alto", verde_count)
+        with m3:
+            amarillo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "amarillo")
+            st.metric("🟡 Rendimiento Regular", amarillo_count)
+        with m4:
+            rojo_count = sum(1 for op in todas_opiniones if op.get("color_rendimiento") == "rojo")
+            st.metric("🔴 Rendimiento Crítico", rojo_count)
+
+        # Gráficos analíticos de distribución si hay registros
+        if todas_opiniones:
+            st.markdown("### Análisis Estadístico de la Tribuna")
+            g_col1, g_col2 = st.columns(2)
+            with g_col1:
+                st.caption("Distribución por Semáforo de Rendimiento")
+                df_colores = pd.DataFrame({
+                    "Categoría": ["🟢 Alto (Verde)", "🟡 Regular (Amarillo)", "🔴 Crítico (Rojo)"],
+                    "Total": [verde_count, amarillo_count, rojo_count]
+                }).set_index("Categoría")
+                st.bar_chart(df_colores, color="#238636")
+                
+            with g_col2:
+                st.caption("Distribución por Sentimiento de Aficionados")
+                pos_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "positivo")
+                neu_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "neutral")
+                neg_count = sum(1 for op in todas_opiniones if op.get("sentimiento") == "negativo")
+                df_sentimientos = pd.DataFrame({
+                    "Sentimiento": ["👍 Positivo", "⚖️ Neutral", "👎 Negativo"],
+                    "Total": [pos_count, neu_count, neg_count]
+                }).set_index("Sentimiento")
+                st.bar_chart(df_sentimientos, color="#1f6feb")
+
+        # Botones de exportación
+        if todas_opiniones:
+            st.markdown("#### Exportar Base de Datos")
+            col_exp1, col_exp2 = st.columns(2)
+            with col_exp1:
+                df_export = pd.DataFrame(todas_opiniones)
+                csv_data = df_export.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="📥 Descargar Historial en CSV",
+                    data=csv_data,
+                    file_name="opiniones_futbol_tribuna_global.csv",
+                    mime="text/csv",
+                    use_container_width=True
+                )
+            with col_exp2:
+                json_data = json.dumps({"opiniones": todas_opiniones}, ensure_ascii=False, indent=2).encode('utf-8')
+                st.download_button(
+                    label="📥 Descargar Historial en JSON",
+                    data=json_data,
+                    file_name="opiniones_futbol_tribuna_global.json",
+                    mime="application/json",
+                    use_container_width=True
+                )
+
+        st.markdown("---")
+
+        if not opiniones_filtradas:
+            st.info("No se encontraron opiniones registradas con los filtros seleccionados.")
+        else:
+            st.markdown(f"**Mostrando {len(opiniones_filtradas)} opiniones encontradas:**")
+            for reg in opiniones_filtradas:
+                color = reg.get("color_rendimiento", "verde")
+                icono_color = "🟢" if color == "verde" else ("🟡" if color == "amarillo" else "🔴")
+                
+                with st.expander(f"{icono_color} {reg.get('jugador_nombre')} — Sentimiento: {reg.get('sentimiento', '').upper()} (ID: {reg.get('id', '')[:8]}...)", expanded=False):
+                    st.markdown(f"**Opinión del aficionado:** *\"{reg.get('opinion_usuario', '')}\"*")
+                    st.markdown(f"**Análisis objetivo:** {reg.get('analisis_objetivo', '')}")
+                    if reg.get("evaluacion_rendimiento"):
+                        st.markdown(f"**Evaluación deportiva:** {reg.get('evaluacion_rendimiento')}")
+                    if reg.get("titulos_relevantes"):
+                        titulos_str = ", ".join(reg.get("titulos_relevantes"))
+                        st.markdown(f"**Palmarés clave:** 🏆 {titulos_str}")
+                    st.caption(f"Registro UUID: {reg.get('id')} | Fecha y hora: {reg.get('timestamp', '')}")
+
+    with tab_conversaciones:
+        convs_guardadas = gestor_datos.cargar_conversaciones()
+        if not convs_guardadas:
+            st.info("No hay conversaciones completas guardadas todavía.")
+        else:
+            st.markdown(f"**Mostrando {len(convs_guardadas)} conversaciones completas registradas en el disco:**")
+            for c in convs_guardadas:
+                num_mensajes = len(c.get("mensajes", []))
+                with st.expander(f"💬 {c.get('titulo', 'Conversación')} ({num_mensajes} mensajes)", expanded=False):
+                    st.caption(f"ID Chat: {c.get('id')} | Futbolista principal: {c.get('jugador_nombre')} | Fecha: {c.get('fecha', '')[:19].replace('T', ' ')}")
+                    
+                    for m in c.get("mensajes", []):
+                        if m["tipo"] == "usuario":
+                            st.markdown(f"**👤 Aficionado ({m.get('jugador_nombre')}):** {m.get('contenido')}")
+                        else:
+                            st.markdown(f"**🤖 IA ({m.get('color_rendimiento', '').upper()}):** {m.get('analisis')}")
+                            if m.get("titulos"):
+                                st.caption(f"🏆 Palmarés citado: {', '.join(m.get('titulos'))}")
+                        st.markdown("---")
