@@ -4,6 +4,7 @@ Soporta modelos de Google Gemini (SDK google-genai) y OpenAI con salida JSON est
 import json
 import os
 import re
+import unicodedata
 import concurrent.futures
 from typing import Any, Dict, Optional
 from dotenv import load_dotenv
@@ -185,20 +186,52 @@ ESQUEMA_JSON_DICT = {
 }
 
 
+def _normalizar(texto: str) -> str:
+    """Minúsculas y sin tildes, para comparar nombres de forma tolerante."""
+    descompuesto = unicodedata.normalize("NFD", texto.lower())
+    return "".join(c for c in descompuesto if unicodedata.category(c) != "Mn")
+
+
+# Palabras que aparecen en el nombre de más de un futbolista: se resuelven hacia el más conocido
+_ALIAS_AMBIGUOS = {"ronaldo": "j002"}
+
+
 def detectar_jugador_comparado(texto: str, jugador_actual_id: str) -> Optional[Dict[str, Any]]:
-    """Detecta si en la consulta se menciona a otro futbolista para realizar una comparativa."""
-    texto_l = texto.lower()
-    for j_id, j_info in BASE_JUGADORES.items():
-        if j_id == jugador_actual_id:
-            continue
-        nombre_l = j_info["nombre"].lower()
-        partes = nombre_l.split()
-        # Verificar nombre completo o primer/último nombre característico (ej: 'Cristiano', 'Ronaldo', 'Mbappé', 'Neymar', 'Haaland', 'Messi')
-        if nombre_l in texto_l:
-            return j_info
-        for p in partes:
-            if len(p) >= 4 and p in texto_l:
-                return j_info
+    """Detecta si en la consulta se menciona a otro futbolista para realizar una comparativa.
+
+    1) Busca primero el nombre completo (p. ej. 'Ronaldo Nazário' o 'Cristiano Ronaldo').
+    2) Luego busca palabras características del nombre (p. ej. 'Cristiano', 'Mbappé', 'Messi'),
+       ignorando las ambiguas que comparten varios jugadores (p. ej. 'Luis').
+    """
+    texto_n = _normalizar(texto)
+    palabras_texto = set(re.findall(r"[a-z0-9]+", texto_n))
+    otros = {j_id: info for j_id, info in BASE_JUGADORES.items() if j_id != jugador_actual_id}
+
+    # Pasada 1: nombre completo
+    for info in otros.values():
+        if _normalizar(info["nombre"]) in texto_n:
+            return info
+
+    # Palabras del jugador actual (no cuentan como mención de otro jugador)
+    propias = set(_normalizar(BASE_JUGADORES.get(jugador_actual_id, {}).get("nombre", "")).split())
+
+    # Conteo de en cuántos nombres aparece cada palabra
+    frecuencia: Dict[str, int] = {}
+    for info in BASE_JUGADORES.values():
+        for p in set(_normalizar(info["nombre"]).split()):
+            frecuencia[p] = frecuencia.get(p, 0) + 1
+
+    # Pasada 2: palabra característica
+    for j_id, info in otros.items():
+        for p in _normalizar(info["nombre"]).split():
+            if len(p) < 4 or p in propias or p not in palabras_texto:
+                continue
+            if frecuencia.get(p, 0) > 1:
+                alias = _ALIAS_AMBIGUOS.get(p)
+                if alias and alias in otros:
+                    return otros[alias]
+                continue
+            return info
     return None
 
 
@@ -453,11 +486,14 @@ def analizar_heuristica_rapida(
     }
 
 
-def ejecutar_con_timeout(fn, timeout_segundos: float = 7.0):
+def ejecutar_con_timeout(fn, timeout_segundos: float = 5.0):
     """Ejecuta una función en un hilo con tiempo límite para evitar bloqueos."""
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+    try:
         future = executor.submit(fn)
         return future.result(timeout=timeout_segundos)
+    finally:
+        executor.shutdown(wait=False, cancel_futures=True)
 
 
 def procesar_opinion(

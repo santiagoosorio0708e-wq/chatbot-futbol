@@ -41,4 +41,6 @@ wheels/
 _backup_commits/
 crear_commits.py
 generar_28_commits.py
+scratch/
+
 

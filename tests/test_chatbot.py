@@ -48,8 +48,9 @@ def test_analisis_heuristico_positivo():
     assert resultado["sentimiento"] == "positivo"
     assert resultado["color_rendimiento"] == "verde"
 
-def test_persistencia_opinion():
-    """Verifica que las opiniones se guarden y recuperen con UUID."""
+def test_persistencia_opinion(monkeypatch, tmp_path):
+    """Verifica que las opiniones se guarden y recuperen con UUID (en archivo temporal)."""
+    monkeypatch.setattr(gestor_datos, "RUTA_OPINIONES", str(tmp_path / "opiniones.json"))
     vini = gestor_datos.buscar_jugador_por_id("j006")
     opinion_texto = "Prueba automatizada de opinión objetiva"
     
@@ -75,8 +76,10 @@ def test_persistencia_opinion():
     assert encontrado, "El registro guardado no fue encontrado en la persistencia."
 
 
-def test_deteccion_jugador_comparado_y_analisis():
+def test_deteccion_jugador_comparado_y_analisis(monkeypatch):
     """Verifica que el sistema detecte comparaciones entre dos futbolistas y no se bloquee."""
+    for var in ("GEMINI_API_KEY", "GOOGLE_API_KEY", "OPENAI_API_KEY"):
+        monkeypatch.delenv(var, raising=False)  # fuerza el motor heurístico local (sin red)
     messi = gestor_datos.buscar_jugador_por_id("j001")
     texto_consulta = "Dame una opinión sobre Messi y compáralo con Cristiano Ronaldo"
     
@@ -90,8 +93,9 @@ def test_deteccion_jugador_comparado_y_analisis():
     assert resultado["color_rendimiento"] in ["verde", "amarillo", "rojo"]
 
 
-def test_persistencia_conversaciones_locales():
-    """Verifica la persistencia completa del historial de conversaciones en datos/conversaciones.json."""
+def test_persistencia_conversaciones_locales(monkeypatch, tmp_path):
+    """Verifica la persistencia completa del historial de conversaciones (en archivo temporal)."""
+    monkeypatch.setattr(gestor_datos, "RUTA_CONVERSACIONES", str(tmp_path / "conversaciones.json"))
     id_conv_prueba = "test-conv-1234"
     mensajes_prueba = [
         {"tipo": "usuario", "jugador_nombre": "Lionel Messi", "contenido": "¿Cuántas Champions tiene?"},
@@ -119,3 +123,36 @@ def test_persistencia_conversaciones_locales():
     assert gestor_datos.obtener_conversacion_por_id(id_conv_prueba) is None
 
 
+
+
+def test_todos_los_jugadores_tienen_foto():
+    """Cada uno de los 20 futbolistas debe tener su foto local en fotos/jXXX.*"""
+    import visual
+    for j in gestor_datos.cargar_catalogo_jugadores():
+        assert visual._buscar(visual.RUTA_FOTOS, j["id"]), f"Falta la foto de {j['nombre']} ({j['id']})"
+        assert visual.foto_jugador(j["id"], j["nombre"]).startswith("data:image/")
+
+
+def test_escudos_de_ligas_y_clubes():
+    """Las 4 ligas y los clubes del filtro deben tener escudo local."""
+    import visual
+    for clave in list(visual.LIGAS) + list(visual.CLUBES):
+        assert visual.escudo(clave), f"Falta el escudo de {clave}"
+
+
+def test_metadatos_cubren_el_catalogo():
+    """Todos los jugadores del catálogo tienen metadatos de ligas/clubes válidos."""
+    import visual
+    for j in gestor_datos.cargar_catalogo_jugadores():
+        assert j["id"] in visual.META_JUGADORES
+        assert all(k in visual.LIGAS for k in visual.ligas_de(j["id"]))
+        assert all(k in visual.CLUBES for k in visual.clubes_de(j["id"]))
+
+
+def test_deteccion_rivales_sin_ambiguedad():
+    """Casos con nombres repetidos (Ronaldo/Ronaldinho, Luis) resuelven al jugador correcto."""
+    d = motor_ia.detectar_jugador_comparado
+    assert d("Compara a Ronaldinho con Ronaldo Nazário", "j019")["nombre"] == "Ronaldo Nazário"
+    assert d("compara a messi con ronaldo", "j001")["nombre"] == "Cristiano Ronaldo"
+    assert d("Compara a Luis Díaz con Son Heung-min", "j013")["nombre"] == "Son Heung-min"
+    assert d("¿Qué opinas de este jugador?", "j001") is None

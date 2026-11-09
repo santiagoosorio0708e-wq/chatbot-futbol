@@ -6,9 +6,11 @@ from datetime import datetime
 from typing import Dict, List, Optional
 
 RUTA_BASE = os.path.dirname(os.path.abspath(__file__))
+# Carpeta de datos (se puede redirigir con la variable TRIBUNA_DATOS_DIR, útil para pruebas)
+DIR_DATOS = os.environ.get("TRIBUNA_DATOS_DIR") or os.path.join(RUTA_BASE, "datos")
 RUTA_JUGADORES = os.path.join(RUTA_BASE, "datos", "jugadores.json")
-RUTA_OPINIONES = os.path.join(RUTA_BASE, "datos", "opiniones.json")
-RUTA_CONVERSACIONES = os.path.join(RUTA_BASE, "datos", "conversaciones.json")
+RUTA_OPINIONES = os.path.join(DIR_DATOS, "opiniones.json")
+RUTA_CONVERSACIONES = os.path.join(DIR_DATOS, "conversaciones.json")
 
 
 def cargar_catalogo_jugadores() -> List[Dict[str, str]]:

@@ -1,6 +1,72 @@
 {
   "opiniones": [
     {
+      "id": "47867211-a81c-4cff-a8ca-d0a39e92958b",
+      "timestamp": "2026-11-09T18:17:01.319526",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "quien es mejor , halland o mbappe ESTADISTICAMENTE HABLANDO?",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Análisis comparativo objetivo entre Cristiano Ronaldo y Kylian Mbappé: Cristiano Ronaldo (Portugal) se distingue por Sobresaliente / Goleador Histórico con títulos de referencia como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Por su parte, Kylian Mbappé (Francia) destaca por Élite mundial con velocidad y definición descomunales con trofeos destacados como Copa del Mundo 2018, Bota de Oro Mundial 2022. Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial.",
+      "evaluacion_rendimiento": "Comparativa de élite: Cristiano Ronaldo vs Kylian Mbappé",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Kylian Mbappé: Copa del Mundo 2018",
+        "Kylian Mbappé: Bota de Oro Mundial 2022"
+      ]
+    },
+    {
+      "id": "04b5a5d4-b2c3-4ceb-b499-0d2fe033373d",
+      "timestamp": "2026-11-09T08:36:47.400991",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "haz una tabla de comparaciones entre cristiano y messi cual es mejor",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Análisis comparativo objetivo entre Lionel Messi y Cristiano Ronaldo: Lionel Messi (Argentina) se distingue por Sobresaliente / Leyenda Absoluta con títulos de referencia como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Por su parte, Cristiano Ronaldo (Portugal) destaca por Sobresaliente / Goleador Histórico con trofeos destacados como 5 UEFA Champions League, 5 Balones de Oro. Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial.",
+      "evaluacion_rendimiento": "Comparativa de élite: Lionel Messi vs Cristiano Ronaldo",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "Cristiano Ronaldo: 5 UEFA Champions League",
+        "Cristiano Ronaldo: 5 Balones de Oro"
+      ]
+    },
+    {
+      "id": "d81b5662-4249-4913-963b-c0b9c98a8ec9",
+      "timestamp": "2026-11-09T08:31:37.929958",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "quien es el mejor jugador de la historia actual",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión elogia con fundamento a Cristiano Ronaldo. Los datos avalan esta percepción: su rendimiento en la cancha ha sido clave en la conquista de trofeos de máxima jerarquía como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, consolidándose como un referente para Portugal.",
+      "evaluacion_rendimiento": "Sobresaliente / Goleador Histórico",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico del fútbol profesional"
+      ]
+    },
+    {
+      "id": "17125dec-6163-4230-9dae-b382d088e96d",
+      "timestamp": "2026-11-09T06:59:34.014075",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "compara a cristiano con messi y cual es mejor",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La comparación entre Lionel Messi y Cristiano Ronaldo es el debate más significativo de la era moderna. Messi destaca por su capacidad de creación de juego, visión periférica, regate en espacios reducidos y una eficacia goleadora excepcional, consolidándose como un organizador y finalizador total. Cristiano Ronaldo, por su parte, es el máximo exponente del remate, el juego aéreo, la potencia física y una mentalidad competitiva que le ha permitido ser el máximo goleador histórico. Mientras Messi ha logrado el éxito absoluto con la Copa del Mundo y una mayor cantidad de Balones de Oro, Ronaldo posee una mayor cantidad de Champions League y ha demostrado su capacidad de éxito en tres de las ligas más competitivas del mundo. Ambos han redefinido los estándares de longevidad y rendimiento, siendo imposible determinar un 'mejor' absoluto, ya que depende de si se prioriza la genialidad creativa y el control del juego o la capacidad atlética y la eficacia goleadora pura.",
+      "evaluacion_rendimiento": "Ambos jugadores se encuentran en la etapa final de sus carreras, manteniendo un estatus de leyendas vivas tras haber dominado el fútbol mundial durante casi dos décadas con rendimientos estadísticos inigualables.",
+      "titulos_relevantes": [
+        "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
+        "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, Máximo goleador histórico"
+      ]
+    },
+    {
       "id": "2d3cbf99-d9f3-483e-9a2c-247a452647cc",
       "timestamp": "2026-11-08T13:08:29.070648",
       "jugador_id": "j001",
@@ -16,20 +82,6 @@
       ]
     },
     {
-      "id": "1a9f902e-edef-4e92-a74f-83e081d670fb",
-      "timestamp": "2026-11-08T12:59:22.139353",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
-      ]
-    },
-    {
       "id": "b437b204-d13e-47f1-913c-6227cc25839d",
       "timestamp": "2026-11-08T12:59:14.802941",
       "jugador_id": "j006",
@@ -42,34 +94,6 @@
       "titulos_relevantes": [
         "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
         "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, múltiples títulos de liga en Inglaterra, España e Italia"
-      ]
-    },
-    {
-      "id": "7a6066ca-3f3c-43b0-b0e6-8a6f93043998",
-      "timestamp": "2026-11-08T12:50:55.852346",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
-      ]
-    },
-    {
-      "id": "33b20344-b672-4417-8d75-a4ebcce5bea5",
-      "timestamp": "2026-11-08T12:50:28.403875",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
       ]
     },
     {
@@ -89,6 +113,144 @@
         "2 Copas América",
         "10 Ligas de España",
         "2 Ligue 1"
+      ]
+    },
+    {
+      "id": "3871dd13-bd6c-49e8-9bdc-000ae589b6ae",
+      "timestamp": "2026-11-06T17:54:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "Muchos de sus goles contabilizados corresponden a giras amistosas y torneos estatales brasileños.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Pelé. Si bien su jerarquía está comprobada por logros como 3 Copas del Mundo (1958, 1962, 1970), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Conteo Discutido",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)"
+      ]
+    },
+    {
+      "id": "d2fcf20f-25e7-4d4c-b726-3a4494d2e050",
+      "timestamp": "2026-11-06T17:00:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Hizo campeón de la Serie A a un club humilde como el Napoli compitiendo contra el Milán y la Juventus.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Diego Maradona. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo México 1986, 2 Scudettos Serie A con Napoli, Copa UEFA 1989. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Milagro de Nápoles",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986",
+        "2 Scudettos Serie A con Napoli",
+        "Copa UEFA 1989",
+        "Subcampeón del Mundo 1990"
+      ]
+    },
+    {
+      "id": "72c474e2-463e-483f-a25d-3f438b992cda",
+      "timestamp": "2026-11-06T15:43:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Cuando el partido se convierte en un duelo físico sin control táctico a veces se nubla.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Kevin De Bruyne. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2023, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Incomodidad Física",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023"
+      ]
+    },
+    {
+      "id": "70a25eef-c509-4210-b7ed-38bcb54fa619",
+      "timestamp": "2026-11-06T15:02:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "En el Mundial de Qatar 2022 sus declaraciones públicas sobre la vejez del equipo dañaron el vestuario.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Kevin De Bruyne. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2023, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fricción Interna",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023"
+      ]
+    },
+    {
+      "id": "22596b05-913b-4f9f-95ac-ffa8e70fdaee",
+      "timestamp": "2026-11-06T11:14:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "Nunca jugó en las ligas europeas, lo que en los debates modernos algunos aficionados le recriminan.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Pelé. Si bien su jerarquía está comprobada por logros como 3 Copas del Mundo (1958, 1962, 1970), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Sin Paso Europeo",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)"
+      ]
+    },
+    {
+      "id": "627038c5-b137-4a20-a05f-1d1397c827ed",
+      "timestamp": "2026-11-06T10:24:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "Extremo de una potencia y desborde electrizante, cuando encara en velocidad rompe cualquier cerrojo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Díaz. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Goleador Copa América 2021, FA Cup y Carabao Cup con Liverpool, 2 Primeira Liga con Porto. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Desborde Puro",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021",
+        "FA Cup y Carabao Cup con Liverpool",
+        "2 Primeira Liga con Porto",
+        "Finalista Champions 2022"
+      ]
+    },
+    {
+      "id": "5e6e2c52-d544-49dd-a798-a4b4457ac1db",
+      "timestamp": "2026-11-06T09:23:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "El positivo en el Mundial de Estados Unidos 1994 cortó abruptamente el sueño de su quinta Copa del Mundo.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Diego Maradona. Si bien su jerarquía está comprobada por logros como Copa del Mundo México 1986, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Fin Trágico",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "792df419-56a0-46f5-9bdb-b7b7ee01bfed",
+      "timestamp": "2026-11-06T09:22:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Su pase con el exterior del pie (trivela) es una obra de arte registrada en la historia del fútbol.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luka Modrić. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 6 UEFA Champions League, Balón de Oro 2018, Subcampeón del Mundo 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Trivela Mágica",
+      "titulos_relevantes": [
+        "6 UEFA Champions League",
+        "Balón de Oro 2018",
+        "Subcampeón del Mundo 2018",
+        "Bronce Mundial 2022"
+      ]
+    },
+    {
+      "id": "01ea6dce-e468-4281-a928-3780d8059ca8",
+      "timestamp": "2026-11-06T08:49:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "Su volea con la pierna izquierda en la final de Glasgow 2002 es el gol más hermoso de la Champions.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Zinedine Zidane. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 1998, UEFA Champions League 2002, Eurocopa 2000. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Volea Inmortal",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998",
+        "UEFA Champions League 2002",
+        "Eurocopa 2000",
+        "Balón de Oro 1998"
       ]
     },
     {
@@ -125,48 +287,6 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
-    },
-    {
-      "id": "2952205b-afe0-4de8-ac82-fcc6b8731856",
-      "timestamp": "2026-11-06T08:00:09.765177",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
-      ]
-    },
-    {
-      "id": "9c5ccae2-0ef6-4ea0-b6ea-6819742b9bd9",
-      "timestamp": "2026-11-06T07:55:31.478746",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
-      ]
-    },
-    {
-      "id": "759afca1-534f-4885-9e40-61ea146322b9",
-      "timestamp": "2026-11-06T07:45:54.566101",
-      "jugador_id": "j006",
-      "jugador_nombre": "Vinícius Júnior",
-      "opinion_usuario": "Prueba automatizada de opinión objetiva",
-      "sentimiento": "positivo",
-      "color_rendimiento": "verde",
-      "analisis_objetivo": "Prueba de análisis objetivo",
-      "evaluacion_rendimiento": "Élite mundial",
-      "titulos_relevantes": [
-        "Champions League"
       ]
     },
     {
@@ -216,6 +336,3010 @@
         "Bota de Oro Mundial 2014",
         "2 UEFA Champions League",
         "Mejor jugador Copa América 2024"
+      ]
+    },
+    {
+      "id": "073fc288-9efe-4c34-8f87-eacfe476817f",
+      "timestamp": "2026-11-06T05:25:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "En la final de la Copa América 2024 ante Argentina no logró desequilibrar en los metros finales.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luis Díaz. Desde una perspectiva objetiva, aunque su palmarés incluye Goleador Copa América 2021, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Desconectado en Final",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021"
+      ]
+    },
+    {
+      "id": "5ff13ef8-b956-4a26-a0be-e88d6f19e622",
+      "timestamp": "2026-11-06T04:52:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "A veces se muestra impaciente si los mediocampistas no le filtran pases al área.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Robert Lewandowski. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2020 (Sextete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Impaciencia",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)"
+      ]
+    },
+    {
+      "id": "bb694e98-e247-42e5-84cd-7708490f1f21",
+      "timestamp": "2026-11-06T04:35:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "A veces genera ocasiones brillantes pero le falta serenidad en el último toque para definir mejor.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Díaz. Si bien su jerarquía está comprobada por logros como Goleador Copa América 2021, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Definición Pendiente",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021"
+      ]
+    },
+    {
+      "id": "92d92ec5-56b1-46e0-9aee-47d4e64098c6",
+      "timestamp": "2026-11-06T04:32:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "En Arabia Saudita sigue inflando sus números, aunque la competitividad de liga es inferior a Europa.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Cristiano Ronaldo. Si bien su jerarquía está comprobada por logros como 5 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Regular / Veteranía",
+      "titulos_relevantes": [
+        "5 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "a88371e1-7658-45ac-bc7e-6d0ad68ad014",
+      "timestamp": "2026-11-06T02:43:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Con Egipto ha perdido dos finales de Copa Africana de Naciones de manera muy amarga.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Mohamed Salah. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Pendiente con Selección",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "6950a3b7-809e-46da-aca2-9c4c0bb1e8e2",
+      "timestamp": "2026-11-06T00:51:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Triunfó al más alto nivel en Inglaterra con el United, en España con el Madrid y en Italia con Juventus.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Cristiano Ronaldo. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Monarca Europeo",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico (900+ goles)"
+      ]
+    },
+    {
+      "id": "49eb0cbf-db0e-464a-b852-5f3228072135",
+      "timestamp": "2026-11-05T23:21:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "En ocasiones entra en provocaciones con las tribunas y rivales que lo distraen de su juego.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Vinícius Júnior. Si bien su jerarquía está comprobada por logros como 2 UEFA Champions League (gol en final), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Desgaste Emocional",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)"
+      ]
+    },
+    {
+      "id": "8bc24d37-9392-41b4-9f11-87c52d93fb9b",
+      "timestamp": "2026-11-05T21:33:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Tras dos roturas brutales de tendón rotuliano, regresó para ser goleador y campeón del Mundial 2002.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldo Nazário. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 Copas del Mundo (1994, 2002), 2 Balones de Oro (1997, 2002), 2 Copas América. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Resurrección Heroica",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)",
+        "2 Balones de Oro (1997, 2002)",
+        "2 Copas América",
+        "Bota de Oro Mundial 2002"
+      ]
+    },
+    {
+      "id": "92c4cee4-dfb5-44ae-b1b2-6646784adefb",
+      "timestamp": "2026-11-05T20:35:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "En rachas de malos resultados del Tottenham le ha costado asumir el rol de líder que cambia el partido.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Son Heung-min. Desde una perspectiva objetiva, aunque su palmarés incluye Bota de Oro Premier League 2022 (sin penales), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Liderazgo Cuestionado",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)"
+      ]
+    },
+    {
+      "id": "71503b4b-df8b-488f-a642-e53a29af5c12",
+      "timestamp": "2026-11-05T19:47:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Nunca pudo conquistar la UEFA Champions League a pesar de jugar en Barcelona, Inter y Real Madrid.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldo Nazário. Si bien su jerarquía está comprobada por logros como 2 Copas del Mundo (1994, 2002), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Sin Champions League",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)"
+      ]
+    },
+    {
+      "id": "15298edb-0c0c-4461-8079-de6848d46e69",
+      "timestamp": "2026-11-05T18:59:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "En la Copa América 2024 quedó suspendido por amarillas y Brasil quedó eliminada sin su concurso.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Vinícius Júnior. Desde una perspectiva objetiva, aunque su palmarés incluye 2 UEFA Champions League (gol en final), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Sanción Costosa",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)"
+      ]
+    },
+    {
+      "id": "b48b26a5-96d7-42a0-9143-83051d4b78cf",
+      "timestamp": "2026-11-05T18:43:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Durante años con la selección argentina cargó con derrotas dolorosas en finales de Copa América.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Lionel Messi. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2022, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Crítica Histórica",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022"
+      ]
+    },
+    {
+      "id": "81809274-0db1-43ae-a076-9539e02da574",
+      "timestamp": "2026-11-05T11:50:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Su selección Noruega no logra clasificar a Eurocopas o Mundiales, limitando su vitrina internacional.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Erling Haaland. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023 (Triplete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Sin Vitrina de Selección",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)"
+      ]
+    },
+    {
+      "id": "87c869af-f527-4596-aca5-c2918d601ae0",
+      "timestamp": "2026-11-05T08:53:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "Su zancada y definición al segundo poste son la pesadilla de cualquier lateral derecho.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kylian Mbappé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2018, Bota de Oro Mundial 2022, 6 Ligue 1. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Mundial",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "6 Ligue 1",
+        "UEFA Nations League 2021"
+      ]
+    },
+    {
+      "id": "38723737-c7b0-44d1-bf9d-a30d10d08518",
+      "timestamp": "2026-11-05T08:00:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "El mejor pasador y generador de ocasiones de gol del siglo XXI en el fútbol de clubes.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kevin De Bruyne. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023, 6 Premier League, Máximo Asistente histórico de Premier. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Visión Divina",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023",
+        "6 Premier League",
+        "Máximo Asistente histórico de Premier",
+        "2 Mejor Jugador PFA"
+      ]
+    },
+    {
+      "id": "0db46a11-080e-483c-a452-88bde42c6170",
+      "timestamp": "2026-11-05T07:16:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "A balón parado sigue siendo letal, pero ya no tiene el despliegue físico de hace unos años.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Lionel Messi. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2022, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Calidad Puntual",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022"
+      ]
+    },
+    {
+      "id": "e7dd98ee-29a7-4c9e-9d93-43f2acb68612",
+      "timestamp": "2026-11-05T05:23:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Promedia casi un gol por partido tanto en Champions League como en Premier League.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Erling Haaland. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023 (Triplete), 2 Premier League, 2 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Efectividad Máxima",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)",
+        "2 Premier League",
+        "2 Botas de Oro Premier League",
+        "Bota de Oro Europea"
+      ]
+    },
+    {
+      "id": "e1761449-1cbc-4045-97f3-a614feaf8eda",
+      "timestamp": "2026-11-05T03:52:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "En algunos tramos de primavera suele tener rachas de 4 o 5 partidos sin ver puerta.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Mohamed Salah. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Racha Ocasional",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "cd6fe497-0cc6-4e76-9447-083bb5d9c88a",
+      "timestamp": "2026-11-05T03:25:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "Su velocidad en transición al contragolpe y su química histórica con Harry Kane marcaron época.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Son Heung-min. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Premier League 2022 (sin penales), Premio Puskás 2020, Oro Juegos Asiáticos 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Dupla Histórica",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)",
+        "Premio Puskás 2020",
+        "Oro Juegos Asiáticos 2018",
+        "Finalista Champions 2019"
+      ]
+    },
+    {
+      "id": "a812fc7a-6774-40b0-b381-f1d854d02dc5",
+      "timestamp": "2026-11-05T03:09:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Inventó la elástica, el pase sin mirar y regates con la espalda que jamás se habían visto en la élite.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldinho. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2002, UEFA Champions League 2006, Balón de Oro 2005. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Genio Impredecible",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002",
+        "UEFA Champions League 2006",
+        "Balón de Oro 2005",
+        "Copa Libertadores 2013"
+      ]
+    },
+    {
+      "id": "0414c377-ecbe-4cda-ac9c-df8af5a7a7f6",
+      "timestamp": "2026-11-05T02:55:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "En la Euro 2024 se le vio falto de explosividad física frente a defensas jóvenes y rápidas.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Cristiano Ronaldo. Si bien su jerarquía está comprobada por logros como 5 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Fase Descendente",
+      "titulos_relevantes": [
+        "5 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "c8e99a3c-a082-453f-98f0-bde261b8ebd0",
+      "timestamp": "2026-11-05T02:14:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Su ritmo físico ha disminuido en la MLS, aunque su calidad técnica sigue intacta.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Lionel Messi. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2022, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Transición Veterana",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022"
+      ]
+    },
+    {
+      "id": "69928f38-8285-4d14-8071-95a116d36db2",
+      "timestamp": "2026-11-04T21:59:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Su pierna izquierda es una de las más privilegiadas y talentosas de la historia de Sudamérica.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre James Rodríguez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024, 2 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Zurda Prodigiosa",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "Mejor Jugador Copa América 2024",
+        "2 UEFA Champions League",
+        "2 LaLiga"
+      ]
+    },
+    {
+      "id": "3e7e9399-58ad-4923-8a22-7190776f76bb",
+      "timestamp": "2026-11-04T19:27:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Ha tenido la mala fortuna de lesionarse antes de tiempo en dos finales de Champions League.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kevin De Bruyne. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Mala Suerte en Finales",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023"
+      ]
+    },
+    {
+      "id": "38b62307-14c8-4b97-928b-10d9a965cc20",
+      "timestamp": "2026-11-04T19:21:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "En su pico en el tridente MSN del FC Barcelona era completamente imparable por banda izquierda.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Neymar. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa Libertadores 2011, Oro Olímpico Río 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Tridente Histórico",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa Libertadores 2011",
+        "Oro Olímpico Río 2016",
+        "Máximo goleador histórico de Brasil"
+      ]
+    },
+    {
+      "id": "a77cfb31-12ec-4395-af5e-9612485a6e93",
+      "timestamp": "2026-11-04T17:55:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Fue el mejor jugador absoluto de la Copa América 2024 rompiendo el récord de asistencias de Messi.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre James Rodríguez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024, 2 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "MVP Continental",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "Mejor Jugador Copa América 2024",
+        "2 UEFA Champions League",
+        "2 LaLiga"
+      ]
+    },
+    {
+      "id": "c2a4072c-bfc9-470d-bb0d-24a1f481879c",
+      "timestamp": "2026-11-04T17:06:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Las desavenencias tácticas con entrenadores como Zidane o Benítez limitaron su tiempo en cancha.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de James Rodríguez. Desde una perspectiva objetiva, aunque su palmarés incluye Bota de Oro Mundial 2014, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Conflicto Táctico",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014"
+      ]
+    },
+    {
+      "id": "82a79ec5-a578-4407-878e-ea87497886ad",
+      "timestamp": "2026-11-04T17:01:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Las lesiones constantes y su vida extradeportiva le impidieron consolidarse como el número 1 del planeta.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Neymar. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2015, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Bajo Rendimiento",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "d465fa17-c14e-468d-8f5a-7e111e46ec91",
+      "timestamp": "2026-11-04T16:12:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "El atacante más veloz y demoledor al espacio del fútbol mundial actual, imparable en carrera.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kylian Mbappé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2018, Bota de Oro Mundial 2022, 6 Ligue 1. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Velocidad Letal",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "6 Ligue 1",
+        "UEFA Nations League 2021"
+      ]
+    },
+    {
+      "id": "20dbdb6f-da43-4a86-967a-1d6dd0a75fae",
+      "timestamp": "2026-11-04T15:05:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Su evolución desde que llegó a España hasta ser candidato número uno al Balón de Oro es admirable.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Vinícius Júnior. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 UEFA Champions League (gol en final), 3 LaLiga de España, 1 Mundial de Clubes FIFA. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Evolución Excepcional",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "3 LaLiga de España",
+        "1 Mundial de Clubes FIFA",
+        "Supercopa de Europa"
+      ]
+    },
+    {
+      "id": "1cc0d494-ec96-43e7-8b3d-3f6ab6dadfac",
+      "timestamp": "2026-11-04T15:04:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Su definición ha mejorado muchísimo, aunque aún falla ocasiones claras en contragolpes.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Vinícius Júnior. Si bien su jerarquía está comprobada por logros como 2 UEFA Champions League (gol en final), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Margen de Mejora",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)"
+      ]
+    },
+    {
+      "id": "8376d090-f5a9-48cb-86f8-e6579bbf8936",
+      "timestamp": "2026-11-04T13:04:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Su segunda salida del Manchester United generó tensiones innecesarias con el cuerpo técnico.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Cristiano Ronaldo. Desde una perspectiva objetiva, aunque su palmarés incluye 5 UEFA Champions League, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Polémico",
+      "titulos_relevantes": [
+        "5 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "3287f63a-71c7-4a83-beba-5952df20a879",
+      "timestamp": "2026-11-04T12:53:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Su regularidad marcando más de 20 goles por temporada durante 7 años consecutivos es increíble.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Mohamed Salah. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, 3 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Constancia Asombrosa",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "3 Botas de Oro Premier League",
+        "Mundial de Clubes FIFA"
+      ]
+    },
+    {
+      "id": "4052860e-1774-4b9a-8adf-0bdc232a4f46",
+      "timestamp": "2026-11-04T12:22:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Su juego actual depende exclusivamente de la finalización en el área sin participar en la elaboración.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Cristiano Ronaldo. Si bien su jerarquía está comprobada por logros como 5 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Finalizador de Área",
+      "titulos_relevantes": [
+        "5 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "cb49be36-7263-440d-b249-bfb4580c6c11",
+      "timestamp": "2026-11-04T11:30:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "En el PSG no alcanzó su máximo nivel colectivo pese a ganar dos títulos de Ligue 1.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Lionel Messi. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2022, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Rendimiento Mixto",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022"
+      ]
+    },
+    {
+      "id": "beaf47a5-81e3-40c8-809d-73463aa08807",
+      "timestamp": "2026-11-04T11:24:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Su talento merecía al menos un Balón de Oro, pero las continuas lesiones frenaron su carrera.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Neymar. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Talento Intermitente",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "ac915d2f-d235-4bcf-815e-cc3531e9f53b",
+      "timestamp": "2026-11-04T09:34:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Ganar 5 Champions League siendo el máximo artillero histórico del torneo es una locura.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Cristiano Ronaldo. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Leyenda de Élite",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico (900+ goles)"
+      ]
+    },
+    {
+      "id": "563b5f8a-ba60-41fb-9175-e8e2dede377d",
+      "timestamp": "2026-11-04T08:01:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "Sus 41 goles en una sola temporada de Bundesliga rompieron el mítico récord de Gerd Müller.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Robert Lewandowski. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2020 (Sextete), 2 The Best FIFA, Bota de Oro Europea (2 veces). Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Récord Legendario",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)",
+        "2 The Best FIFA",
+        "Bota de Oro Europea (2 veces)",
+        "Pichichi de LaLiga"
+      ]
+    },
+    {
+      "id": "6a75270d-b44f-4c90-8075-720ec5eb7d1c",
+      "timestamp": "2026-11-04T08:00:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "En los Mundiales decisivos con Brasil nunca pudo dar ese paso adelante para coronarse campeón.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Neymar. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2015, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Deuda en Mundiales",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "d3272c58-e1f0-4b3f-8fd6-80be85b1ee27",
+      "timestamp": "2026-11-04T06:32:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "El talento más puro, rebelde y carismático que jamás pisó una cancha de fútbol en la historia.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Diego Maradona. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo México 1986, 2 Scudettos Serie A con Napoli, Copa UEFA 1989. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "D10S",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986",
+        "2 Scudettos Serie A con Napoli",
+        "Copa UEFA 1989",
+        "Subcampeón del Mundo 1990"
+      ]
+    },
+    {
+      "id": "252a076e-b185-4400-b667-e458748c3e39",
+      "timestamp": "2026-11-04T05:30:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "El futbolista que le devolvió la sonrisa al fútbol y resucitó al Barcelona con pura magia brasileña.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldinho. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2002, UEFA Champions League 2006, Balón de Oro 2005. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "La Sonrisa del Fútbol",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002",
+        "UEFA Champions League 2006",
+        "Balón de Oro 2005",
+        "Copa Libertadores 2013"
+      ]
+    },
+    {
+      "id": "69b1e606-9eef-4815-9e6c-559d18491bf7",
+      "timestamp": "2026-11-04T03:40:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Ganar 6 Champions League siendo protagonista en todas ellas es una hazaña irrepetible.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luka Modrić. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 6 UEFA Champions League, Balón de Oro 2018, Subcampeón del Mundo 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Hexacampeón Europeo",
+      "titulos_relevantes": [
+        "6 UEFA Champions League",
+        "Balón de Oro 2018",
+        "Subcampeón del Mundo 2018",
+        "Bronce Mundial 2022"
+      ]
+    },
+    {
+      "id": "815cf27c-5418-4a00-9669-d7bb2d3c4b7c",
+      "timestamp": "2026-11-03T23:53:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "Un ejemplo de profesionalismo intachable, entrega constante y carisma dentro y fuera del campo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Son Heung-min. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Premier League 2022 (sin penales), Premio Puskás 2020, Oro Juegos Asiáticos 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Profesional Ejemplar",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)",
+        "Premio Puskás 2020",
+        "Oro Juegos Asiáticos 2018",
+        "Finalista Champions 2019"
+      ]
+    },
+    {
+      "id": "1ad30548-7ad1-4f77-bda4-820212654ff7",
+      "timestamp": "2026-11-03T22:38:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "Ganar dos Botas de Oro europeas en plena era dorada de Messi y Cristiano es una proeza legendaria.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Suárez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa América 2011, 2 Botas de Oro Europeas. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Bota de Oro de Oro",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa América 2011",
+        "2 Botas de Oro Europeas",
+        "5 LaLiga (Barcelona y Atlético)"
+      ]
+    },
+    {
+      "id": "2e198d3c-8d4b-420e-b875-a2afd7a02e35",
+      "timestamp": "2026-11-03T22:00:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Dejó el Barcelona en su mejor momento y en París no pudo conquistar la tan ansiada Champions League.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Neymar. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2015, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Objetivo No Cumplido",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "070d410c-aea5-460a-80a1-84e049340bc0",
+      "timestamp": "2026-11-03T17:21:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "En su etapa final de carrera sus problemas de peso e hipotiroidismo le restaron agilidad en el campo.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Ronaldo Nazário. Desde una perspectiva objetiva, aunque su palmarés incluye 2 Copas del Mundo (1994, 2002), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Problemas de Peso",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)"
+      ]
+    },
+    {
+      "id": "d8f18951-ddcb-4130-a134-42596360b00a",
+      "timestamp": "2026-11-03T16:36:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "En sus últimos años de Champions con el Barça acumuló una inexplicable sequía de goles fuera de casa.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Suárez. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Sequía Visitante",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "4ef06c18-1a87-4dcc-8907-b0b47c1c2122",
+      "timestamp": "2026-11-03T15:26:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Su rendimiento en Alemania cayó estrepitosamente tras no adaptarse al esquema táctico de Nagelsmann.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Sadio Mané. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2019, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Bajo Rendimiento",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "0e5e6b1d-ee3e-48e3-91f8-304d5b1c79cc",
+      "timestamp": "2026-11-03T13:42:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "A sus 32 años ha perdido algo de chispa en el uno contra uno estacionario.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Son Heung-min. Si bien su jerarquía está comprobada por logros como Bota de Oro Premier League 2022 (sin penales), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Pérdida de Aceleración",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)"
+      ]
+    },
+    {
+      "id": "8055ffae-cfc5-44bc-b6c9-3503f46d9beb",
+      "timestamp": "2026-11-03T12:39:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Llevar a un país de 4 millones de habitantes como Croacia a dos podios mundialistas consecutivos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luka Modrić. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 6 UEFA Champions League, Balón de Oro 2018, Subcampeón del Mundo 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe Nacional",
+      "titulos_relevantes": [
+        "6 UEFA Champions League",
+        "Balón de Oro 2018",
+        "Subcampeón del Mundo 2018",
+        "Bronce Mundial 2022"
+      ]
+    },
+    {
+      "id": "d11c4fbd-a335-443b-8f3b-9ec990ad98da",
+      "timestamp": "2026-11-03T12:19:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "Comparte con Messi el título de máximo goleador de la Copa América 2021 con actuaciones memorables.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Díaz. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Goleador Copa América 2021, FA Cup y Carabao Cup con Liverpool, 2 Primeira Liga con Porto. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Crack de Selección",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021",
+        "FA Cup y Carabao Cup con Liverpool",
+        "2 Primeira Liga con Porto",
+        "Finalista Champions 2022"
+      ]
+    },
+    {
+      "id": "3a8a9366-ef1c-4374-8e87-a21c132a4531",
+      "timestamp": "2026-11-03T12:14:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "O Fenômeno, el delantero centro más devastador, veloz y potente que haya pisado un terreno de juego.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldo Nazário. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 Copas del Mundo (1994, 2002), 2 Balones de Oro (1997, 2002), 2 Copas América. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "El Fenómeno",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)",
+        "2 Balones de Oro (1997, 2002)",
+        "2 Copas América",
+        "Bota de Oro Mundial 2002"
+      ]
+    },
+    {
+      "id": "83408883-dbbf-40c6-be99-2f774ff7fcbd",
+      "timestamp": "2026-11-03T11:11:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Técnicamente con el balón en los pies no es un jugador asociativo ni de gran regate.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Erling Haaland. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023 (Triplete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Poco Asociativo",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)"
+      ]
+    },
+    {
+      "id": "ece5d7a7-add8-4eeb-ad9c-b8c29a9864e8",
+      "timestamp": "2026-11-03T07:41:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "En el Mundial de España 1982 se despidió con una tarjeta roja por agresión ante Brasil.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Diego Maradona. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo México 1986, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Frustración Mundialista",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "578617cd-7f5b-4c3d-b125-b8dc332391a5",
+      "timestamp": "2026-11-03T06:45:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "En la final de la Champions League 2019 contra el Liverpool estuvo muy contenido y generó poco peligro.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Son Heung-min. Desde una perspectiva objetiva, aunque su palmarés incluye Bota de Oro Premier League 2022 (sin penales), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Inofensivo en Final",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)"
+      ]
+    },
+    {
+      "id": "7a1bc451-68f9-4e1d-b6b4-ae91362c1e6a",
+      "timestamp": "2026-11-03T06:33:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "Su adaptación al ritmo endiablado de la Premier League de Klopp fue casi instantánea en Anfield.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Díaz. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Goleador Copa América 2021, FA Cup y Carabao Cup con Liverpool, 2 Primeira Liga con Porto. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Impacto Premier",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021",
+        "FA Cup y Carabao Cup con Liverpool",
+        "2 Primeira Liga con Porto",
+        "Finalista Champions 2022"
+      ]
+    },
+    {
+      "id": "dc1f176e-a4bb-4ff2-863c-dc849b71024d",
+      "timestamp": "2026-11-03T03:04:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Su pico de rendimiento superlativo duró solo unos tres o cuatro años antes de decaer físicamente.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldinho. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2002, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Cima Muy Corta",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "6fe78afe-460e-4965-b124-dac02fcd2231",
+      "timestamp": "2026-11-03T02:25:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Con la 'Generación Dorada' de Bélgica nunca pudieron alcanzar una final de gran torneo.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kevin De Bruyne. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Deuda con Bélgica",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023"
+      ]
+    },
+    {
+      "id": "7cc2b969-55b9-4ae9-9a36-8e1f67fd471a",
+      "timestamp": "2026-11-03T01:30:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "En el fútbol de clubes moderno, los entrenadores que exigen presión alta prescinden de la figura del '10'.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre James Rodríguez. Si bien su jerarquía está comprobada por logros como Bota de Oro Mundial 2014, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Anacronismo Táctico",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014"
+      ]
+    },
+    {
+      "id": "ba780a6a-d2cf-4f26-9e25-8860f668a381",
+      "timestamp": "2026-11-03T01:24:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Extremo demoledor, con un sentido del timing, juego aéreo y potencia física descomunal.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Sadio Mané. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, Copa Africana de Naciones 2022. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Potencia Africana",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "Copa Africana de Naciones 2022",
+        "Bota de Oro Premier"
+      ]
+    },
+    {
+      "id": "c8f14f12-8350-4e83-8f4b-65bf951e528e",
+      "timestamp": "2026-11-02T22:43:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "No solo desequilibra arriba, su sacrificio en la presión y repliegue defensivo es ejemplar.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Díaz. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Goleador Copa América 2021, FA Cup y Carabao Cup con Liverpool, 2 Primeira Liga con Porto. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Generosidad Táctica",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021",
+        "FA Cup y Carabao Cup con Liverpool",
+        "2 Primeira Liga con Porto",
+        "Finalista Champions 2022"
+      ]
+    },
+    {
+      "id": "8d5a3373-4c7b-4cb9-a886-e706304394aa",
+      "timestamp": "2026-11-02T20:41:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "Su juego de espaldas al arco y descarga para los extremos es una lección de táctica.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Robert Lewandowski. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2020 (Sextete), 2 The Best FIFA, Bota de Oro Europea (2 veces). Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Pivote Maestro",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)",
+        "2 The Best FIFA",
+        "Bota de Oro Europea (2 veces)",
+        "Pichichi de LaLiga"
+      ]
+    },
+    {
+      "id": "8baccb95-7a7f-400c-9692-426fb7a24534",
+      "timestamp": "2026-11-02T18:38:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "En el Real Madrid de los Galácticos marcó muchos goles pero el equipo careció de balance defensivo.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldo Nazário. Si bien su jerarquía está comprobada por logros como 2 Copas del Mundo (1994, 2002), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Galáctico sin Equilibrio",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)"
+      ]
+    },
+    {
+      "id": "3c98a0c0-0767-4e9d-9a11-873b8c704932",
+      "timestamp": "2026-11-02T17:18:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "El delantero centro más demoledor en el área de la actualidad, números goleadores de ciencia ficción.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Erling Haaland. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023 (Triplete), 2 Premier League, 2 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Cyborg del Gol",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)",
+        "2 Premier League",
+        "2 Botas de Oro Premier League",
+        "Bota de Oro Europea"
+      ]
+    },
+    {
+      "id": "3aaebe4c-5820-43e6-86e3-54c8f738c448",
+      "timestamp": "2026-11-02T16:48:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Su potencia física y oportunismo para rematar cualquier balón suelto es implacable.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Erling Haaland. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023 (Triplete), 2 Premier League, 2 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Potencia Letal",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)",
+        "2 Premier League",
+        "2 Botas de Oro Premier League",
+        "Bota de Oro Europea"
+      ]
+    },
+    {
+      "id": "b9a455ca-50f5-4e48-9bca-38cef0fbb54f",
+      "timestamp": "2026-11-02T14:54:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "Con la selección de Polonia suele tener pocas opciones claras ante la falta de creadores.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Robert Lewandowski. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2020 (Sextete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Limitación Nacional",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)"
+      ]
+    },
+    {
+      "id": "e4266079-97c8-4eb4-91b9-4ea33129865e",
+      "timestamp": "2026-11-02T14:12:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "Sus episodios disciplinarios y mordiscos en Mundiales mancharon momentos clave de su carrera.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luis Suárez. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2015, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Polémica de Conducta",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "37e3d0df-9d52-49d2-a342-4d61e4dfdad2",
+      "timestamp": "2026-11-02T12:57:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Fue aplaudido de pie por el público del Santiago Bernabéu tras un doblete y recital irrepetible.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldinho. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2002, UEFA Champions League 2006, Balón de Oro 2005. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Ovación en el Bernabéu",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002",
+        "UEFA Champions League 2006",
+        "Balón de Oro 2005",
+        "Copa Libertadores 2013"
+      ]
+    },
+    {
+      "id": "3f338e0b-153d-4871-b7df-5546b130773c",
+      "timestamp": "2026-11-02T11:37:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Fue pieza angular en el histórico triplete del Manchester City de Pep Guardiola en 2023.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Erling Haaland. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023 (Triplete), 2 Premier League, 2 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Campeón de Europa",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)",
+        "2 Premier League",
+        "2 Botas de Oro Premier League",
+        "Bota de Oro Europea"
+      ]
+    },
+    {
+      "id": "4dd509c5-3481-4c1d-8f07-c999b4d43cb7",
+      "timestamp": "2026-11-02T11:15:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "En el FC Barcelona las lesiones graves y la hepatitis no le permitieron consagrarse plenamente.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Diego Maradona. Si bien su jerarquía está comprobada por logros como Copa del Mundo México 1986, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Paso Breve por Barça",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "5e7f8085-0c8c-412c-a8ad-00aafd7e0b2d",
+      "timestamp": "2026-11-02T07:03:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Ha perdido un punto de aceleración pura en los últimos años, compensándolo con visión de pase.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Mohamed Salah. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Evolución Posicional",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "5136feab-8cb7-46df-91dd-9f08c78c469a",
+      "timestamp": "2026-11-02T06:56:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "El delantero más competitivo, voraz y técnicamente completo de su generación.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Suárez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa América 2011, 2 Botas de Oro Europeas. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Goleador Feroz",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa América 2011",
+        "2 Botas de Oro Europeas",
+        "5 LaLiga (Barcelona y Atlético)"
+      ]
+    },
+    {
+      "id": "47b68c22-833a-40fb-bc03-c321c9162088",
+      "timestamp": "2026-11-02T06:32:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "A sus 36 años dosifica mucho sus esfuerzos y no puede presionar alto los 90 minutos.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Robert Lewandowski. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2020 (Sextete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Veteranía Táctica",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)"
+      ]
+    },
+    {
+      "id": "857aaf0a-e12e-49d5-8691-ee7da200f435",
+      "timestamp": "2026-11-02T06:13:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Nadie genera tanto juego ni asiste con tanta precisión milimétrica como Messi en el campo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Lionel Messi. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Mundial",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "a43b84c9-65cc-4f6d-b4f0-5e1054a25ed6",
+      "timestamp": "2026-11-02T03:29:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "En Inglaterra 1966 Brasil quedó eliminado en primera ronda sin poder responder al rigor táctico europeo.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Pelé. Desde una perspectiva objetiva, aunque su palmarés incluye 3 Copas del Mundo (1958, 1962, 1970), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fracaso en 1966",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)"
+      ]
+    },
+    {
+      "id": "613e2f55-3810-4e6c-86fc-6dbc9fe4ae25",
+      "timestamp": "2026-11-02T02:27:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "En partidos de alta intensidad física contra defensas muy veloces le cuesta ganar en velocidad.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Robert Lewandowski. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2020 (Sextete), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Déficit Físico",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)"
+      ]
+    },
+    {
+      "id": "6b10bad7-0b69-4f00-bde5-2c304664ab39",
+      "timestamp": "2026-11-02T00:33:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Fue el motor emocional del Liverpool campeón de Europa y Premier junto a Salah y Firmino.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Sadio Mané. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, Copa Africana de Naciones 2022. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Tridente de Oro",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "Copa Africana de Naciones 2022",
+        "Bota de Oro Premier"
+      ]
+    },
+    {
+      "id": "1f195df2-9289-497c-830c-d0eb04e32c33",
+      "timestamp": "2026-11-01T23:58:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "En sus primeros meses en el Real Madrid en 2012 fue votado injustamente como el peor fichaje de LaLiga.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luka Modrić. Desde una perspectiva objetiva, aunque su palmarés incluye 6 UEFA Champions League, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Inicio Cuestionado",
+      "titulos_relevantes": [
+        "6 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "51a517b7-775d-445e-a791-b01b63777959",
+      "timestamp": "2026-11-01T23:11:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Las lesiones musculares en las últimas temporadas le han hecho perderse meses importantes de competición.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kevin De Bruyne. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Propenso a Lesión",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023"
+      ]
+    },
+    {
+      "id": "c828b980-61bd-4486-b8fd-e2e04e0a5864",
+      "timestamp": "2026-11-01T20:40:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Por su edad actualmente aporta más entrando como revulsivo desde el banco de suplentes.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luka Modrić. Si bien su jerarquía está comprobada por logros como 6 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Rol Secundario",
+      "titulos_relevantes": [
+        "6 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "7a3bf795-49d1-4aed-96c6-43a7e45e78ce",
+      "timestamp": "2026-11-01T19:53:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Ganó Mundial, Champions League, Copa Libertadores y Balón de Oro, un club hiper exclusivo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldinho. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2002, UEFA Champions League 2006, Balón de Oro 2005. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Palmarés Perfecto",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002",
+        "UEFA Champions League 2006",
+        "Balón de Oro 2005",
+        "Copa Libertadores 2013"
+      ]
+    },
+    {
+      "id": "75333304-56e0-4cdb-9517-efca6ac84bd3",
+      "timestamp": "2026-11-01T18:31:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Un director de orquesta irrepetible, ver jugar a Modrić es una lección magistral de fútbol.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luka Modrić. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 6 UEFA Champions League, Balón de Oro 2018, Subcampeón del Mundo 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Maestro del Medio",
+      "titulos_relevantes": [
+        "6 UEFA Champions League",
+        "Balón de Oro 2018",
+        "Subcampeón del Mundo 2018",
+        "Bronce Mundial 2022"
+      ]
+    },
+    {
+      "id": "12bdcf29-317d-4440-a10d-c87a81805a4e",
+      "timestamp": "2026-11-01T17:42:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "En el Real Madrid tiene todo para marcar una época de títulos y Balones de Oro en Europa.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kylian Mbappé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2018, Bota de Oro Mundial 2022, 6 Ligue 1. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Futuro Balón de Oro",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "6 Ligue 1",
+        "UEFA Nations League 2021"
+      ]
+    },
+    {
+      "id": "483c1a60-34d7-4307-9cbc-9af5c5b93e7a",
+      "timestamp": "2026-11-01T15:15:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Su gol de volea a Uruguay en el Mundial de Brasil 2014 ganó el Premio Puskás y quedó en la historia.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre James Rodríguez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024, 2 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Gol Maravilla",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "Mejor Jugador Copa América 2024",
+        "2 UEFA Champions League",
+        "2 LaLiga"
+      ]
+    },
+    {
+      "id": "c805353e-d3f0-4852-9fd5-6becdb8f89fa",
+      "timestamp": "2026-11-01T14:04:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Su carrera en la élite europea fue más corta de lo que su descomunal talento merecía por temas extradeportivos.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Diego Maradona. Si bien su jerarquía está comprobada por logros como Copa del Mundo México 1986, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Carrera Truncada",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "51a25a38-d17f-499d-b6af-dbc2c30ae477",
+      "timestamp": "2026-11-01T12:09:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "Brilló tanto en la durísima Serie A con la Juventus como en el Real Madrid de los Galácticos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Zinedine Zidane. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 1998, UEFA Champions League 2002, Eurocopa 2000. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Dominador Europeo",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998",
+        "UEFA Champions League 2002",
+        "Eurocopa 2000",
+        "Balón de Oro 1998"
+      ]
+    },
+    {
+      "id": "cfecded5-06e1-4353-a8da-e27be3df3c2a",
+      "timestamp": "2026-11-01T11:27:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "O Rei, el único futbolista en toda la historia de la humanidad en ganar 3 Mundiales de la FIFA.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Pelé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores, 2 Copas Intercontinentales. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "El Rey Eterno",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores",
+        "2 Copas Intercontinentales",
+        "Más de 1200 goles oficiales y amistosos"
+      ]
+    },
+    {
+      "id": "7dfc998b-352c-46c8-b9f5-2cb34cde94d4",
+      "timestamp": "2026-11-01T11:12:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "Llegó al FC Barcelona y de inmediato salió campeón de LaLiga siendo el máximo goleador.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Robert Lewandowski. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2020 (Sextete), 2 The Best FIFA, Bota de Oro Europea (2 veces). Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Impacto Inmediato",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)",
+        "2 The Best FIFA",
+        "Bota de Oro Europea (2 veces)",
+        "Pichichi de LaLiga"
+      ]
+    },
+    {
+      "id": "11664ec6-f21a-4a54-8b64-188c0c6de73d",
+      "timestamp": "2026-11-01T11:05:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "En el Mundial de Alemania 2006 con el 'Cuadrado Mágico' de Brasil estuvo muy por debajo de su nivel.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldinho. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2002, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Deuda en 2006",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "956bb2ed-f135-427d-ba42-3e200d8c6853",
+      "timestamp": "2026-11-01T10:52:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "En Arabia Saudita con Al-Nassr mantiene buen nivel pero lejos de los reflectores de la Champions europea.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Sadio Mané. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Retiro Dorado",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "97c50084-0827-48ad-b191-e5438a1619ac",
+      "timestamp": "2026-11-01T08:53:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "El delantero centro de área más completo de la última década en el fútbol europeo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Robert Lewandowski. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2020 (Sextete), 2 The Best FIFA, Bota de Oro Europea (2 veces). Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Goleador Clínico",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)",
+        "2 The Best FIFA",
+        "Bota de Oro Europea (2 veces)",
+        "Pichichi de LaLiga"
+      ]
+    },
+    {
+      "id": "010c7791-2d32-4c67-9148-4538152025b8",
+      "timestamp": "2026-11-01T07:20:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "Con solo 17 años maravilló al mundo en Suecia 1958 marcando un gol de antología con sombrero en la final.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Pelé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores, 2 Copas Intercontinentales. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Genio Precoz",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores",
+        "2 Copas Intercontinentales",
+        "Más de 1200 goles oficiales y amistosos"
+      ]
+    },
+    {
+      "id": "d6dfd6cd-3809-4487-b977-52921cf5ccb9",
+      "timestamp": "2026-11-01T06:36:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "Doblete de cabeza en la final del Mundial 1998 ante Brasil para darle a Francia su primera estrella.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Zinedine Zidane. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 1998, UEFA Champions League 2002, Eurocopa 2000. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe de Francia",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998",
+        "UEFA Champions League 2002",
+        "Eurocopa 2000",
+        "Balón de Oro 1998"
+      ]
+    },
+    {
+      "id": "4f9f42e6-df4b-40f8-8eb7-6ecf59b3443d",
+      "timestamp": "2026-11-01T03:12:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "En los Mundiales de 1962 y 1966 las lesiones por violencia defensiva limitaron su participación en cancha.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Pelé. Si bien su jerarquía está comprobada por logros como 3 Copas del Mundo (1958, 1962, 1970), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Lesiones en Mundiales",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)"
+      ]
+    },
+    {
+      "id": "372fc5d2-6aab-46fd-b0f0-6f342a1cb0f9",
+      "timestamp": "2026-10-31T20:39:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "Su exhibición contra Brasil en cuartos de final del Mundial 2006 fue un recital magistral de fútbol.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Zinedine Zidane. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 1998, UEFA Champions League 2002, Eurocopa 2000. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Recital Maestro",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998",
+        "UEFA Champions League 2002",
+        "Eurocopa 2000",
+        "Balón de Oro 1998"
+      ]
+    },
+    {
+      "id": "6c91452b-7492-4a57-9a93-e6ee736d7e66",
+      "timestamp": "2026-10-31T18:54:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Su paso por el Barcelona definió una era dorada con 4 Champions y tripletes históricos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Lionel Messi. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Histórica",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "3a512715-2389-43bd-a721-0f6e46d4a340",
+      "timestamp": "2026-10-31T16:04:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "En la Champions con la Juventus perdió dos finales consecutivas antes de poder ganarla de blanco.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Zinedine Zidane. Si bien su jerarquía está comprobada por logros como Copa del Mundo 1998, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Finales Perdidas",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998"
+      ]
+    },
+    {
+      "id": "a84aee50-6173-4b61-bbe3-4dd39513f5d2",
+      "timestamp": "2026-10-31T15:28:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Superar a Pelé como máximo artillero histórico de la Canarinha es un logro monumental.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Neymar. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa Libertadores 2011, Oro Olímpico Río 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Hito Nacional",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa Libertadores 2011",
+        "Oro Olímpico Río 2016",
+        "Máximo goleador histórico de Brasil"
+      ]
+    },
+    {
+      "id": "a343a1d1-3b78-4d46-8956-30171fdab5dd",
+      "timestamp": "2026-10-31T15:21:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "En 2020 merecía absolutamente el Balón de Oro tras ganar el sextete con el Bayern Múnich.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Robert Lewandowski. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2020 (Sextete), 2 The Best FIFA, Bota de Oro Europea (2 veces). Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Temporada Perfecta",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)",
+        "2 The Best FIFA",
+        "Bota de Oro Europea (2 veces)",
+        "Pichichi de LaLiga"
+      ]
+    },
+    {
+      "id": "12877e80-46de-4fdc-892b-87e085f522b6",
+      "timestamp": "2026-10-31T13:53:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "El cabezazo a Materazzi en la final del Mundial 2006 empañó injustamente su despedida profesional.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Zinedine Zidane. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 1998, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Expulsión en Final",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998"
+      ]
+    },
+    {
+      "id": "0382d8f1-707e-40e0-8bbd-8536885cabce",
+      "timestamp": "2026-10-31T13:49:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "En las noches difíciles de Champions en sus últimos años en Europa le faltó liderazgo defensivo.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Lionel Messi. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2022, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Cuestionado",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022"
+      ]
+    },
+    {
+      "id": "e8299891-6e71-4ad5-8d82-4b4a091dae52",
+      "timestamp": "2026-10-31T13:43:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Llevar a Portugal a su primera Eurocopa en 2016 demostró su tremenda jerarquía de capitán.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Cristiano Ronaldo. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Líder Histórico",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico (900+ goles)"
+      ]
+    },
+    {
+      "id": "13446193-7202-447c-8a4a-a06bde6ccff6",
+      "timestamp": "2026-10-31T12:49:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Fue el cerebro y motor indiscutible del Manchester City en la conquista de su primera Champions.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kevin De Bruyne. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023, 6 Premier League, Máximo Asistente histórico de Premier. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Cerebro Campeón",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023",
+        "6 Premier League",
+        "Máximo Asistente histórico de Premier",
+        "2 Mejor Jugador PFA"
+      ]
+    },
+    {
+      "id": "8f85eb75-ce1e-49f5-9e62-08a71d3a8ef5",
+      "timestamp": "2026-10-31T09:08:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Alterna destellos de crack mundial con largos periodos de inactividad médica y recuperación.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Neymar. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Irregular",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "6400ae10-897a-4dd7-82ce-e0031362f060",
+      "timestamp": "2026-10-31T08:17:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Encara 10 veces por partido y desgasta psicológicamente a cualquier lateral rival.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Vinícius Júnior. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 UEFA Champions League (gol en final), 3 LaLiga de España, 1 Mundial de Clubes FIFA. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Regateador Top",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "3 LaLiga de España",
+        "1 Mundial de Clubes FIFA",
+        "Supercopa de Europa"
+      ]
+    },
+    {
+      "id": "d0ecaa4c-91b7-47b1-9850-62462b7b4264",
+      "timestamp": "2026-10-31T07:18:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Su temporada en el Barcelona con 47 goles en 49 partidos a los 20 años es la cúspide física de un 9.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldo Nazário. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 Copas del Mundo (1994, 2002), 2 Balones de Oro (1997, 2002), 2 Copas América. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Fuerza de la Naturaleza",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)",
+        "2 Balones de Oro (1997, 2002)",
+        "2 Copas América",
+        "Bota de Oro Mundial 2002"
+      ]
+    },
+    {
+      "id": "b5c1731e-f1be-4605-bbb9-6b258144e174",
+      "timestamp": "2026-10-31T06:51:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Sus continuas lesiones musculares en el sóleo le cortaron el ritmo en momentos clave de la temporada.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de James Rodríguez. Desde una perspectiva objetiva, aunque su palmarés incluye Bota de Oro Mundial 2014, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fragilidad Muscular",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014"
+      ]
+    },
+    {
+      "id": "76a62b19-0cf8-4d66-bb88-1cb9ddc89c25",
+      "timestamp": "2026-10-31T06:30:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Su paso por Everton, Olympiacos y São Paulo tuvo destellos mágicos pero poca continuidad en el tiempo.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre James Rodríguez. Si bien su jerarquía está comprobada por logros como Bota de Oro Mundial 2014, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Inconstancia en Clubes",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014"
+      ]
+    },
+    {
+      "id": "37b9dc4a-d29a-4e52-8c6c-5457f5377fe3",
+      "timestamp": "2026-10-30T23:48:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Anotó el hat-trick más rápido en la historia de la Premier League (2 minutos y 56 segundos).",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Sadio Mané. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, Copa Africana de Naciones 2022. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Récord Imbatible",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "Copa Africana de Naciones 2022",
+        "Bota de Oro Premier"
+      ]
+    },
+    {
+      "id": "60c90067-42f9-43ee-99a5-94078da6e547",
+      "timestamp": "2026-10-30T22:51:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "Inventó prácticamente todas las jugadas, amagues y regates que los futbolistas de hoy intentan imitar.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Pelé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores, 2 Copas Intercontinentales. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Pionero Absoluto",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores",
+        "2 Copas Intercontinentales",
+        "Más de 1200 goles oficiales y amistosos"
+      ]
+    },
+    {
+      "id": "f561d6d5-ce6d-458e-8256-0a6236859442",
+      "timestamp": "2026-10-30T18:40:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "El altercado en el vestuario con Leroy Sané en Múnich aceleró su salida prematura del fútbol alemán.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Sadio Mané. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2019, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Polémica Interna",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "321c9144-e235-4bdd-ae55-9fce22f837c0",
+      "timestamp": "2026-10-30T18:39:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Su actuación en la remontada del 6-1 contra el PSG fue una de las mejores noches individuales de Champions.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Neymar. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa Libertadores 2011, Oro Olímpico Río 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Histórica",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa Libertadores 2011",
+        "Oro Olímpico Río 2016",
+        "Máximo goleador histórico de Brasil"
+      ]
+    },
+    {
+      "id": "02e0ba8b-7c07-47aa-8787-f67476fe072f",
+      "timestamp": "2026-10-30T16:22:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "El jugador con mayor magia individual y regate brasileño puro de la última década.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Neymar. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa Libertadores 2011, Oro Olímpico Río 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Magia Pura",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa Libertadores 2011",
+        "Oro Olímpico Río 2016",
+        "Máximo goleador histórico de Brasil"
+      ]
+    },
+    {
+      "id": "b6f4d57d-5665-4c21-88c0-27ac56557c4c",
+      "timestamp": "2026-10-30T13:56:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Pep Guardiola tuvo que pedir su salida inmediata del Barcelona en 2008 para proteger el vestuario de Messi.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Ronaldinho. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2002, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Salida Forzada",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "ec0b5acd-13c0-4932-a78e-b47b5a80fc71",
+      "timestamp": "2026-10-30T13:01:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Campeón del Mundo en 2002 anotando aquel golazo de tiro libre de 40 metros a Seaman en Japón.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldinho. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2002, UEFA Champions League 2006, Balón de Oro 2005. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Golazo Mundialista",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002",
+        "UEFA Champions League 2006",
+        "Balón de Oro 2005",
+        "Copa Libertadores 2013"
+      ]
+    },
+    {
+      "id": "811a94bc-2bb6-4522-906f-9017f15ccc55",
+      "timestamp": "2026-10-30T12:08:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Su paso por el fútbol árabe ha estado marcado casi en su totalidad por una rotura de ligamentos.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Neymar. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "En Recuperación",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "606a4897-0c09-4189-801d-9f0546f5738a",
+      "timestamp": "2026-10-30T11:18:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Tiene además un disparo de media distancia brutal tanto con pierna derecha como con la zurda.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kevin De Bruyne. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023, 6 Premier League, Máximo Asistente histórico de Premier. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Cañón Ambidiestro",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023",
+        "6 Premier League",
+        "Máximo Asistente histórico de Premier",
+        "2 Mejor Jugador PFA"
+      ]
+    },
+    {
+      "id": "4a92972c-4615-49c3-a07a-224129d3b849",
+      "timestamp": "2026-10-30T10:21:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Jugó el Mundial de Italia 1990 con el tobillo hinchado como una pelota de tenis llevando a Argentina a la final.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Diego Maradona. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo México 1986, 2 Scudettos Serie A con Napoli, Copa UEFA 1989. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Corazón y Entrega",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986",
+        "2 Scudettos Serie A con Napoli",
+        "Copa UEFA 1989",
+        "Subcampeón del Mundo 1990"
+      ]
+    },
+    {
+      "id": "93ed963b-9bda-4062-a4ae-245ee0f5be97",
+      "timestamp": "2026-10-30T09:47:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "En sus primeros meses en el Real Madrid ha necesitado tiempo de adaptación táctica como delantero centro.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kylian Mbappé. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2018, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Adaptación Táctica",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018"
+      ]
+    },
+    {
+      "id": "712e7ab7-d523-42d5-a61c-a973e3182bc7",
+      "timestamp": "2026-10-30T08:15:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "La máxima encarnación de la elegancia, control de balón y ruleta marsellesa en el mediocampo.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Zinedine Zidane. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 1998, UEFA Champions League 2002, Eurocopa 2000. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Elegancia Pura",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998",
+        "UEFA Champions League 2002",
+        "Eurocopa 2000",
+        "Balón de Oro 1998"
+      ]
+    },
+    {
+      "id": "035acd73-5146-4d15-81af-f3c3fe3e0735",
+      "timestamp": "2026-10-30T06:23:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Sus centros con rosca teledirigidos entre los centrales y el portero son imposibles de defender.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kevin De Bruyne. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023, 6 Premier League, Máximo Asistente histórico de Premier. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Pase Perfecto",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023",
+        "6 Premier League",
+        "Máximo Asistente histórico de Premier",
+        "2 Mejor Jugador PFA"
+      ]
+    },
+    {
+      "id": "2bb97bf2-edee-44b3-bc8d-f632dcbe22f7",
+      "timestamp": "2026-10-30T05:45:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Sus problemas personales y adicciones mancharon años dorados donde pudo haber dominado aún más.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Diego Maradona. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo México 1986, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Vida Extradeportiva",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "139fb722-3101-46f8-8bae-0442e3bbcfcb",
+      "timestamp": "2026-10-30T03:38:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "Ganar la Bota de Oro de Premier League sin patear un solo penal demuestra su colosal eficacia rematadora.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Son Heung-min. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Premier League 2022 (sin penales), Premio Puskás 2020, Oro Juegos Asiáticos 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Bota de Oro Limpia",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)",
+        "Premio Puskás 2020",
+        "Oro Juegos Asiáticos 2018",
+        "Finalista Champions 2019"
+      ]
+    },
+    {
+      "id": "b3b78029-4c8b-45bb-9339-4f9653ce1b80",
+      "timestamp": "2026-10-29T20:44:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "El Brasil de México 1970 liderado por Pelé es considerado el equipo más perfecto de todos los tiempos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Pelé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores, 2 Copas Intercontinentales. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Fútbol Arte",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores",
+        "2 Copas Intercontinentales",
+        "Más de 1200 goles oficiales y amistosos"
+      ]
+    },
+    {
+      "id": "02031b9a-64e7-4704-ad1d-f66660fa7697",
+      "timestamp": "2026-10-29T19:16:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "La lesión que lo dejó fuera del Mundial de Qatar 2022 fue un golpe durísimo para su carrera.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Sadio Mané. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Ausencia Mundialista",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "9438ba1f-43e3-4773-8f23-065e029460db",
+      "timestamp": "2026-10-29T18:24:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Fue el mejor jugador de la temporada 2023-2024 liderando el doblete de Liga y Champions.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Vinícius Júnior. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 UEFA Champions League (gol en final), 3 LaLiga de España, 1 Mundial de Clubes FIFA. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Mundial",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "3 LaLiga de España",
+        "1 Mundial de Clubes FIFA",
+        "Supercopa de Europa"
+      ]
+    },
+    {
+      "id": "e64adf89-e6d6-4553-beed-41dad1ea8ced",
+      "timestamp": "2026-10-29T14:28:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "Lideró al Atlético de Madrid a ganar LaLiga 2021 marcando goles agónicos y decisivos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Suárez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa América 2011, 2 Botas de Oro Europeas. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Campeón Rojiblanco",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa América 2011",
+        "2 Botas de Oro Europeas",
+        "5 LaLiga (Barcelona y Atlético)"
+      ]
+    },
+    {
+      "id": "cce623ee-354f-41a6-a6d0-c979eaf4cb23",
+      "timestamp": "2026-10-29T13:44:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "En la Serie A con la Roma explotó su velocidad y en Inglaterra se consagró como estrella mundial.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Mohamed Salah. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, 3 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Consagración Total",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "3 Botas de Oro Premier League",
+        "Mundial de Clubes FIFA"
+      ]
+    },
+    {
+      "id": "67deb0b8-3c17-4e90-a1c7-3888ae04b4d3",
+      "timestamp": "2026-10-29T13:36:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "En la MLS mantiene su olfato intacto aunque juega casi al trote por exigencia física.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Suárez. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Régimen Reducido",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "329b7c92-39a7-483f-9376-f6a6b655666f",
+      "timestamp": "2026-10-29T07:34:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "Histórico máximo goleador de Uruguay y figura absoluta en la conquista de la Copa América 2011.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Suárez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa América 2011, 2 Botas de Oro Europeas. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Ídolo Charrúa",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa América 2011",
+        "2 Botas de Oro Europeas",
+        "5 LaLiga (Barcelona y Atlético)"
+      ]
+    },
+    {
+      "id": "03c05ced-4e04-4cb1-8625-61ab75aaf76b",
+      "timestamp": "2026-10-29T07:27:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "Con la camiseta de la Selección Colombia siempre se transforma en un líder y genio futbolístico.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre James Rodríguez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024, 2 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe Tricolor",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "Mejor Jugador Copa América 2024",
+        "2 UEFA Champions League",
+        "2 LaLiga"
+      ]
+    },
+    {
+      "id": "3ee0bbc6-d8f0-453c-93c7-30e910cd13a5",
+      "timestamp": "2026-10-29T07:23:55.995789",
+      "jugador_id": "j003",
+      "jugador_nombre": "Neymar",
+      "opinion_usuario": "Tiene una creatividad y capacidad para romper cerrojos defensivos única en el fútbol moderno.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Neymar. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa Libertadores 2011, Oro Olímpico Río 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Desequilibrio Top",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa Libertadores 2011",
+        "Oro Olímpico Río 2016",
+        "Máximo goleador histórico de Brasil"
+      ]
+    },
+    {
+      "id": "872fc865-9697-4162-8988-9ab19cf57719",
+      "timestamp": "2026-10-29T05:14:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Triunfó con honores en la Serie A italiana en la época dorada de los mejores defensores del planeta.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldo Nazário. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 Copas del Mundo (1994, 2002), 2 Balones de Oro (1997, 2002), 2 Copas América. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Rey del Calcio",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)",
+        "2 Balones de Oro (1997, 2002)",
+        "2 Copas América",
+        "Bota de Oro Mundial 2002"
+      ]
+    },
+    {
+      "id": "d16d7449-8f36-4da2-bedd-dfd7b7f2109c",
+      "timestamp": "2026-10-28T23:57:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "Su gol de chilena a Brasil en el Maracaná demostró su inmensa capacidad acrobática.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Díaz. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Goleador Copa América 2021, FA Cup y Carabao Cup con Liverpool, 2 Primeira Liga con Porto. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Gol de Antología",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021",
+        "FA Cup y Carabao Cup con Liverpool",
+        "2 Primeira Liga con Porto",
+        "Finalista Champions 2022"
+      ]
+    },
+    {
+      "id": "d0c5fd5e-e62e-48b9-bd43-566819e09472",
+      "timestamp": "2026-10-28T21:22:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Físicamente no puede sostener el ida y vuelta de 90 minutos en partidos de máxima exigencia.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luka Modrić. Si bien su jerarquía está comprobada por logros como 6 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Minutos Medidos",
+      "titulos_relevantes": [
+        "6 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "61d807c2-e913-4a3e-a8df-c102171aa918",
+      "timestamp": "2026-10-28T20:38:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "En el Mundial 2002 Francia quedó eliminada en fase de grupos sin marcar un solo gol tras su lesión.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Zinedine Zidane. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 1998, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fracaso Colectivo",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998"
+      ]
+    },
+    {
+      "id": "c4a0ab14-0894-424c-8ecb-2cfcfe6bd411",
+      "timestamp": "2026-10-28T18:33:55.995789",
+      "jugador_id": "j010",
+      "jugador_nombre": "Kevin De Bruyne",
+      "opinion_usuario": "Domina el ritmo de los partidos grandes como nadie en la Premier League moderna.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kevin De Bruyne. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023, 6 Premier League, Máximo Asistente histórico de Premier. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Rey de la Premier",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023",
+        "6 Premier League",
+        "Máximo Asistente histórico de Premier",
+        "2 Mejor Jugador PFA"
+      ]
+    },
+    {
+      "id": "276ebc18-401d-4a59-89f4-6a5818e022ad",
+      "timestamp": "2026-10-28T18:10:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Toca muy pocos balones fuera del área y depende mucho de la generación de juego de De Bruyne y Foden.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Erling Haaland. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2023 (Triplete), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Dependencia Colectiva",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)"
+      ]
+    },
+    {
+      "id": "cc74b4ff-8f83-4145-9722-0e894359bf29",
+      "timestamp": "2026-10-28T16:25:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "El extremo más determinante y desequilibrante del mundo en partidos grandes de Champions.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Vinícius Júnior. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 UEFA Champions League (gol en final), 3 LaLiga de España, 1 Mundial de Clubes FIFA. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Determinante Absoluto",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "3 LaLiga de España",
+        "1 Mundial de Clubes FIFA",
+        "Supercopa de Europa"
+      ]
+    },
+    {
+      "id": "7ba37f0f-f297-4e57-8be2-5d97ff51957d",
+      "timestamp": "2026-10-28T11:55:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Su actitud en varios partidos calientes de LaLiga genera tarjetas amarillas innecesarias.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Vinícius Júnior. Desde una perspectiva objetiva, aunque su palmarés incluye 2 UEFA Champions League (gol en final), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Falta de Autocontrol",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)"
+      ]
+    },
+    {
+      "id": "edf906e2-0ef2-4618-9b60-d7a4ae2c6557",
+      "timestamp": "2026-10-28T11:10:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "El goleador más implacable y letal que ha visto este deporte, una máquina competitiva.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Cristiano Ronaldo. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Goleador Histórico",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico (900+ goles)"
+      ]
+    },
+    {
+      "id": "90467ff4-587b-4e3b-8049-426291a7eb07",
+      "timestamp": "2026-10-28T07:30:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "En el AC Milan dejó destellos de clase mundial pero ya sin la velocidad deslumbrante de Barcelona.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldinho. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2002, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Segunda Juventud Breve",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "741326f9-5780-498b-a19f-17b82333141c",
+      "timestamp": "2026-10-28T07:20:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "En la humillación del 2-8 contra el Bayern se evidenció el final de ciclo físico de la delantera culé.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luis Suárez. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2015, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Debacle Europea",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "8d52846d-49b9-403c-a7a6-bff3f0fe779c",
+      "timestamp": "2026-10-28T07:06:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "El fútbol de los años 60 tenía un ritmo físico y táctico muy inferior al fútbol profesional moderno.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Pelé. Desde una perspectiva objetiva, aunque su palmarés incluye 3 Copas del Mundo (1958, 1962, 1970), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Época Incomparable",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)"
+      ]
+    },
+    {
+      "id": "612b5c6d-7d78-4e56-a115-97b9e3764890",
+      "timestamp": "2026-10-28T02:53:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "La falta de títulos colectivos de élite con el Tottenham pesa injustamente en su palmarés general.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Son Heung-min. Si bien su jerarquía está comprobada por logros como Bota de Oro Premier League 2022 (sin penales), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Falta de Trofeos",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)"
+      ]
+    },
+    {
+      "id": "de120b01-21f6-4c4b-afe7-0df540d1f291",
+      "timestamp": "2026-10-28T01:16:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Las convulsiones y el misterio en la final del Mundial Francia 1998 afectaron la moral de todo Brasil.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Ronaldo Nazário. Desde una perspectiva objetiva, aunque su palmarés incluye 2 Copas del Mundo (1994, 2002), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Debacle en París 98",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)"
+      ]
+    },
+    {
+      "id": "7249e0eb-0f52-4d66-ad8f-bf53c77365a4",
+      "timestamp": "2026-10-28T00:00:55.995789",
+      "jugador_id": "j008",
+      "jugador_nombre": "Robert Lewandowski",
+      "opinion_usuario": "En la fase de grupos de Champions en Europa League con el Barça no pudo evitar eliminaciones duras.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Robert Lewandowski. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2020 (Sextete), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Caída Europea",
+      "titulos_relevantes": [
+        "UEFA Champions League 2020 (Sextete)"
+      ]
+    },
+    {
+      "id": "2b2a2ae7-ebdc-4003-af77-48df9d5d41f2",
+      "timestamp": "2026-10-27T23:13:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Si los centrales lo anticipan con marca férrea se desconecta anímicamente del partido.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Erling Haaland. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2023 (Triplete), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fácilmente Aislado",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)"
+      ]
+    },
+    {
+      "id": "35832ed9-89ee-4433-ab63-fbe22ebf9946",
+      "timestamp": "2026-10-27T20:22:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Una leyenda absoluta del Liverpool y uno de los mejores extremos zurdos en la historia de la Premier.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Mohamed Salah. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, 3 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Faraón de Anfield",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "3 Botas de Oro Premier League",
+        "Mundial de Clubes FIFA"
+      ]
+    },
+    {
+      "id": "6acfe4c1-9a4f-4b01-8144-c17f92662e10",
+      "timestamp": "2026-10-27T19:27:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Las malditas lesiones de rodilla nos privaron de ver al menos 5 o 6 años más de su versión más salvaje.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Ronaldo Nazário. Si bien su jerarquía está comprobada por logros como 2 Copas del Mundo (1994, 2002), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Tragedia de Rodillas",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)"
+      ]
+    },
+    {
+      "id": "32e812fc-2ab7-4f07-8192-da685258c674",
+      "timestamp": "2026-10-27T19:08:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "Rompio el récord histórico de goles en una sola temporada de Premier League en su año de debut.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Erling Haaland. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2023 (Triplete), 2 Premier League, 2 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Récord Histórico",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)",
+        "2 Premier League",
+        "2 Botas de Oro Premier League",
+        "Bota de Oro Europea"
+      ]
+    },
+    {
+      "id": "ac2faef5-ca3f-4f54-a20b-041656a78b8e",
+      "timestamp": "2026-10-27T18:16:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "Marcar un triplete en una final de Copa del Mundo con solo 23 años está al alcance de elegidos.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kylian Mbappé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2018, Bota de Oro Mundial 2022, 6 Ligue 1. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Jerarquía Mundial",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "6 Ligue 1",
+        "UEFA Nations League 2021"
+      ]
+    },
+    {
+      "id": "52acc49e-a05f-4937-9740-66fefdf1b30d",
+      "timestamp": "2026-10-27T15:45:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Anotar en dos finales distintas de Champions League con el Real Madrid demuestra su carácter gigante.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Vinícius Júnior. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 UEFA Champions League (gol en final), 3 LaLiga de España, 1 Mundial de Clubes FIFA. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe de Champions",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)",
+        "3 LaLiga de España",
+        "1 Mundial de Clubes FIFA",
+        "Supercopa de Europa"
+      ]
+    },
+    {
+      "id": "d9cca727-8a89-41c5-bfef-32af03a10a38",
+      "timestamp": "2026-10-27T15:27:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "Con Corea del Sur en Copas de Asia ha tenido derrotas dolorosas en fases definitorias.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Son Heung-min. Si bien su jerarquía está comprobada por logros como Bota de Oro Premier League 2022 (sin penales), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Sin Copa Asiática",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)"
+      ]
+    },
+    {
+      "id": "f6b70dd1-80be-4ad7-9994-d5004e67bfd8",
+      "timestamp": "2026-10-27T14:41:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Pieza clave para romper la sequía de 30 años sin título de Premier League en Liverpool.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Mohamed Salah. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, 3 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe Red",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "3 Botas de Oro Premier League",
+        "Mundial de Clubes FIFA"
+      ]
+    },
+    {
+      "id": "f44b8edd-29f4-4d18-827a-ad0b303da175",
+      "timestamp": "2026-10-27T13:23:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "Su capacidad de salto y remate de cabeza no tiene comparación en la historia del fútbol.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Cristiano Ronaldo. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Potencia Pura",
+      "titulos_relevantes": [
+        "5 UEFA Champions League",
+        "5 Balones de Oro",
+        "Eurocopa 2016",
+        "Máximo goleador histórico (900+ goles)"
+      ]
+    },
+    {
+      "id": "7b35c56e-443b-4700-94c1-42e92ebf1fe0",
+      "timestamp": "2026-10-27T12:42:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "Romper la hegemonía de Messi y Cristiano ganando el Balón de Oro 2018 fue totalmente merecido.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luka Modrić. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 6 UEFA Champions League, Balón de Oro 2018, Subcampeón del Mundo 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Balón de Oro",
+      "titulos_relevantes": [
+        "6 UEFA Champions League",
+        "Balón de Oro 2018",
+        "Subcampeón del Mundo 2018",
+        "Bronce Mundial 2022"
+      ]
+    },
+    {
+      "id": "5551137e-382d-4970-a0b5-35d654e1c5d5",
+      "timestamp": "2026-10-27T11:02:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "La 'Mano de Dios' ante Inglaterra, aunque mítica culturalmente, fue una trampa antideportiva.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Diego Maradona. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo México 1986, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Trampa Arbitral",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986"
+      ]
+    },
+    {
+      "id": "db39bab7-0f0f-4688-8753-17a7d4175bd5",
+      "timestamp": "2026-10-27T10:48:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "La pérdida de disciplina deportiva y la afición por la vida nocturna arruinaron el final de su etapa culé.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Ronaldinho. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2002, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Declive Físico",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "1cfa51d5-4bb2-462f-8444-4f39b70b3879",
+      "timestamp": "2026-10-27T06:37:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "Cuando los rivales se encierran en bloque bajo le cuesta más encontrar espacios para su velocidad.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kylian Mbappé. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2018, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Espacios Reducidos",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018"
+      ]
+    },
+    {
+      "id": "ba1fbf02-072b-4a9f-a704-d504ee0e12f3",
+      "timestamp": "2026-10-27T04:46:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "En partidos con transiciones vertiginosas de ida y vuelta sufre si el rival rompe el mediocampo.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luka Modrić. Desde una perspectiva objetiva, aunque su palmarés incluye 6 UEFA Champions League, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Desbordado en Repliegue",
+      "titulos_relevantes": [
+        "6 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "ec9ad164-e56f-44eb-a21b-c1b66ee266ea",
+      "timestamp": "2026-10-27T04:38:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "Campeón del mundo a los 19 años siendo figura consagrada con la selección de Francia.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Kylian Mbappé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2018, Bota de Oro Mundial 2022, 6 Ligue 1. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Fenómeno Joven",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "6 Ligue 1",
+        "UEFA Nations League 2021"
+      ]
+    },
+    {
+      "id": "d63c373b-6bab-4418-bada-3c7b0400901b",
+      "timestamp": "2026-10-27T04:29:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Anotó el penal decisivo para darle a Senegal la primera Copa Africana de Naciones de su historia.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Sadio Mané. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, Copa Africana de Naciones 2022. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Héroe Nacional",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "Copa Africana de Naciones 2022",
+        "Bota de Oro Premier"
+      ]
+    },
+    {
+      "id": "f8252e78-bdd2-4cce-abd7-577bb4ce7bff",
+      "timestamp": "2026-10-27T03:07:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "La grave lesión de rodilla que sufrió en 2022 frenó durante varios meses su mejor momento.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Díaz. Si bien su jerarquía está comprobada por logros como Goleador Copa América 2021, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Pausa por Lesión",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021"
+      ]
+    },
+    {
+      "id": "79d0196f-f0d4-4d18-9ea7-f19f5c95b156",
+      "timestamp": "2026-10-27T02:14:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "En los momentos de bajón colectivo del Liverpool a veces se aísla pegado a la banda derecha.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Mohamed Salah. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2019, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Aislamiento Táctico",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "d2682259-a55e-48bb-bffe-68184f3eb105",
+      "timestamp": "2026-10-27T02:01:55.995789",
+      "jugador_id": "j005",
+      "jugador_nombre": "Erling Haaland",
+      "opinion_usuario": "En varias semifinales y finales decisivas con el Manchester City ha pasado completamente desapercibido.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Erling Haaland. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2023 (Triplete), los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Desaparecido en Finales",
+      "titulos_relevantes": [
+        "UEFA Champions League 2023 (Triplete)"
+      ]
+    },
+    {
+      "id": "e8ec814b-e001-4c11-9dfe-46036730711c",
+      "timestamp": "2026-10-26T22:23:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Ocho Balones de Oro avalan una consistencia de más de 15 años en la cumbre mundial.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Lionel Messi. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "G.O.A.T.",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "e0a68c80-0e1b-4735-b4b6-e8a24738217e",
+      "timestamp": "2026-10-26T20:02:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "En partidos trabados y físicos en Inglaterra a veces abusa del regate hacia adentro.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Díaz. Si bien su jerarquía está comprobada por logros como Goleador Copa América 2021, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Previsible al Centro",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021"
+      ]
+    },
+    {
+      "id": "77115d9d-698f-4130-a17d-4fee6d460602",
+      "timestamp": "2026-10-26T18:38:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "En la Eurocopa 2024 su rendimiento individual estuvo muy por debajo de lo esperado.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Kylian Mbappé. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2018, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Bajo Impacto",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018"
+      ]
+    },
+    {
+      "id": "70a15a03-43b4-49cf-95f2-b59e62576ac9",
+      "timestamp": "2026-10-26T17:52:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "Ganar el Mundial de Qatar 2022 coronó la carrera más perfecta e influyente del deporte.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Lionel Messi. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Leyenda Absoluta",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ]
+    },
+    {
+      "id": "2b3a42b2-d5e4-452e-a16b-7ac18298876e",
+      "timestamp": "2026-10-26T17:25:55.995789",
+      "jugador_id": "j009",
+      "jugador_nombre": "Luka Modrić",
+      "opinion_usuario": "En la Eurocopa 2024 Croacia no pudo superar la fase de grupos en el adiós de su generación dorada.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luka Modrić. Si bien su jerarquía está comprobada por logros como 6 UEFA Champions League, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Cierre Amargo",
+      "titulos_relevantes": [
+        "6 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "86767de4-bfa8-4611-99dc-34a4a48ec94a",
+      "timestamp": "2026-10-26T17:13:55.995789",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "Dominó el fútbol sudamericano y mundial con el Santos derrotando a los gigantes europeos en Intercontinentales.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Pelé. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores, 2 Copas Intercontinentales. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Bicampeón del Mundo",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores",
+        "2 Copas Intercontinentales",
+        "Más de 1200 goles oficiales y amistosos"
+      ]
+    },
+    {
+      "id": "d55df697-49a2-4a38-ab72-88fefdee891f",
+      "timestamp": "2026-10-26T16:26:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "En la final de Champions contra el Real Madrid en París no pudo definir las jugadas clave.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Mohamed Salah. Desde una perspectiva objetiva, aunque su palmarés incluye UEFA Champions League 2019, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Fallo en Final",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "b12cb7e5-4c0f-4eec-ba32-e43a8838139d",
+      "timestamp": "2026-10-26T16:23:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "A lo largo de su carrera tuvo periodos en liga donde regulaba esfuerzos y desaparecía en partidos chicos.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Zinedine Zidane. Si bien su jerarquía está comprobada por logros como Copa del Mundo 1998, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Aparición Selectiva",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998"
+      ]
+    },
+    {
+      "id": "1962891f-0848-4b73-a8fb-0d37881fc859",
+      "timestamp": "2026-10-26T16:08:55.995789",
+      "jugador_id": "j020",
+      "jugador_nombre": "Ronaldo Nazário",
+      "opinion_usuario": "Su bicicleta y regate en velocidad dejando en el piso a porteros y defensores era sencillamente imparable.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Ronaldo Nazário. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como 2 Copas del Mundo (1994, 2002), 2 Balones de Oro (1997, 2002), 2 Copas América. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Regate Letal",
+      "titulos_relevantes": [
+        "2 Copas del Mundo (1994, 2002)",
+        "2 Balones de Oro (1997, 2002)",
+        "2 Copas América",
+        "Bota de Oro Mundial 2002"
+      ]
+    },
+    {
+      "id": "7ccda004-7950-4536-bb10-9fe5a6be12cf",
+      "timestamp": "2026-10-26T14:43:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "En su primera temporada en el Real Madrid (2014-15) registró números espectaculares de goles y pases gol.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre James Rodríguez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Mundial 2014, Mejor Jugador Copa América 2024, 2 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Debut Soñado",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014",
+        "Mejor Jugador Copa América 2024",
+        "2 UEFA Champions League",
+        "2 LaLiga"
+      ]
+    },
+    {
+      "id": "f4c97260-c78d-41c5-9cbf-064281cd9ce1",
+      "timestamp": "2026-10-26T14:22:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Su zurda acariciaba la pelota con un magnetismo y precisión que parecía desafiar las leyes de la física.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Diego Maradona. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo México 1986, 2 Scudettos Serie A con Napoli, Copa UEFA 1989. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Magia Inigualable",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986",
+        "2 Scudettos Serie A con Napoli",
+        "Copa UEFA 1989",
+        "Subcampeón del Mundo 1990"
+      ]
+    },
+    {
+      "id": "e4d06f46-b9f2-4f2a-9740-f243fc80974c",
+      "timestamp": "2026-10-26T13:57:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "En 2022 quedó segundo en el Balón de Oro tras una temporada espectacular a nivel de club y selección.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Sadio Mané. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, Copa Africana de Naciones 2022. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Élite Mundial",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "Copa Africana de Naciones 2022",
+        "Bota de Oro Premier"
+      ]
+    },
+    {
+      "id": "3a710998-264d-4151-bf85-868a7e976577",
+      "timestamp": "2026-10-26T12:52:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "En el tridente MSN aportaba garra, desmarques demoledores y una cantidad bestial de goles y asistencias.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Luis Suárez. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2015, Copa América 2011, 2 Botas de Oro Europeas. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Tridente de Época",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015",
+        "Copa América 2011",
+        "2 Botas de Oro Europeas",
+        "5 LaLiga (Barcelona y Atlético)"
+      ]
+    },
+    {
+      "id": "fa204994-c973-4114-b187-cba38cb831a1",
+      "timestamp": "2026-10-26T08:28:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "El mejor futbolista asiático de todos los tiempos, respetado unánimemente en toda la Premier League.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Son Heung-min. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Premier League 2022 (sin penales), Premio Puskás 2020, Oro Juegos Asiáticos 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Orgullo de Asia",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)",
+        "Premio Puskás 2020",
+        "Oro Juegos Asiáticos 2018",
+        "Finalista Champions 2019"
+      ]
+    },
+    {
+      "id": "5bd55971-dcc9-45a2-a020-d3d217e931f4",
+      "timestamp": "2026-10-26T06:50:55.995789",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "Para competir por ser top 5 mundial necesita elevar su cifra goleadora a más de 15 goles por liga.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Luis Díaz. Desde una perspectiva objetiva, aunque su palmarés incluye Goleador Copa América 2021, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Bajo Registro Goleador",
+      "titulos_relevantes": [
+        "Goleador Copa América 2021"
+      ]
+    },
+    {
+      "id": "3436f2c4-90b9-40b6-b700-4bfeb82d3f7b",
+      "timestamp": "2026-10-26T06:41:55.995789",
+      "jugador_id": "j015",
+      "jugador_nombre": "Sadio Mané",
+      "opinion_usuario": "Su paso por el Bayern Múnich no cumplió con las enormes expectativas tras la salida de Lewandowski.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Sadio Mané. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2019, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Paso Opaco por Bayern",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019"
+      ]
+    },
+    {
+      "id": "bebf0c09-78f7-46e0-ad33-0cf097bd806d",
+      "timestamp": "2026-10-26T06:39:55.995789",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_usuario": "A veces su frustración en la cancha cuando el equipo no le asiste afecta el ambiente del vestuario.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Cristiano Ronaldo. Desde una perspectiva objetiva, aunque su palmarés incluye 5 UEFA Champions League, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Actitud Cuestionable",
+      "titulos_relevantes": [
+        "5 UEFA Champions League"
+      ]
+    },
+    {
+      "id": "a6281aef-3df9-4a3a-a60d-89b45991227a",
+      "timestamp": "2026-10-26T05:23:55.995789",
+      "jugador_id": "j007",
+      "jugador_nombre": "Mohamed Salah",
+      "opinion_usuario": "Tiene un recorte hacia adentro y disparo colocado al palo largo prácticamente indefendible.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Mohamed Salah. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como UEFA Champions League 2019, Premier League 2020, 3 Botas de Oro Premier League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Zurda Prodigiosa",
+      "titulos_relevantes": [
+        "UEFA Champions League 2019",
+        "Premier League 2020",
+        "3 Botas de Oro Premier League",
+        "Mundial de Clubes FIFA"
+      ]
+    },
+    {
+      "id": "cde11e2e-f51b-43e8-989e-bb5a2884cbaa",
+      "timestamp": "2026-10-26T04:06:55.995789",
+      "jugador_id": "j017",
+      "jugador_nombre": "Diego Maradona",
+      "opinion_usuario": "Su actuación en México 1986 con el 'Gol del Siglo' a Inglaterra es la cumbre individual de un Mundial.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Diego Maradona. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo México 1986, 2 Scudettos Serie A con Napoli, Copa UEFA 1989. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Gol del Siglo",
+      "titulos_relevantes": [
+        "Copa del Mundo México 1986",
+        "2 Scudettos Serie A con Napoli",
+        "Copa UEFA 1989",
+        "Subcampeón del Mundo 1990"
+      ]
+    },
+    {
+      "id": "e49f1169-df05-4390-8854-a04db3245007",
+      "timestamp": "2026-10-26T04:02:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "A veces abusa de la jugada individual en vez de asociarse en corto con sus mediocampistas.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Kylian Mbappé. Si bien su jerarquía está comprobada por logros como Copa del Mundo 2018, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Individualista",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018"
+      ]
+    },
+    {
+      "id": "73125648-34fd-4b51-b492-c2ee91e953fa",
+      "timestamp": "2026-10-26T03:17:55.995789",
+      "jugador_id": "j011",
+      "jugador_nombre": "Luis Suárez",
+      "opinion_usuario": "Sus problemas crónicos de rodilla limitaron drásticamente su movilidad en el fútbol de élite europea.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Luis Suárez. Si bien su jerarquía está comprobada por logros como UEFA Champions League 2015, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Desgaste de Rodilla",
+      "titulos_relevantes": [
+        "UEFA Champions League 2015"
+      ]
+    },
+    {
+      "id": "9351b585-f7c5-4407-915f-ea9e7638e6b8",
+      "timestamp": "2026-10-25T23:33:55.995789",
+      "jugador_id": "j014",
+      "jugador_nombre": "Son Heung-min",
+      "opinion_usuario": "Maneja la pierna derecha y la zurda con exactamente el mismo nivel de potencia y precisión.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Son Heung-min. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Bota de Oro Premier League 2022 (sin penales), Premio Puskás 2020, Oro Juegos Asiáticos 2018. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Ambidiestro Supremo",
+      "titulos_relevantes": [
+        "Bota de Oro Premier League 2022 (sin penales)",
+        "Premio Puskás 2020",
+        "Oro Juegos Asiáticos 2018",
+        "Finalista Champions 2019"
+      ]
+    },
+    {
+      "id": "f836a676-31ad-460d-89ef-51ebefa1d92d",
+      "timestamp": "2026-10-25T23:12:55.995789",
+      "jugador_id": "j018",
+      "jugador_nombre": "Zinedine Zidane",
+      "opinion_usuario": "No era un mediocampista con grandes registros goleadores numéricos en comparación con otros '10'.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Zinedine Zidane. Si bien su jerarquía está comprobada por logros como Copa del Mundo 1998, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Bajo Promedio Goleador",
+      "titulos_relevantes": [
+        "Copa del Mundo 1998"
+      ]
+    },
+    {
+      "id": "8d720835-232b-4cfa-be38-8250b9a47a1c",
+      "timestamp": "2026-10-25T22:47:55.995789",
+      "jugador_id": "j019",
+      "jugador_nombre": "Ronaldinho",
+      "opinion_usuario": "Su falta de profesionalismo le impidió mantenerse en la cima durante toda una década.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Ronaldinho. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2002, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Autoboicot Deportivo",
+      "titulos_relevantes": [
+        "Copa del Mundo 2002"
+      ]
+    },
+    {
+      "id": "40b7ef35-7134-4c8d-a253-d19a402721c1",
+      "timestamp": "2026-10-25T20:40:55.995789",
+      "jugador_id": "j006",
+      "jugador_nombre": "Vinícius Júnior",
+      "opinion_usuario": "Con la selección de Brasil todavía le cuesta replicar el nivel superlativo que muestra en el Real Madrid.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre Vinícius Júnior. Si bien su jerarquía está comprobada por logros como 2 UEFA Champions League (gol en final), los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Deuda con Brasil",
+      "titulos_relevantes": [
+        "2 UEFA Champions League (gol en final)"
+      ]
+    },
+    {
+      "id": "7d821ca1-a777-45fa-8c1d-406f8a885923",
+      "timestamp": "2026-10-25T18:11:55.995789",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "Su sacrificio defensivo sin balón suele ser muy bajo, obligando al resto del equipo a compensar.",
+      "sentimiento": "negativo",
+      "color_rendimiento": "rojo",
+      "analisis_objetivo": "Crítica rigurosa hacia aspectos puntuales de Kylian Mbappé. Desde una perspectiva objetiva, aunque su palmarés incluye Copa del Mundo 2018, los señalamientos de la afición corresponden a deficiencias comprobables, pérdidas de protagonismo o bajones estadísticos notorios.",
+      "evaluacion_rendimiento": "Carente de Marca",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018"
+      ]
+    },
+    {
+      "id": "0a48f92b-3070-42e6-ae52-6ee5a09bc487",
+      "timestamp": "2026-10-25T17:31:55.995789",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_usuario": "A nivel de clubes no ha podido replicar la consistencia y el fuego sagrado que muestra con Colombia.",
+      "sentimiento": "neutral",
+      "color_rendimiento": "amarillo",
+      "analisis_objetivo": "Evaluación moderada sobre James Rodríguez. Si bien su jerarquía está comprobada por logros como Bota de Oro Mundial 2014, los datos reflejan momentos de irregularidad, condicionamiento físico o adaptación táctica que justifican una calificación intermedia.",
+      "evaluacion_rendimiento": "Doble Cara",
+      "titulos_relevantes": [
+        "Bota de Oro Mundial 2014"
+      ]
+    },
+    {
+      "id": "b5876161-71cc-413d-8c69-9d6024f55199",
+      "timestamp": "2026-10-25T13:09:55.995789",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "El mejor de toda la historia del fútbol, su visión de juego y regate son irrepetibles.",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Opinión elogiosa plenamente justificada sobre Lionel Messi. Su rendimiento histórico y palmarés avalan la percepción: cuenta con títulos decisivos como Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League. Su impacto deportivo lo sitúa en la élite internacional.",
+      "evaluacion_rendimiento": "Sobresaliente / Leyenda",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
       ]
     }
   ]
