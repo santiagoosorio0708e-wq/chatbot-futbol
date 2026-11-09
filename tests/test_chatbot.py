@@ -156,3 +156,35 @@ def test_deteccion_rivales_sin_ambiguedad():
     assert d("compara a messi con ronaldo", "j001")["nombre"] == "Cristiano Ronaldo"
     assert d("Compara a Luis Díaz con Son Heung-min", "j013")["nombre"] == "Son Heung-min"
     assert d("¿Qué opinas de este jugador?", "j001") is None
+
+
+def test_consulta_fuera_de_dominio():
+    """Si el usuario pregunta por temas ajenos al fútbol, la IA debe avisar que es solo de fútbol."""
+    jugador = gestor_datos.buscar_jugador_por_id("j001")
+    consultas_no_futbol = [
+        "¿Cómo preparar arroz con pollo y plátano maduro?",
+        "Escribe un código en Python para ordenar una lista con quicksort",
+        "¿Quién fue Albert Einstein y qué descubrió?",
+        "¿Cuál es la capital de Australia?",
+        "¿Cómo reparar la batería de mi automóvil?",
+    ]
+    for consulta in consultas_no_futbol:
+        res = motor_ia.procesar_opinion(jugador, consulta)
+        assert "exclusivamente para análisis futbolísticos" in res["analisis_objetivo"].lower()
+        assert res["sentimiento"] == "neutral"
+        assert res["color_rendimiento"] == "amarillo"
+
+
+def test_consulta_futbolistica_valida():
+    """Preguntas deportivas legítimas se analizan con normalidad."""
+    jugador = gestor_datos.buscar_jugador_por_id("j005")  # Haaland
+    consultas_futbol = [
+        "¿Cuántos goles ha anotado en la Champions League?",
+        "Compara a Erling Haaland con Kylian Mbappé",
+        "Me parece un delantero goleador impresionante",
+    ]
+    for consulta in consultas_futbol:
+        res = motor_ia.procesar_opinion(jugador, consulta)
+        assert "exclusivamente para análisis futbolísticos" not in res["analisis_objetivo"].lower()
+        assert res["color_rendimiento"] in ["verde", "amarillo", "rojo"]
+

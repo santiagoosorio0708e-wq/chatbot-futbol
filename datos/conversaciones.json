@@ -29,8 +29,20 @@
           ],
           "id_registro": "47867211-a81c-4cff-a8ca-d0a39e92958b",
           "jugador_comp_id": "j004"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j002",
+          "jugador_nombre": "Cristiano Ronaldo",
+          "sentimiento": "neutral",
+          "color_rendimiento": "amarillo",
+          "analisis": "Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, tácticas, estadísticas, competiciones o rendimiento en cancha.",
+          "rendimiento": "Consulta fuera del ámbito futbolístico",
+          "titulos": [],
+          "id_registro": "9313958c-2e2c-4196-adfb-65e86a4f29a5"
         }
-      ]
+      ],
+      "fecha_actualizacion": "2026-11-09T18:28:13.664496"
     },
     {
       "id": "conv_930b8b51",

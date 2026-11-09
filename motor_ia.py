@@ -195,6 +195,114 @@ def _normalizar(texto: str) -> str:
 # Palabras que aparecen en el nombre de más de un futbolista: se resuelven hacia el más conocido
 _ALIAS_AMBIGUOS = {"ronaldo": "j002"}
 
+# Vocabulario futbolístico exhaustivo para verificación estricta de dominio
+VOCABULARIO_FUTBOL = {
+    # Deportes y conceptos futbolísticos
+    "futbol", "futbolistico", "futbolistica", "futbolistas", "futbolista", "soccer",
+    "partido", "partidos", "tiempo", "tiempos", "minuto", "minutos", "cancha", "estadio",
+    "pelota", "balon", "balones", "esferico", "cesped", "graderia", "tribuna",
+    # Acciones y dinámica de juego
+    "gol", "goles", "golazo", "golazos", "asistencia", "asistencias", "asistir",
+    "pase", "pases", "centro", "centros", "remate", "remates", "tiro", "tiros",
+    "disparo", "disparos", "regate", "regates", "dribbling", "driblar", "gambeta",
+    "penal", "penalti", "penaltis", "penales", "falta", "faltas", "tiro libre",
+    "corner", "corners", "saque", "saques", "fuera de juego", "offside", "var",
+    "tarjeta", "tarjetas", "amarilla", "roja", "expulsion",
+    "jugar", "jugado", "juega", "jugador", "jugadores", "jugadon",
+    "ataque", "ofensiva", "delantero", "delanteros", "extremo", "extremos",
+    "mediocampo", "mediocampista", "volante", "pivote", "defensa", "defensas",
+    "central", "centrales", "lateral", "laterales", "arquero", "portero", "guardameta",
+    # Premios, títulos y competiciones
+    "titulo", "titulos", "trofeo", "trofeos", "campeon", "campeones", "campeonato",
+    "copa", "copas", "mundial", "mundiales", "champions", "orejona", "libertadores",
+    "eurocopa", "balon de oro", "bota de oro", "the best", "pichichi", "scudetto",
+    "triplete", "sextete", "estrella", "estrellas", "palmares", "record", "records",
+    "liga", "ligas", "laliga", "premier", "serie a", "bundesliga", "ligue 1", "eredivisie",
+    "clasico", "derbi", "derby", "semifinal", "final", "cuartos", "fase de grupos",
+    "fifa", "uefa", "conmebol",
+    # Análisis, táctica y mercado
+    "tactica", "tactico", "tacticas", "estrategia", "formacion", "alineacion",
+    "dt", "entrenador", "tecnico", "fichaje", "fichajes", "traspaso", "transferencia", "mercado",
+    "rendimiento", "nivel", "forma", "rating", "estadistica", "estadisticas", "stats",
+    "sobrevalorado", "infravalorado", "crack", "leyenda", "goat", "top", "elite",
+    "goleador", "goleadores", "artillero", "artilleros", "asistidor",
+    "comparar", "compara", "comparativa", "versus", "vs", "rival", "rivales",
+    # Clubes y selecciones destacados
+    "club", "clubes", "equipo", "equipos", "seleccion", "selecciones",
+    "madrid", "barcelona", "barca", "city", "united", "liverpool", "chelsea",
+    "arsenal", "tottenham", "bayern", "dortmund", "psg", "juventus", "inter",
+    "milan", "napoli", "roma", "atletico", "sevilla", "boca", "river", "flamengo",
+    "al nassr", "inter miami",
+    # Figuras futbolísticas globales
+    "messi", "cristiano", "ronaldo", "neymar", "mbappe", "haaland", "vinicius",
+    "salah", "lewandowski", "modric", "debruyne", "suarez", "james", "diaz",
+    "son", "mane", "pele", "maradona", "zidane", "ronaldinho", "nazario",
+    "bellingham", "kane", "rodri", "yamal", "pedri", "gavi", "kroos", "benzema",
+    "aguero", "iniesta", "xavi", "casillas", "buffon", "ramos", "pique", "neuer"
+}
+
+MENSAJE_SOLO_FUTBOL = (
+    "Esta IA es exclusivamente para análisis futbolísticos. "
+    "Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, "
+    "tácticas, estadísticas, competiciones o rendimiento en cancha."
+)
+
+RESPUESTA_FUERA_DE_DOMINIO: Dict[str, Any] = {
+    "sentimiento": "neutral",
+    "color_rendimiento": "amarillo",
+    "analisis_objetivo": MENSAJE_SOLO_FUTBOL,
+    "evaluacion_rendimiento": "Consulta fuera del ámbito futbolístico",
+    "titulos_relevantes": [],
+    "fuera_de_dominio": True,
+}
+
+
+EVALUADORES_DEPORTIVOS = {
+    "bueno", "malo", "pesimo", "pésimo", "crack", "regular", "rinde", "nivel",
+    "calidad", "sobrevalorado", "inflado", "pecho frio", "estrella", "idolo",
+    "horrible", "mediocre", "goleador", "fracaso", "figura", "talentoso",
+    "limitado", "determinante", "campeon", "titular", "suplente", "banca"
+}
+
+
+def es_consulta_futbolistica(texto: str, jugador: Optional[Dict[str, str]] = None) -> bool:
+    """Valida estrictamente si una consulta del usuario corresponde al dominio futbolístico."""
+    if not texto or not texto.strip():
+        return False
+    texto_n = _normalizar(texto)
+    palabras = set(re.findall(r"[a-z0-9]+", texto_n))
+
+    # 1. Si menciona el nombre o país del futbolista en contexto, o evalúa su nivel
+    if jugador:
+        nombre_j = _normalizar(jugador.get("nombre", ""))
+        if nombre_j and (nombre_j in texto_n or any(len(p) >= 3 and p in palabras for p in nombre_j.split())):
+            return True
+        pais_j = _normalizar(jugador.get("pais", ""))
+        if pais_j and pais_j in palabras:
+            return True
+        if any(e in texto_n for e in EVALUADORES_DEPORTIVOS):
+            return True
+
+    # 2. Si coincide con algún término del vocabulario futbolístico
+    for v in VOCABULARIO_FUTBOL:
+        v_n = _normalizar(v)
+        if " " in v_n:
+            if v_n in texto_n:
+                return True
+        elif v_n in palabras:
+            return True
+
+    # 3. Si menciona a algún jugador de la base de conocimiento
+    for info in BASE_JUGADORES.values():
+        if _normalizar(info["nombre"]) in texto_n:
+            return True
+        for p in _normalizar(info["nombre"]).split():
+            if len(p) >= 4 and p in palabras:
+                return True
+
+    return False
+
+
 
 def detectar_jugador_comparado(texto: str, jugador_actual_id: str) -> Optional[Dict[str, Any]]:
     """Detecta si en la consulta se menciona a otro futbolista para realizar una comparativa.
@@ -271,6 +379,12 @@ def analizar_con_gemini(
         "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
         "y sus títulos obtenidos a nivel de clubes y selecciones. Si se pide una comparación con otro futbolista, "
         "debes contrastar objetivamente a ambos futbolistas destacando sus méritos deportivos.\n"
+        "REGLA ESTRICTA DE ÁMBITO: Esta IA es exclusivamente para análisis futbolísticos. "
+        "Si la consulta, opinión o pregunta del aficionado trata sobre cualquier tema ajeno al fútbol "
+        "(por ejemplo: cocina, recetas, tareas escolares, programación, ciencias, política, clima o cualquier tema no deportivo), "
+        "DEBES responder en analisis_objetivo exactamente: "
+        "'Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, competiciones o rendimiento deportivo.' "
+        "En ese caso, asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
         "Reglas de semáforo (color_rendimiento):\n"
         "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
         "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
@@ -337,6 +451,11 @@ def analizar_con_openai(
         "Tu misión es analizar la opinión de un aficionado sobre un futbolista específico y generar "
         "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
         "y sus títulos obtenidos a nivel de clubes y selecciones.\n"
+        "REGLA ESTRICTA DE ÁMBITO: Esta IA es exclusivamente para análisis futbolísticos. "
+        "Si la consulta trata sobre cualquier tema ajeno al fútbol (cocina, programación, política, tareas, etc.), "
+        "DEBES responder en analisis_objetivo exactamente: "
+        "'Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, competiciones o rendimiento deportivo.' "
+        "Asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
         "Reglas de semáforo (color_rendimiento):\n"
         "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
         "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
@@ -386,6 +505,9 @@ def analizar_heuristica_rapida(
     Motor local de alta velocidad. Proporciona análisis futbolístico objetivo
     incluso si no hay conexión a internet o cuota de API.
     """
+    if not es_consulta_futbolistica(opinion_usuario, jugador):
+        return dict(RESPUESTA_FUERA_DE_DOMINIO)
+
     texto = opinion_usuario.lower()
     
     frases_negativas = [
@@ -503,10 +625,14 @@ def procesar_opinion(
 ) -> Dict[str, Any]:
     """
     Punto de entrada principal para el análisis.
-    1. Si hay clave Gemini (AQ... o AIza...), usa Google Gemini con JSON Schema protegido por timeout.
-    2. Si hay clave OpenAI (sk-...), usa OpenAI con JSON Schema protegido por timeout.
-    3. Si falla la llamada externa o excede 7 segundos, utiliza el motor heurístico local ultra rápido.
+    1. Si la consulta está fuera del ámbito futbolístico, responde de inmediato con la restricción de dominio.
+    2. Si hay clave Gemini (AQ... o AIza...), usa Google Gemini con JSON Schema protegido por timeout.
+    3. Si hay clave OpenAI (sk-...), usa OpenAI con JSON Schema protegido por timeout.
+    4. Si falla la llamada externa o excede 7 segundos, utiliza el motor heurístico local ultra rápido.
     """
+    if not es_consulta_futbolistica(opinion_usuario, jugador):
+        return dict(RESPUESTA_FUERA_DE_DOMINIO)
+
     gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     openai_key = os.getenv("OPENAI_API_KEY")
 

@@ -333,13 +333,6 @@ with col_der:
                 width="stretch", key="qa_transfers",
             )
 
-        pos = IDS.index(jugador_id)
-        rival_id = IDS[pos ^ 1] if (pos ^ 1) < len(IDS) else IDS[0]
-        st.button(
-            f"⚔️ Comparar con {nombre_de(rival_id)}", on_click=cb_prompt,
-            args=(f"Compara a {jugador_actual['nombre']} con {nombre_de(rival_id)} y dime quién es mejor",),
-            width="stretch", key="qa_comp",
-        )
         st.button("📊 Ver opiniones guardadas", on_click=cb_ir_opiniones, args=(jugador_id,),
                   width="stretch", key="qa_ops")
         st.button("🏅 Ranking de futbolistas", on_click=cb_ir_ranking, width="stretch", key="qa_rank")
@@ -381,6 +374,38 @@ def render_mensaje(msg):
                 f'<div class="msg-user-row"><div class="bubble-user">{esc(msg.get("contenido", ""))}</div>'
                 f'{escudo_user}</div>'
             ),
+            unsafe_allow_html=True,
+        )
+        return
+
+    analisis_texto = msg.get("analisis", "")
+    rendimiento_texto = msg.get("rendimiento", "")
+    es_fuera_de_dominio = (
+        msg.get("fuera_de_dominio")
+        or "fuera del ámbito futbolístico" in rendimiento_texto.lower()
+        or "exclusivamente para análisis futbolísticos" in analisis_texto.lower()
+    )
+
+    if es_fuera_de_dominio:
+        st.markdown(
+            limpiar_html(f"""
+            <div class="msg-bot-row">
+                <div class="bot-head">
+                    <span class="bot-icon-glow">🤖</span>
+                    <span class="bot-name">SOCCER AGENT</span>
+                    <span class="pill pill-amarillo">⚠️ Solo Análisis Futbolístico</span>
+                </div>
+                <div class="bot-card border-amarillo">
+                    <div class="analysis-text" style="font-size:.95rem;color:#fde047;line-height:1.6">
+                        ⚽ {esc(analisis_texto)}
+                    </div>
+                    <div class="bot-foot">
+                        <span>Ámbito del agente: <strong>Fútbol profesional</strong></span> ·
+                        <span>Semáforo: <span class="pill pill-amarillo">🟡 Restringido</span></span>
+                    </div>
+                </div>
+            </div>
+            """),
             unsafe_allow_html=True,
         )
         return
@@ -560,8 +585,8 @@ def render_chat():
                 <img class="avatar-user" style="width:74px;height:74px;margin-bottom:8px" src="{foto(jugador_id)}" alt="{esc(nombre)}">
                 <div style="font-size:1.05rem;font-weight:700;color:#fff">Nueva conversación sobre {esc(nombre)}</div>
                 <div style="color:#8b98b3;font-size:.9rem;max-width:560px;margin:6px auto 0">
-                    Escribe tu opinión, crítica o pregunta sobre <strong>{esc(nombre)}</strong>, o compáralo con otro
-                    futbolista de la lista. Cada respuesta recibe un semáforo de rendimiento 🟢🟡🔴.
+                    Escribe tu opinión, crítica o pregunta sobre <strong>{esc(nombre)}</strong>, o solicita
+                    una comparativa indicando libremente con qué futbolistas deseas contrastarlo.
                 </div>
             </div>
             """),
@@ -569,8 +594,8 @@ def render_chat():
         )
         sugerencias = [
             f"¿Qué opinas del rendimiento de {nombre}?",
-            f"{nombre} está sobrevalorado, ¿cierto?",
-            f"Compara a {nombre} con {nombre_de(rival_id)}",
+            f"¿Cuáles son los títulos y récords de {nombre}?",
+            f"¿Cuáles son las fortalezas tácticas de {nombre}?",
         ]
         cols = st.columns(len(sugerencias))
         for i, (col, s) in enumerate(zip(cols, sugerencias)):
