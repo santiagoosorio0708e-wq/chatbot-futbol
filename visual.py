@@ -459,6 +459,34 @@ CSS = """
 }
 .chat-action-link:hover { text-decoration: underline; color: #7dd3fc; }
 
+/* ===== Caja de contraargumento para objetividad ===== */
+.contra-box {
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid #1e293b;
+    border-left: 3.5px solid #0284c7;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin: 10px 0 14px;
+}
+.contra-title {
+    font-size: .74rem;
+    font-weight: 800;
+    color: #38bdf8;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.contra-text {
+    font-size: .86rem;
+    color: #cbd5e1;
+    line-height: 1.55;
+    font-style: italic;
+}
+
+
 
 /* ===== Panel derecho ===== */
 .player-card { display: flex; gap: 12px; align-items: center; background: #0d1528; border: 1px solid #1c2a49;

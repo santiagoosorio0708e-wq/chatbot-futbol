@@ -11,147 +11,187 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Base de conocimiento enriquecida para los 20 jugadores oficiales
+# Base de conocimiento enriquecida para los 20 jugadores oficiales con puntos para contraargumentación
 BASE_JUGADORES = {
     "j001": {
         "nombre": "Lionel Messi",
         "pais": "Argentina",
         "titulos": ["Copa del Mundo 2022", "8 Balones de Oro", "4 UEFA Champions League", "2 Copas América"],
         "rendimiento_historico": "Sobresaliente / Leyenda Absoluta",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él.",
+        "puntos_fuertes": "Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales."
     },
     "j002": {
         "nombre": "Cristiano Ronaldo",
         "pais": "Portugal",
         "titulos": ["5 UEFA Champions League", "5 Balones de Oro", "Eurocopa 2016", "Máximo goleador histórico del fútbol profesional"],
         "rendimiento_historico": "Sobresaliente / Goleador Histórico",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados.",
+        "puntos_fuertes": "Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales."
     },
     "j003": {
         "nombre": "Neymar",
         "pais": "Brasil",
         "titulos": ["Copa Libertadores con Santos", "UEFA Champions League con Barcelona", "Oro Olímpico Río 2016", "Máximo goleador con Brasil"],
         "rendimiento_historico": "Alto pero condicionado por lesiones recurrentes",
-        "color_default": "amarillo"
+        "color_default": "amarillo",
+        "puntos_debiles": "Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG.",
+        "puntos_fuertes": "Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI."
     },
     "j004": {
         "nombre": "Kylian Mbappé",
         "pais": "Francia",
         "titulos": ["Copa del Mundo 2018", "Bota de Oro Mundial 2022", "Múltiples Ligue 1", "UEFA Nations League 2021"],
         "rendimiento_historico": "Élite mundial con velocidad y definición descomunales",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio.",
+        "puntos_fuertes": "Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles."
     },
     "j005": {
         "nombre": "Erling Haaland",
         "pais": "Noruega",
         "titulos": ["UEFA Champions League (Triplete con Man City)", "Bota de Oro Europea", "Premier League"],
         "rendimiento_historico": "Goleador élite implacable en el área",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas.",
+        "puntos_fuertes": "Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido."
     },
     "j006": {
         "nombre": "Vinícius Júnior",
         "pais": "Brasil",
         "titulos": ["2 UEFA Champions League (gol en final)", "LaLiga de España", "Mundial de Clubes de la FIFA"],
         "rendimiento_historico": "Extremo desequilibrante determinante en partidos grandes",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid.",
+        "puntos_fuertes": "Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno."
     },
     "j007": {
         "nombre": "Mohamed Salah",
         "pais": "Egipto",
         "titulos": ["UEFA Champions League 2019", "Premier League", "3 Botas de Oro de Premier League"],
         "rendimiento_historico": "Constancia goleadora y asistencias de máximo nivel",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto.",
+        "puntos_fuertes": "Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas."
     },
     "j008": {
         "nombre": "Robert Lewandowski",
         "pais": "Polonia",
         "titulos": ["UEFA Champions League 2020", "The Best FIFA (2 veces)", "Múltiples Bundesligas y LaLiga"],
         "rendimiento_historico": "Delantero centro de época y rematador letal",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria.",
+        "puntos_fuertes": "Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern."
     },
     "j009": {
         "nombre": "Luka Modrić",
         "pais": "Croacia",
         "titulos": ["6 UEFA Champions League", "Balón de Oro 2018", "Subcampeón del Mundo 2018 y Bronce 2022"],
         "rendimiento_historico": "Director de orquesta insustituible y vigencia legendaria",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante.",
+        "puntos_fuertes": "Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia."
     },
     "j010": {
         "nombre": "Kevin De Bruyne",
         "pais": "Bélgica",
         "titulos": ["UEFA Champions League (Triplete)", "Múltiples Premier League", "Máximo asistente europeo"],
         "rendimiento_historico": "Visión de juego y precisión de pase top del siglo XXI",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga.",
+        "puntos_fuertes": "El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba."
     },
     "j011": {
         "nombre": "Luis Suárez",
         "pais": "Uruguay",
         "titulos": ["Copa América 2011", "UEFA Champions League 2015", "2 Botas de Oro europeas"],
         "rendimiento_historico": "Delantero centro feroz y letal",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave.",
+        "puntos_fuertes": "Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área."
     },
     "j012": {
         "nombre": "James Rodríguez",
         "pais": "Colombia",
         "titulos": ["Bota de Oro Mundial 2014", "2 UEFA Champions League", "Mejor jugador Copa América 2024"],
         "rendimiento_historico": "Talento técnico exquisito, a veces intermitente a nivel de clubes",
-        "color_default": "amarillo"
+        "color_default": "amarillo",
+        "puntos_debiles": "Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo.",
+        "puntos_fuertes": "Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia."
     },
     "j013": {
         "nombre": "Luis Díaz",
         "pais": "Colombia",
         "titulos": ["FA Cup", "Carabao Cup", "Goleador Copa América 2021", "Primeira Liga"],
         "rendimiento_historico": "Desborde vertical y sacrificio físico notable",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos.",
+        "puntos_fuertes": "Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League."
     },
     "j014": {
         "nombre": "Son Heung-min",
         "pais": "Corea del Sur",
         "titulos": ["Bota de Oro Premier League 2021-22", "Juegos Asiáticos Oro"],
         "rendimiento_historico": "Atacante versátil con gran pegada ambidiestra pero pocos títulos colectivos",
-        "color_default": "amarillo"
+        "color_default": "amarillo",
+        "puntos_debiles": "Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera.",
+        "puntos_fuertes": "Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa."
     },
     "j015": {
         "nombre": "Sadio Mané",
         "pais": "Senegal",
         "titulos": ["Copa Africana de Naciones 2021", "UEFA Champions League 2019", "Premier League"],
         "rendimiento_historico": "Líder ofensivo, potencia y títulos continentales",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos.",
+        "puntos_fuertes": "Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor."
     },
     "j016": {
         "nombre": "Pelé",
         "pais": "Brasil",
         "titulos": ["3 Copas del Mundo (1958, 1962, 1970)", "2 Copas Libertadores e Intercontinentales", "Más de 1000 goles"],
         "rendimiento_historico": "Rey del fútbol y pionero indiscutible",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo.",
+        "puntos_fuertes": "El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno."
     },
     "j017": {
         "nombre": "Diego Maradona",
         "pais": "Argentina",
         "titulos": ["Copa del Mundo 1986", "2 Scudettos históricos con Napoli", "Copa UEFA"],
         "rendimiento_historico": "Genio inmortal, trascendencia absoluta con su selección",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea.",
+        "puntos_fuertes": "La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A."
     },
     "j018": {
         "nombre": "Zinedine Zidane",
         "pais": "Francia",
         "titulos": ["Copa del Mundo 1998", "Eurocopa 2000", "UEFA Champions League 2002 (gol icónico)", "Balón de Oro"],
         "rendimiento_historico": "Elegancia, pausa y determinación en las finales más trascendentes",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006.",
+        "puntos_fuertes": "Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro."
     },
     "j019": {
         "nombre": "Ronaldinho",
         "pais": "Brasil",
         "titulos": ["Copa del Mundo 2002", "UEFA Champions League 2006", "Balón de Oro 2005", "Copa Libertadores 2013"],
         "rendimiento_historico": "Magia pura e inventiva que redefinió el fútbol mundial",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona.",
+        "puntos_fuertes": "Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu."
     },
     "j020": {
         "nombre": "Ronaldo Nazário",
         "pais": "Brasil",
         "titulos": ["2 Copas del Mundo (1994, 2002)", "2 Balones de Oro", "Copa América (1997, 1999)"],
         "rendimiento_historico": "El Fenómeno, delantero más explosivo e imparable de su era",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes.",
+        "puntos_fuertes": "Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era."
     }
 }
 
@@ -163,6 +203,11 @@ ESQUEMA_JSON_DICT = {
             "enum": ["positivo", "neutral", "negativo"],
             "description": "Sentimiento estimado de la opinión del usuario hacia el jugador."
         },
+        "tipo_opinion": {
+            "type": "string",
+            "enum": ["buena", "intermedia", "mala"],
+            "description": "Diagnóstico directo de la opinión del aficionado: 'buena' (elogio o afición favorable), 'mala' (crítica, ataque o desprecio), 'intermedia' (pregunta, duda o postura mixta/neutral)."
+        },
         "color_rendimiento": {
             "type": "string",
             "enum": ["verde", "amarillo", "rojo"],
@@ -171,6 +216,10 @@ ESQUEMA_JSON_DICT = {
         "analisis_objetivo": {
             "type": "string",
             "description": "Opinión futbolística objetiva e independiente que sintetiza el rendimiento real en cancha y títulos del jugador frente a lo expresado por el aficionado."
+        },
+        "contraargumento": {
+            "type": "string",
+            "description": "Contraargumento de objetividad deportiva OBLIGATORIO: si la opinión es buena (elogio), señala sus puntos débiles, baches o críticas legítimas; si es mala (crítica), expone los títulos, goles clutch y datos que desmienten el desprecio; si es intermedia, contrasta ambos lados del debate futbolístico."
         },
         "evaluacion_rendimiento": {
             "type": "string",
@@ -182,7 +231,15 @@ ESQUEMA_JSON_DICT = {
             "description": "Lista de títulos clave ganados con club o selección."
         }
     },
-    "required": ["sentimiento", "color_rendimiento", "analisis_objetivo", "evaluacion_rendimiento", "titulos_relevantes"]
+    "required": [
+        "sentimiento",
+        "tipo_opinion",
+        "color_rendimiento",
+        "analisis_objetivo",
+        "contraargumento",
+        "evaluacion_rendimiento",
+        "titulos_relevantes"
+    ]
 }
 
 
@@ -249,8 +306,10 @@ MENSAJE_SOLO_FUTBOL = (
 
 RESPUESTA_FUERA_DE_DOMINIO: Dict[str, Any] = {
     "sentimiento": "neutral",
+    "tipo_opinion": "intermedia",
     "color_rendimiento": "amarillo",
     "analisis_objetivo": MENSAJE_SOLO_FUTBOL,
+    "contraargumento": "",
     "evaluacion_rendimiento": "Consulta fuera del ámbito futbolístico",
     "titulos_relevantes": [],
     "fuera_de_dominio": True,
@@ -360,6 +419,8 @@ def analizar_con_gemini(
     
     info_jugador = BASE_JUGADORES.get(jugador.get("id"), {})
     titulos_ref = ", ".join(info_jugador.get("titulos", []))
+    puntos_debiles_ref = info_jugador.get("puntos_debiles", "")
+    puntos_fuertes_ref = info_jugador.get("puntos_fuertes", "")
 
     # Detectar si hay un futbolista de comparación
     jugador_comp = detectar_jugador_comparado(opinion_usuario, jugador.get("id"))
@@ -379,12 +440,21 @@ def analizar_con_gemini(
         "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
         "y sus títulos obtenidos a nivel de clubes y selecciones. Si se pide una comparación con otro futbolista, "
         "debes contrastar objetivamente a ambos futbolistas destacando sus méritos deportivos.\n"
+        "REGLA DE CLASIFICACIÓN DE OPINIÓN (tipo_opinion):\n"
+        "- 'buena': El aficionado elogia, ensalza o muestra favoritismo/idolatría hacia el futbolista.\n"
+        "- 'mala': El aficionado critica, ataca, desmerece o acusa de sobrevalorado al futbolista.\n"
+        "- 'intermedia': El aficionado hace una pregunta futbolística neutral, plantea un debate equilibrado o pide una comparativa sin sesgo marcado.\n"
+        "REGLA OBLIGATORIA DE CONTRAARGUMENTO (contraargumento):\n"
+        "Para garantizar la objetividad periodística deportiva y desmontar sesgos fanáticos, DEBES incluir siempre un contraargumento riguroso:\n"
+        "- Si la opinión es 'buena' (elogio/fanatismo): el contraargumento DEBE señalar sus puntos débiles, baches de rendimiento, eliminaciones difíciles o límites tácticos para evitar el endiosamiento ciego.\n"
+        "- Si la opinión es 'mala' (crítica/desprecio): el contraargumento DEBE desmentir la crítica exponiendo títulos clave, goles clutch, números históricos y momentos decisivos que demuestran su jerarquía.\n"
+        "- Si la opinión es 'intermedia': el contraargumento DEBE balancear ambos lados del debate futbolístico (pros vs contras o matices de ambos jugadores).\n"
         "REGLA ESTRICTA DE ÁMBITO: Esta IA es exclusivamente para análisis futbolísticos. "
         "Si la consulta, opinión o pregunta del aficionado trata sobre cualquier tema ajeno al fútbol "
         "(por ejemplo: cocina, recetas, tareas escolares, programación, ciencias, política, clima o cualquier tema no deportivo), "
         "DEBES responder en analisis_objetivo exactamente: "
         "'Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, competiciones o rendimiento deportivo.' "
-        "En ese caso, asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
+        "En ese caso, asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', tipo_opinion: 'intermedia', contraargumento: '', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
         "Reglas de semáforo (color_rendimiento):\n"
         "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
         "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
@@ -399,9 +469,11 @@ def analizar_con_gemini(
     prompt = (
         f"Futbolista principal: {jugador.get('nombre')} ({jugador.get('pais')})\n"
         f"Títulos de referencia: {titulos_ref}\n"
+        f"Puntos débiles / límites conocidos: {puntos_debiles_ref}\n"
+        f"Puntos fuertes / hitos clutch conocidos: {puntos_fuertes_ref}\n"
         f"{prompt_comparativo}"
         f"Consulta/Opinión del aficionado: \"{opinion_usuario}\"\n"
-        f"Genera el análisis objetivo estructurado."
+        f"Genera el análisis objetivo estructurado con su tipo_opinion ('buena', 'intermedia' o 'mala') y el contraargumento correspondiente."
     )
 
     config = types.GenerateContentConfig(
@@ -422,7 +494,11 @@ def analizar_con_gemini(
                 contents=prompt,
                 config=config
             )
-            return json.loads(response.text)
+            data = json.loads(response.text)
+            sent = data.get("sentimiento", "neutral")
+            data.setdefault("tipo_opinion", "buena" if sent == "positivo" else ("mala" if sent == "negativo" else "intermedia"))
+            data.setdefault("contraargumento", "")
+            return data
         except Exception as e:
             ultimo_error = e
             continue
@@ -445,17 +521,28 @@ def analizar_con_openai(
 
     info_jugador = BASE_JUGADORES.get(jugador.get("id"), {})
     titulos_texto = ", ".join(info_jugador.get("titulos", []))
+    puntos_debiles_ref = info_jugador.get("puntos_debiles", "")
+    puntos_fuertes_ref = info_jugador.get("puntos_fuertes", "")
 
     system_prompt = (
         "Eres el asistente y analista futbolístico experto del sistema 'Tribuna Global'. "
         "Tu misión es analizar la opinión de un aficionado sobre un futbolista específico y generar "
         "una opinión 100% objetiva e imparcial sobre el jugador, basándote en su rendimiento en cancha "
         "y sus títulos obtenidos a nivel de clubes y selecciones.\n"
+        "REGLA DE CLASIFICACIÓN DE OPINIÓN (tipo_opinion):\n"
+        "- 'buena': El aficionado elogia, ensalza o muestra favoritismo/idolatría hacia el futbolista.\n"
+        "- 'mala': El aficionado critica, ataca, desmerece o acusa de sobrevalorado al futbolista.\n"
+        "- 'intermedia': El aficionado hace una pregunta futbolística neutral, plantea un debate equilibrado o pide una comparativa sin sesgo marcado.\n"
+        "REGLA OBLIGATORIA DE CONTRAARGUMENTO (contraargumento):\n"
+        "Para garantizar la objetividad periodística deportiva y desmontar sesgos fanáticos, DEBES incluir siempre un contraargumento riguroso:\n"
+        "- Si la opinión es 'buena' (elogio/fanatismo): el contraargumento DEBE señalar sus puntos débiles, baches de rendimiento, eliminaciones difíciles o límites tácticos para evitar el endiosamiento ciego.\n"
+        "- Si la opinión es 'mala' (crítica/desprecio): el contraargumento DEBE desmentir la crítica exponiendo títulos clave, goles clutch, números históricos y momentos decisivos que demuestran su jerarquía.\n"
+        "- Si la opinión es 'intermedia': el contraargumento DEBE balancear ambos lados del debate futbolístico (pros vs contras o matices de ambos jugadores).\n"
         "REGLA ESTRICTA DE ÁMBITO: Esta IA es exclusivamente para análisis futbolísticos. "
         "Si la consulta trata sobre cualquier tema ajeno al fútbol (cocina, programación, política, tareas, etc.), "
         "DEBES responder en analisis_objetivo exactamente: "
         "'Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, competiciones o rendimiento deportivo.' "
-        "Asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
+        "Asigna color_rendimiento: 'amarillo', sentimiento: 'neutral', tipo_opinion: 'intermedia', contraargumento: '', evaluacion_rendimiento: 'Consulta fuera del ámbito futbolístico' y titulos_relevantes: [].\n"
         "Reglas de semáforo (color_rendimiento):\n"
         "- verde: Jugador de alto rendimiento, palmarés exitoso o impacto sobresaliente en el campo.\n"
         "- amarillo: Jugador de rendimiento intermedio, intermitente o palmarés moderado.\n"
@@ -470,8 +557,10 @@ def analizar_con_openai(
     user_prompt = (
         f"Futbolista: {jugador.get('nombre')} ({jugador.get('pais')})\n"
         f"Palmarés de referencia: {titulos_texto}\n"
+        f"Puntos débiles / límites conocidos: {puntos_debiles_ref}\n"
+        f"Puntos fuertes / hitos clutch conocidos: {puntos_fuertes_ref}\n"
         f"Opinión del aficionado: \"{opinion_usuario}\"\n"
-        f"Por favor realiza el análisis estructurado objetivo."
+        f"Por favor realiza el análisis estructurado objetivo con tipo_opinion ('buena', 'intermedia' o 'mala') y contraargumento."
     )
 
     esquema_openai = {
@@ -494,7 +583,11 @@ def analizar_con_openai(
     )
 
     contenido = response.choices[0].message.content
-    return json.loads(contenido)
+    data = json.loads(contenido)
+    sent = data.get("sentimiento", "neutral")
+    data.setdefault("tipo_opinion", "buena" if sent == "positivo" else ("mala" if sent == "negativo" else "intermedia"))
+    data.setdefault("contraargumento", "")
+    return data
 
 
 def analizar_heuristica_rapida(
@@ -538,15 +631,20 @@ def analizar_heuristica_rapida(
     
     if score_neg > score_pos:
         sentimiento = "negativo"
+        tipo_opinion = "mala"
     elif score_pos > score_neg:
         sentimiento = "positivo"
+        tipo_opinion = "buena"
     else:
         sentimiento = "neutral"
+        tipo_opinion = "intermedia"
 
     info = BASE_JUGADORES.get(jugador.get("id"), {
         "titulos": ["Títulos nacionales e internacionales"],
         "rendimiento_historico": "Jugador profesional de alto rendimiento",
-        "color_default": "verde"
+        "color_default": "verde",
+        "puntos_debiles": "Exigencias tácticas en alta competencia y baches físicos ocasionales.",
+        "puntos_fuertes": "Palmarés competitivo destacado y jerarquía en momentos decisivos."
     })
 
     nombre = jugador.get("nombre", "el jugador")
@@ -554,6 +652,8 @@ def analizar_heuristica_rapida(
     titulos = info.get("titulos", [])
     titulos_str = ", ".join(titulos[:3])
     color = info.get("color_default", "verde")
+    puntos_debiles = info.get("puntos_debiles", "Exigencias tácticas en alta competencia.")
+    puntos_fuertes = info.get("puntos_fuertes", f"Palmarés de jerarquía con {titulos_str}.")
 
     # Si se detecta un futbolista secundario para comparar
     jugador_comp = detectar_jugador_comparado(opinion_usuario, jugador.get("id"))
@@ -569,40 +669,62 @@ def analizar_heuristica_rapida(
             f"destaca por {info2.get('rendimiento_historico', 'su gran nivel competitivo')} con trofeos destacados como {titulos2_str}. "
             f"Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial."
         )
+        contraargumento = (
+            f"Equilibrio de objetividad: Mientras {nombre} destaca por {info.get('puntos_fuertes', 'su palmarés')}, "
+            f"su impacto puede verse limitado por {info.get('puntos_debiles', 'factores tácticos')}. Por otro lado, "
+            f"{nombre2} responde con {info2.get('puntos_fuertes', 'sus propios hitos')}, demostrando que ambos perfiles "
+            f"responden a necesidades futbolísticas complementarias."
+        )
         titulos_comb = titulos[:2] + [f"{nombre2}: {t}" for t in info2.get("titulos", [])[:2]]
         eval_rend = f"Comparativa de élite: {nombre} vs {nombre2}"
         color_comp = "verde" if (info.get("color_default") == "verde" or info2.get("color_default") == "verde") else "amarillo"
         return {
             "sentimiento": "neutral",
+            "tipo_opinion": "intermedia",
             "color_rendimiento": color_comp,
             "analisis_objetivo": analisis,
+            "contraargumento": contraargumento,
             "evaluacion_rendimiento": eval_rend,
             "titulos_relevantes": titulos_comb
         }
     
-    if sentimiento == "negativo":
+    if tipo_opinion == "mala":
         analisis = (
-            f"La opinión expresa una crítica o reparo hacia {nombre}. Sin embargo, desde una perspectiva objetiva, "
+            f"La opinión del aficionado califica negativamente a {nombre}. Sin embargo, desde una perspectiva objetiva, "
             f"el rendimiento de {nombre} en la cancha está respaldado por logros contundentes con {pais} y sus clubes, "
-            f"incluyendo: {titulos_str}. Su impacto deportivo desmiente juicios infundados."
+            f"incluyendo: {titulos_str}. Su impacto deportivo desmiente juicios desproporcionados."
         )
-    elif sentimiento == "positivo":
+        contraargumento = (
+            f"Contraargumento de objetividad deportiva: Frente al rechazo o desprecio expresado, los datos demuestran "
+            f"que {nombre} posee argumentos de peso indiscutibles: {puntos_fuertes}"
+        )
+    elif tipo_opinion == "buena":
         analisis = (
-            f"La opinión elogia con fundamento a {nombre}. Los datos avalan esta percepción: su rendimiento en la cancha "
-            f"ha sido clave en la conquista de trofeos de máxima jerarquía como {titulos_str}, "
+            f"La opinión del aficionado elogia favorablemente a {nombre}. Los datos avalan ampliamente esta admiración: "
+            f"su rendimiento en la cancha ha sido clave en la conquista de trofeos de máxima jerarquía como {titulos_str}, "
             f"consolidándose como un referente para {pais}."
+        )
+        contraargumento = (
+            f"Contraargumento de objetividad deportiva: Pese al fanatismo o elogio favorable, un análisis riguroso "
+            f"e imparcial no debe ignorar sus límites y áreas de debate: {puntos_debiles}"
         )
     else:
         analisis = (
-            f"La opinión sobre {nombre} plantea una perspectiva balanceada. Objetivamente, el balance de su carrera "
+            f"La opinión sobre {nombre} plantea una perspectiva balanceada o de consulta. Objetivamente, el balance de su carrera "
             f"demuestra regularidad competitiva y un palmarés que incluye {titulos_str}, "
             f"marcando presencia destacada tanto en clubes como representando a {pais}."
+        )
+        contraargumento = (
+            f"Contraargumento de objetividad deportiva: El debate sobre {nombre} exige considerar ambas caras de la moneda: "
+            f"por un lado, {puntos_fuertes} Por otro lado, no se deben obviar {puntos_debiles}"
         )
 
     return {
         "sentimiento": sentimiento,
+        "tipo_opinion": tipo_opinion,
         "color_rendimiento": color,
         "analisis_objetivo": analisis,
+        "contraargumento": contraargumento,
         "evaluacion_rendimiento": info.get("rendimiento_historico", "Alto rendimiento deportivo"),
         "titulos_relevantes": titulos
     }
@@ -639,18 +761,22 @@ def procesar_opinion(
     # Si la clave configurada es de Gemini (empieza con AQ. o AIza)
     if gemini_key and (gemini_key.startswith("AQ.") or gemini_key.startswith("AIza") or "gemini" in modelo.lower()):
         try:
-            return ejecutar_con_timeout(lambda: analizar_con_gemini(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
+            res = ejecutar_con_timeout(lambda: analizar_con_gemini(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
         except Exception as e:
             print(f"Aviso: Contingencia activada en Gemini ({e}), usando motor heurístico inmediato.")
-            return analizar_heuristica_rapida(jugador, opinion_usuario)
-
+            res = analizar_heuristica_rapida(jugador, opinion_usuario)
     # Si la clave configurada es de OpenAI
-    if openai_key and openai_key.startswith("sk-"):
+    elif openai_key and openai_key.startswith("sk-"):
         try:
-            return ejecutar_con_timeout(lambda: analizar_con_openai(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
+            res = ejecutar_con_timeout(lambda: analizar_con_openai(jugador, opinion_usuario, modelo=modelo), timeout_segundos=7.0)
         except Exception as e:
             print(f"Aviso: Contingencia activada en OpenAI ({e}), usando motor heurístico inmediato.")
-            return analizar_heuristica_rapida(jugador, opinion_usuario)
+            res = analizar_heuristica_rapida(jugador, opinion_usuario)
+    else:
+        # Fallback si no hay clave externa válida o en pruebas
+        res = analizar_heuristica_rapida(jugador, opinion_usuario)
 
-    # Fallback si no hay clave externa válida o en pruebas
-    return analizar_heuristica_rapida(jugador, opinion_usuario)
+    sent = res.get("sentimiento", "neutral")
+    res.setdefault("tipo_opinion", "buena" if sent == "positivo" else ("mala" if sent == "negativo" else "intermedia"))
+    res.setdefault("contraargumento", "")
+    return res

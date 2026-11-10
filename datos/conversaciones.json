@@ -1,48 +1,122 @@
 {
   "conversaciones": [
     {
-      "id": "conv_c3efbd7a",
-      "titulo": "Cristiano Ronaldo vs Kylian Mbappé",
-      "fecha": "2026-11-09T18:17:01.350765",
-      "jugador_id": "j002",
-      "jugador_nombre": "Cristiano Ronaldo",
+      "id": "conv_1a2ac65e",
+      "titulo": "Pelé vs Lionel Messi",
+      "fecha": "2026-11-10T06:49:23.193106",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
       "mensajes": [
         {
           "tipo": "usuario",
-          "jugador_id": "j002",
-          "jugador_nombre": "Cristiano Ronaldo",
-          "contenido": "quien es mejor , halland o mbappe ESTADISTICAMENTE HABLANDO?"
+          "jugador_id": "j016",
+          "jugador_nombre": "Pelé",
+          "contenido": "messi es mejor que pele porque ha ganado mas balones de oro en toda la historia de el futbol mejor que pele"
         },
         {
           "tipo": "asistente",
-          "jugador_id": "j002",
-          "jugador_nombre": "Cristiano Ronaldo",
+          "jugador_id": "j016",
+          "jugador_nombre": "Pelé",
           "sentimiento": "neutral",
           "color_rendimiento": "verde",
-          "analisis": "Análisis comparativo objetivo entre Cristiano Ronaldo y Kylian Mbappé: Cristiano Ronaldo (Portugal) se distingue por Sobresaliente / Goleador Histórico con títulos de referencia como 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016. Por su parte, Kylian Mbappé (Francia) destaca por Élite mundial con velocidad y definición descomunales con trofeos destacados como Copa del Mundo 2018, Bota de Oro Mundial 2022. Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial.",
-          "rendimiento": "Comparativa de élite: Cristiano Ronaldo vs Kylian Mbappé",
+          "analisis": "Análisis comparativo objetivo entre Pelé y Lionel Messi: Pelé (Brasil) se distingue por Rey del fútbol y pionero indiscutible con títulos de referencia como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores e Intercontinentales, Más de 1000 goles. Por su parte, Lionel Messi (Argentina) destaca por Sobresaliente / Leyenda Absoluta con trofeos destacados como Copa del Mundo 2022, 8 Balones de Oro. Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial.",
+          "rendimiento": "Comparativa de élite: Pelé vs Lionel Messi",
           "titulos": [
-            "5 UEFA Champions League",
-            "5 Balones de Oro",
-            "Kylian Mbappé: Copa del Mundo 2018",
-            "Kylian Mbappé: Bota de Oro Mundial 2022"
+            "3 Copas del Mundo (1958, 1962, 1970)",
+            "2 Copas Libertadores e Intercontinentales",
+            "Lionel Messi: Copa del Mundo 2022",
+            "Lionel Messi: 8 Balones de Oro"
           ],
-          "id_registro": "47867211-a81c-4cff-a8ca-d0a39e92958b",
-          "jugador_comp_id": "j004"
+          "id_registro": "4ca61b47-c7b0-45bd-935c-d974abab1016",
+          "jugador_comp_id": "j001"
+        }
+      ]
+    },
+    {
+      "id": "conv_b083fb65",
+      "titulo": "Lionel Messi · messi es un jugador muy polemico y su …",
+      "fecha": "2026-11-10T06:42:35.150945",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "mensajes": [
+        {
+          "tipo": "usuario",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
+          "contenido": "messi es un jugador muy polemico y su mundial fue ganado injustamente"
         },
         {
           "tipo": "asistente",
-          "jugador_id": "j002",
-          "jugador_nombre": "Cristiano Ronaldo",
+          "jugador_id": "j001",
+          "jugador_nombre": "Lionel Messi",
           "sentimiento": "neutral",
-          "color_rendimiento": "amarillo",
-          "analisis": "Esta IA es exclusivamente para análisis futbolísticos. Por favor realiza consultas, opiniones o comparativas sobre fútbol, futbolistas, tácticas, estadísticas, competiciones o rendimiento en cancha.",
-          "rendimiento": "Consulta fuera del ámbito futbolístico",
-          "titulos": [],
-          "id_registro": "9313958c-2e2c-4196-adfb-65e86a4f29a5"
+          "color_rendimiento": "verde",
+          "analisis": "La opinión sobre Lionel Messi plantea una perspectiva balanceada. Objetivamente, el balance de su carrera demuestra regularidad competitiva y un palmarés que incluye Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, marcando presencia destacada tanto en clubes como representando a Argentina.",
+          "rendimiento": "Sobresaliente / Leyenda Absoluta",
+          "titulos": [
+            "Copa del Mundo 2022",
+            "8 Balones de Oro",
+            "4 UEFA Champions League",
+            "2 Copas América"
+          ],
+          "id_registro": "705ae93c-8867-419e-ae69-aac2f0b7fe3a"
+        }
+      ]
+    },
+    {
+      "id": "conv_d53cb0ae",
+      "titulo": "Luis Díaz · luis diaz es el mejor jugador del mund…",
+      "fecha": "2026-11-10T06:39:34.590879",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "mensajes": [
+        {
+          "tipo": "usuario",
+          "jugador_id": "j013",
+          "jugador_nombre": "Luis Díaz",
+          "contenido": "luis diaz es el mejor jugador del mundo por su temporada 25/26 con el bayern de munich"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j013",
+          "jugador_nombre": "Luis Díaz",
+          "sentimiento": "positivo",
+          "color_rendimiento": "verde",
+          "analisis": "La opinión elogia con fundamento a Luis Díaz. Los datos avalan esta percepción: su rendimiento en la cancha ha sido clave en la conquista de trofeos de máxima jerarquía como FA Cup, Carabao Cup, Goleador Copa América 2021, consolidándose como un referente para Colombia.",
+          "rendimiento": "Desborde vertical y sacrificio físico notable",
+          "titulos": [
+            "FA Cup",
+            "Carabao Cup",
+            "Goleador Copa América 2021",
+            "Primeira Liga"
+          ],
+          "id_registro": "ac8a20b8-05b7-498f-81cc-3e01391c7267"
+        },
+        {
+          "tipo": "usuario",
+          "jugador_id": "j013",
+          "jugador_nombre": "Luis Díaz",
+          "contenido": "¿Cuáles han sido los fichajes y transferencias más costosas e influyentes en la trayectoria de Luis Díaz?"
+        },
+        {
+          "tipo": "asistente",
+          "jugador_id": "j013",
+          "jugador_nombre": "Luis Díaz",
+          "sentimiento": "neutral",
+          "color_rendimiento": "verde",
+          "analisis": "Luis Díaz ha tenido una trayectoria ascendente marcada por dos transferencias clave que validan su impacto en el fútbol europeo. Su fichaje por el FC Porto desde el Junior de Barranquilla por aproximadamente 7 millones de euros fue una operación de alta rentabilidad, consolidándolo como figura en Portugal. Posteriormente, su traspaso al Liverpool FC en enero de 2022 por una cifra cercana a los 47 millones de euros (más variables) confirmó su estatus como uno de los extremos más desequilibrantes de la Premier League, donde ha sido pieza fundamental en la obtención de títulos domésticos bajo la dirección de Jürgen Klopp.",
+          "rendimiento": "Jugador de alto impacto en el fútbol de élite, caracterizado por su capacidad de desborde, intensidad defensiva y regularidad en clubes de primer nivel europeo.",
+          "titulos": [
+            "FA Cup",
+            "Carabao Cup",
+            "Primeira Liga",
+            "Taça de Portugal",
+            "Goleador Copa América 2021"
+          ],
+          "id_registro": "d77b69d0-3ac1-4af9-ad2a-7f1cdaed0543"
         }
       ],
-      "fecha_actualizacion": "2026-11-09T18:28:13.664496"
+      "fecha_actualizacion": "2026-11-10T06:41:21.024884"
     },
     {
       "id": "conv_930b8b51",

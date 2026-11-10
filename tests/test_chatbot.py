@@ -188,3 +188,64 @@ def test_consulta_futbolistica_valida():
         assert "exclusivamente para análisis futbolísticos" not in res["analisis_objetivo"].lower()
         assert res["color_rendimiento"] in ["verde", "amarillo", "rojo"]
 
+
+def test_clasificacion_tipo_opinion_y_contraargumento():
+    """Verifica que el bot clasifique directamente si la opinión es buena, mala o intermedia y aporte contraargumento objetivo."""
+    messi = gestor_datos.buscar_jugador_por_id("j001")
+    cr7 = gestor_datos.buscar_jugador_por_id("j002")
+
+    # 1. Opinión elogiosa / fanática -> tipo_opinion 'buena' con contraargumento que matiza puntos débiles
+    opinion_buena = "Messi es un genio absoluto, el mejor jugador del universo y nunca comete un error"
+    res_buena = motor_ia.analizar_heuristica_rapida(messi, opinion_buena)
+    assert res_buena["tipo_opinion"] == "buena"
+    assert res_buena["sentimiento"] == "positivo"
+    assert "contraargumento" in res_buena
+    assert len(res_buena["contraargumento"]) > 20
+    # El contraargumento debe matizar debilidades o exigencias
+    assert any(w in res_buena["contraargumento"].lower() for w in ["pese", "riguroso", "límites", "debate", "debiles", "remontadas", "aspectos"])
+
+    # 2. Opinión destructiva / crítica -> tipo_opinion 'mala' con contraargumento que desmiente con datos y títulos
+    opinion_mala = "Cristiano es malisimo y un fracaso total en la cancha"
+    res_mala = motor_ia.analizar_heuristica_rapida(cr7, opinion_mala)
+    assert res_mala["tipo_opinion"] == "mala"
+    assert res_mala["sentimiento"] == "negativo"
+    assert "contraargumento" in res_mala
+    assert len(res_mala["contraargumento"]) > 20
+    # El contraargumento debe defender la jerarquía del jugador frente al ataque infundado
+    assert any(w in res_mala["contraargumento"].lower() for w in ["frente", "desprecio", "datos", "goles", "champions", "palmarés", "argumentos"])
+
+    # 3. Consulta equilibrada o comparativa -> tipo_opinion 'intermedia' con contraargumento que balancea ambos lados
+    opinion_intermedia = "Analiza el nivel táctico y la posición de Messi"
+    res_intermedia = motor_ia.analizar_heuristica_rapida(messi, opinion_intermedia)
+    assert res_intermedia["tipo_opinion"] == "intermedia"
+    assert "contraargumento" in res_intermedia
+    assert len(res_intermedia["contraargumento"]) > 20
+
+
+def test_persistencia_tipo_opinion_y_contraargumento(monkeypatch, tmp_path):
+    """Verifica que tipo_opinion y contraargumento se persistan fielmente en el archivo JSON."""
+    monkeypatch.setattr(gestor_datos, "RUTA_OPINIONES", str(tmp_path / "opiniones.json"))
+    haaland = gestor_datos.buscar_jugador_por_id("j005")
+
+    registro = gestor_datos.guardar_opinion(
+        jugador_id=haaland["id"],
+        jugador_nombre=haaland["nombre"],
+        opinion_usuario="Haaland es un tronco que solo empuja balones",
+        sentimiento="negativo",
+        tipo_opinion="mala",
+        analisis_objetivo="Haaland es un delantero centro de élite.",
+        contraargumento="Haaland rompió el récord goleador histórico de la Premier League y ganó el Triplete.",
+        color_rendimiento="verde",
+        titulos_relevantes=["Champions League 2023", "Premier League"]
+    )
+
+    assert registro["tipo_opinion"] == "mala"
+    assert "Triplete" in registro["contraargumento"]
+
+    cargadas = gestor_datos.cargar_opiniones()
+    recuperada = next((o for o in cargadas if o["id"] == registro["id"]), None)
+    assert recuperada is not None
+    assert recuperada["tipo_opinion"] == "mala"
+    assert recuperada["contraargumento"] == registro["contraargumento"]
+
+

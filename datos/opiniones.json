@@ -1,6 +1,102 @@
 {
   "opiniones": [
     {
+      "id": "4ca61b47-c7b0-45bd-935c-d974abab1016",
+      "timestamp": "2026-11-10T06:49:23.171653",
+      "jugador_id": "j016",
+      "jugador_nombre": "Pelé",
+      "opinion_usuario": "messi es mejor que pele porque ha ganado mas balones de oro en toda la historia de el futbol mejor que pele",
+      "sentimiento": "neutral",
+      "tipo_opinion": "intermedia",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Análisis comparativo objetivo entre Pelé y Lionel Messi: Pelé (Brasil) se distingue por Rey del fútbol y pionero indiscutible con títulos de referencia como 3 Copas del Mundo (1958, 1962, 1970), 2 Copas Libertadores e Intercontinentales, Más de 1000 goles. Por su parte, Lionel Messi (Argentina) destaca por Sobresaliente / Leyenda Absoluta con trofeos destacados como Copa del Mundo 2022, 8 Balones de Oro. Ambos futbolistas aportan perfiles contrastados y de máxima jerarquía en el fútbol mundial.",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Pelé requiere contrastar ambas perspectivas: por un lado, El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno. Por otro lado, Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo.",
+      "evaluacion_rendimiento": "Comparativa de élite: Pelé vs Lionel Messi",
+      "titulos_relevantes": [
+        "3 Copas del Mundo (1958, 1962, 1970)",
+        "2 Copas Libertadores e Intercontinentales",
+        "Lionel Messi: Copa del Mundo 2022",
+        "Lionel Messi: 8 Balones de Oro"
+      ]
+    },
+    {
+      "id": "705ae93c-8867-419e-ae69-aac2f0b7fe3a",
+      "timestamp": "2026-11-10T06:42:35.112393",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_usuario": "messi es un jugador muy polemico y su mundial fue ganado injustamente",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión sobre Lionel Messi plantea una perspectiva balanceada. Objetivamente, el balance de su carrera demuestra regularidad competitiva y un palmarés que incluye Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, marcando presencia destacada tanto en clubes como representando a Argentina.",
+      "evaluacion_rendimiento": "Sobresaliente / Leyenda Absoluta",
+      "titulos_relevantes": [
+        "Copa del Mundo 2022",
+        "8 Balones de Oro",
+        "4 UEFA Champions League",
+        "2 Copas América"
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
+    },
+    {
+      "id": "d77b69d0-3ac1-4af9-ad2a-7f1cdaed0543",
+      "timestamp": "2026-11-10T06:41:20.981951",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "¿Cuáles han sido los fichajes y transferencias más costosas e influyentes en la trayectoria de Luis Díaz?",
+      "sentimiento": "neutral",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "Luis Díaz ha tenido una trayectoria ascendente marcada por dos transferencias clave que validan su impacto en el fútbol europeo. Su fichaje por el FC Porto desde el Junior de Barranquilla por aproximadamente 7 millones de euros fue una operación de alta rentabilidad, consolidándolo como figura en Portugal. Posteriormente, su traspaso al Liverpool FC en enero de 2022 por una cifra cercana a los 47 millones de euros (más variables) confirmó su estatus como uno de los extremos más desequilibrantes de la Premier League, donde ha sido pieza fundamental en la obtención de títulos domésticos bajo la dirección de Jürgen Klopp.",
+      "evaluacion_rendimiento": "Jugador de alto impacto en el fútbol de élite, caracterizado por su capacidad de desborde, intensidad defensiva y regularidad en clubes de primer nivel europeo.",
+      "titulos_relevantes": [
+        "FA Cup",
+        "Carabao Cup",
+        "Primeira Liga",
+        "Taça de Portugal",
+        "Goleador Copa América 2021"
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Díaz requiere contrastar ambas perspectivas: por un lado, Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League. Por otro lado, Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
+    },
+    {
+      "id": "ac8a20b8-05b7-498f-81cc-3e01391c7267",
+      "timestamp": "2026-11-10T06:39:34.561530",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_usuario": "luis diaz es el mejor jugador del mundo por su temporada 25/26 con el bayern de munich",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión elogia con fundamento a Luis Díaz. Los datos avalan esta percepción: su rendimiento en la cancha ha sido clave en la conquista de trofeos de máxima jerarquía como FA Cup, Carabao Cup, Goleador Copa América 2021, consolidándose como un referente para Colombia.",
+      "evaluacion_rendimiento": "Desborde vertical y sacrificio físico notable",
+      "titulos_relevantes": [
+        "FA Cup",
+        "Carabao Cup",
+        "Goleador Copa América 2021",
+        "Primeira Liga"
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
+    },
+    {
+      "id": "2292f048-bcd8-4570-b175-cbb8191ef7f9",
+      "timestamp": "2026-11-09T19:19:00.825263",
+      "jugador_id": "j004",
+      "jugador_nombre": "Kylian Mbappé",
+      "opinion_usuario": "quien es mejor entre mbappe y halland",
+      "sentimiento": "positivo",
+      "color_rendimiento": "verde",
+      "analisis_objetivo": "La opinión elogia con fundamento a Kylian Mbappé. Los datos avalan esta percepción: su rendimiento en la cancha ha sido clave en la conquista de trofeos de máxima jerarquía como Copa del Mundo 2018, Bota de Oro Mundial 2022, Múltiples Ligue 1, consolidándose como un referente para Francia.",
+      "evaluacion_rendimiento": "Élite mundial con velocidad y definición descomunales",
+      "titulos_relevantes": [
+        "Copa del Mundo 2018",
+        "Bota de Oro Mundial 2022",
+        "Múltiples Ligue 1",
+        "UEFA Nations League 2021"
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
+    },
+    {
       "id": "47867211-a81c-4cff-a8ca-d0a39e92958b",
       "timestamp": "2026-11-09T18:17:01.319526",
       "jugador_id": "j002",
@@ -15,7 +111,9 @@
         "5 Balones de Oro",
         "Kylian Mbappé: Copa del Mundo 2018",
         "Kylian Mbappé: Bota de Oro Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Cristiano Ronaldo requiere contrastar ambas perspectivas: por un lado, Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales. Por otro lado, Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "04b5a5d4-b2c3-4ceb-b499-0d2fe033373d",
@@ -32,7 +130,9 @@
         "8 Balones de Oro",
         "Cristiano Ronaldo: 5 UEFA Champions League",
         "Cristiano Ronaldo: 5 Balones de Oro"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "d81b5662-4249-4913-963b-c0b9c98a8ec9",
@@ -49,7 +149,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico del fútbol profesional"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "17125dec-6163-4230-9dae-b382d088e96d",
@@ -64,7 +166,9 @@
       "titulos_relevantes": [
         "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
         "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, Máximo goleador histórico"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "2d3cbf99-d9f3-483e-9a2c-247a452647cc",
@@ -79,7 +183,9 @@
       "titulos_relevantes": [
         "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
         "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, Máximo goleador histórico"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "b437b204-d13e-47f1-913c-6227cc25839d",
@@ -94,7 +200,9 @@
       "titulos_relevantes": [
         "Lionel Messi: Copa del Mundo 2022, 8 Balones de Oro, 4 UEFA Champions League, 2 Copas América",
         "Cristiano Ronaldo: 5 UEFA Champions League, 5 Balones de Oro, Eurocopa 2016, múltiples títulos de liga en Inglaterra, España e Italia"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Vinícius Júnior requiere contrastar ambas perspectivas: por un lado, Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno. Por otro lado, Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "6e66f0c9-1482-4ffd-b23b-666847a5cc5a",
@@ -113,7 +221,9 @@
         "2 Copas América",
         "10 Ligas de España",
         "2 Ligue 1"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "3871dd13-bd6c-49e8-9bdc-000ae589b6ae",
@@ -127,7 +237,9 @@
       "evaluacion_rendimiento": "Conteo Discutido",
       "titulos_relevantes": [
         "3 Copas del Mundo (1958, 1962, 1970)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Pelé requiere contrastar ambas perspectivas: por un lado, El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno. Por otro lado, Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "d2fcf20f-25e7-4d4c-b726-3a4494d2e050",
@@ -144,7 +256,9 @@
         "2 Scudettos Serie A con Napoli",
         "Copa UEFA 1989",
         "Subcampeón del Mundo 1990"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Diego Maradona, un análisis riguroso no debe omitir sus aspectos a mejorar: Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "72c474e2-463e-483f-a25d-3f438b992cda",
@@ -158,7 +272,9 @@
       "evaluacion_rendimiento": "Incomodidad Física",
       "titulos_relevantes": [
         "UEFA Champions League 2023"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Kevin De Bruyne, los datos y títulos demuestran argumentos contundentes: El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba."
     },
     {
       "id": "70a25eef-c509-4210-b7ed-38bcb54fa619",
@@ -172,7 +288,9 @@
       "evaluacion_rendimiento": "Fricción Interna",
       "titulos_relevantes": [
         "UEFA Champions League 2023"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Kevin De Bruyne, los datos y títulos demuestran argumentos contundentes: El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba."
     },
     {
       "id": "22596b05-913b-4f9f-95ac-ffa8e70fdaee",
@@ -186,7 +304,9 @@
       "evaluacion_rendimiento": "Sin Paso Europeo",
       "titulos_relevantes": [
         "3 Copas del Mundo (1958, 1962, 1970)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Pelé requiere contrastar ambas perspectivas: por un lado, El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno. Por otro lado, Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "627038c5-b137-4a20-a05f-1d1397c827ed",
@@ -203,7 +323,9 @@
         "FA Cup y Carabao Cup con Liverpool",
         "2 Primeira Liga con Porto",
         "Finalista Champions 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "5e6e2c52-d544-49dd-a798-a4b4457ac1db",
@@ -217,7 +339,9 @@
       "evaluacion_rendimiento": "Fin Trágico",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Diego Maradona requiere contrastar ambas perspectivas: por un lado, La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A. Por otro lado, Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "792df419-56a0-46f5-9bdb-b7b7ee01bfed",
@@ -234,7 +358,9 @@
         "Balón de Oro 2018",
         "Subcampeón del Mundo 2018",
         "Bronce Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luka Modrić, un análisis riguroso no debe omitir sus aspectos a mejorar: Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "01ea6dce-e468-4281-a928-3780d8059ca8",
@@ -251,7 +377,9 @@
         "UEFA Champions League 2002",
         "Eurocopa 2000",
         "Balón de Oro 1998"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Zinedine Zidane, un análisis riguroso no debe omitir sus aspectos a mejorar: Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "b7383335-c223-43d5-8bd4-19906693cd5a",
@@ -270,7 +398,9 @@
         "3 Premier League",
         "2 La Liga",
         "2 Serie A"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Cristiano Ronaldo requiere contrastar ambas perspectivas: por un lado, Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales. Por otro lado, Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "06cd3c10-8ee2-41a0-b104-c550877aec63",
@@ -287,7 +417,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "eef25ec5-85a4-43d2-9228-1153ddc6e8e8",
@@ -303,7 +435,9 @@
         "2 UEFA Champions League (gol en final)",
         "LaLiga de España",
         "Mundial de Clubes de la FIFA"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Vinícius Júnior, los datos y títulos demuestran argumentos contundentes: Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno."
     },
     {
       "id": "7b841a02-69df-4fa3-9f12-9c34f0148ad1",
@@ -320,7 +454,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "5fa90c21-17ba-4a3d-b4ef-650123de7890",
@@ -336,7 +472,9 @@
         "Bota de Oro Mundial 2014",
         "2 UEFA Champions League",
         "Mejor jugador Copa América 2024"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de James Rodríguez requiere contrastar ambas perspectivas: por un lado, Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia. Por otro lado, Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "073fc288-9efe-4c34-8f87-eacfe476817f",
@@ -350,7 +488,9 @@
       "evaluacion_rendimiento": "Desconectado en Final",
       "titulos_relevantes": [
         "Goleador Copa América 2021"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luis Díaz, los datos y títulos demuestran argumentos contundentes: Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League."
     },
     {
       "id": "5ff13ef8-b956-4a26-a0be-e88d6f19e622",
@@ -364,7 +504,9 @@
       "evaluacion_rendimiento": "Impaciencia",
       "titulos_relevantes": [
         "UEFA Champions League 2020 (Sextete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Robert Lewandowski requiere contrastar ambas perspectivas: por un lado, Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern. Por otro lado, Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "bb694e98-e247-42e5-84cd-7708490f1f21",
@@ -378,7 +520,9 @@
       "evaluacion_rendimiento": "Definición Pendiente",
       "titulos_relevantes": [
         "Goleador Copa América 2021"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Díaz requiere contrastar ambas perspectivas: por un lado, Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League. Por otro lado, Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "92d92ec5-56b1-46e0-9aee-47d4e64098c6",
@@ -392,7 +536,9 @@
       "evaluacion_rendimiento": "Regular / Veteranía",
       "titulos_relevantes": [
         "5 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Cristiano Ronaldo requiere contrastar ambas perspectivas: por un lado, Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales. Por otro lado, Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "a88371e1-7658-45ac-bc7e-6d0ad68ad014",
@@ -406,7 +552,9 @@
       "evaluacion_rendimiento": "Pendiente con Selección",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Mohamed Salah requiere contrastar ambas perspectivas: por un lado, Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas. Por otro lado, Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "6950a3b7-809e-46da-aca2-9c4c0bb1e8e2",
@@ -423,7 +571,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico (900+ goles)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "49eb0cbf-db0e-464a-b852-5f3228072135",
@@ -437,7 +587,9 @@
       "evaluacion_rendimiento": "Desgaste Emocional",
       "titulos_relevantes": [
         "2 UEFA Champions League (gol en final)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Vinícius Júnior requiere contrastar ambas perspectivas: por un lado, Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno. Por otro lado, Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "8bc24d37-9392-41b4-9f11-87c52d93fb9b",
@@ -454,7 +606,9 @@
         "2 Balones de Oro (1997, 2002)",
         "2 Copas América",
         "Bota de Oro Mundial 2002"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldo Nazário, un análisis riguroso no debe omitir sus aspectos a mejorar: Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "92c4cee4-dfb5-44ae-b1b2-6646784adefb",
@@ -468,7 +622,9 @@
       "evaluacion_rendimiento": "Liderazgo Cuestionado",
       "titulos_relevantes": [
         "Bota de Oro Premier League 2022 (sin penales)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Son Heung-min, los datos y títulos demuestran argumentos contundentes: Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa."
     },
     {
       "id": "71503b4b-df8b-488f-a642-e53a29af5c12",
@@ -482,7 +638,9 @@
       "evaluacion_rendimiento": "Sin Champions League",
       "titulos_relevantes": [
         "2 Copas del Mundo (1994, 2002)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldo Nazário requiere contrastar ambas perspectivas: por un lado, Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era. Por otro lado, Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "15298edb-0c0c-4461-8079-de6848d46e69",
@@ -496,7 +654,9 @@
       "evaluacion_rendimiento": "Sanción Costosa",
       "titulos_relevantes": [
         "2 UEFA Champions League (gol en final)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Vinícius Júnior, los datos y títulos demuestran argumentos contundentes: Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno."
     },
     {
       "id": "b48b26a5-96d7-42a0-9143-83051d4b78cf",
@@ -510,7 +670,9 @@
       "evaluacion_rendimiento": "Crítica Histórica",
       "titulos_relevantes": [
         "Copa del Mundo 2022"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Lionel Messi, los datos y títulos demuestran argumentos contundentes: Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales."
     },
     {
       "id": "81809274-0db1-43ae-a076-9539e02da574",
@@ -524,7 +686,9 @@
       "evaluacion_rendimiento": "Sin Vitrina de Selección",
       "titulos_relevantes": [
         "UEFA Champions League 2023 (Triplete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Erling Haaland requiere contrastar ambas perspectivas: por un lado, Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido. Por otro lado, Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "87c869af-f527-4596-aca5-c2918d601ae0",
@@ -541,7 +705,9 @@
         "Bota de Oro Mundial 2022",
         "6 Ligue 1",
         "UEFA Nations League 2021"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "38723737-c7b0-44d1-bf9d-a30d10d08518",
@@ -558,7 +724,9 @@
         "6 Premier League",
         "Máximo Asistente histórico de Premier",
         "2 Mejor Jugador PFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kevin De Bruyne, un análisis riguroso no debe omitir sus aspectos a mejorar: Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "0db46a11-080e-483c-a452-88bde42c6170",
@@ -572,7 +740,9 @@
       "evaluacion_rendimiento": "Calidad Puntual",
       "titulos_relevantes": [
         "Copa del Mundo 2022"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "e7dd98ee-29a7-4c9e-9d93-43f2acb68612",
@@ -589,7 +759,9 @@
         "2 Premier League",
         "2 Botas de Oro Premier League",
         "Bota de Oro Europea"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Erling Haaland, un análisis riguroso no debe omitir sus aspectos a mejorar: Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "e1761449-1cbc-4045-97f3-a614feaf8eda",
@@ -603,7 +775,9 @@
       "evaluacion_rendimiento": "Racha Ocasional",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Mohamed Salah requiere contrastar ambas perspectivas: por un lado, Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas. Por otro lado, Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "cd6fe497-0cc6-4e76-9447-083bb5d9c88a",
@@ -620,7 +794,9 @@
         "Premio Puskás 2020",
         "Oro Juegos Asiáticos 2018",
         "Finalista Champions 2019"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Son Heung-min, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "a812fc7a-6774-40b0-b381-f1d854d02dc5",
@@ -637,7 +813,9 @@
         "UEFA Champions League 2006",
         "Balón de Oro 2005",
         "Copa Libertadores 2013"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldinho, un análisis riguroso no debe omitir sus aspectos a mejorar: Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "0414c377-ecbe-4cda-ac9c-df8af5a7a7f6",
@@ -651,7 +829,9 @@
       "evaluacion_rendimiento": "Fase Descendente",
       "titulos_relevantes": [
         "5 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Cristiano Ronaldo requiere contrastar ambas perspectivas: por un lado, Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales. Por otro lado, Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "c8e99a3c-a082-453f-98f0-bde261b8ebd0",
@@ -665,7 +845,9 @@
       "evaluacion_rendimiento": "Transición Veterana",
       "titulos_relevantes": [
         "Copa del Mundo 2022"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "69928f38-8285-4d14-8071-95a116d36db2",
@@ -682,7 +864,9 @@
         "Mejor Jugador Copa América 2024",
         "2 UEFA Champions League",
         "2 LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de James Rodríguez, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "3e7e9399-58ad-4923-8a22-7190776f76bb",
@@ -696,7 +880,9 @@
       "evaluacion_rendimiento": "Mala Suerte en Finales",
       "titulos_relevantes": [
         "UEFA Champions League 2023"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kevin De Bruyne requiere contrastar ambas perspectivas: por un lado, El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba. Por otro lado, Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "38b62307-14c8-4b97-928b-10d9a965cc20",
@@ -713,7 +899,9 @@
         "Copa Libertadores 2011",
         "Oro Olímpico Río 2016",
         "Máximo goleador histórico de Brasil"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Neymar, un análisis riguroso no debe omitir sus aspectos a mejorar: Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "a77cfb31-12ec-4395-af5e-9612485a6e93",
@@ -730,7 +918,9 @@
         "Mejor Jugador Copa América 2024",
         "2 UEFA Champions League",
         "2 LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de James Rodríguez, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "c2a4072c-bfc9-470d-bb0d-24a1f481879c",
@@ -744,7 +934,9 @@
       "evaluacion_rendimiento": "Conflicto Táctico",
       "titulos_relevantes": [
         "Bota de Oro Mundial 2014"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia James Rodríguez, los datos y títulos demuestran argumentos contundentes: Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia."
     },
     {
       "id": "82a79ec5-a578-4407-878e-ea87497886ad",
@@ -758,7 +950,9 @@
       "evaluacion_rendimiento": "Bajo Rendimiento",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Neymar, los datos y títulos demuestran argumentos contundentes: Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI."
     },
     {
       "id": "d465fa17-c14e-468d-8f5a-7e111e46ec91",
@@ -775,7 +969,9 @@
         "Bota de Oro Mundial 2022",
         "6 Ligue 1",
         "UEFA Nations League 2021"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "20dbdb6f-da43-4a86-967a-1d6dd0a75fae",
@@ -792,7 +988,9 @@
         "3 LaLiga de España",
         "1 Mundial de Clubes FIFA",
         "Supercopa de Europa"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Vinícius Júnior, un análisis riguroso no debe omitir sus aspectos a mejorar: Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "1cc0d494-ec96-43e7-8b3d-3f6ab6dadfac",
@@ -806,7 +1004,9 @@
       "evaluacion_rendimiento": "Margen de Mejora",
       "titulos_relevantes": [
         "2 UEFA Champions League (gol en final)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Vinícius Júnior requiere contrastar ambas perspectivas: por un lado, Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno. Por otro lado, Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "8376d090-f5a9-48cb-86f8-e6579bbf8936",
@@ -820,7 +1020,9 @@
       "evaluacion_rendimiento": "Polémico",
       "titulos_relevantes": [
         "5 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Cristiano Ronaldo, los datos y títulos demuestran argumentos contundentes: Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales."
     },
     {
       "id": "3287f63a-71c7-4a83-beba-5952df20a879",
@@ -837,7 +1039,9 @@
         "Premier League 2020",
         "3 Botas de Oro Premier League",
         "Mundial de Clubes FIFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Mohamed Salah, un análisis riguroso no debe omitir sus aspectos a mejorar: Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "4052860e-1774-4b9a-8adf-0bdc232a4f46",
@@ -851,7 +1055,9 @@
       "evaluacion_rendimiento": "Finalizador de Área",
       "titulos_relevantes": [
         "5 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Cristiano Ronaldo requiere contrastar ambas perspectivas: por un lado, Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales. Por otro lado, Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "cb49be36-7263-440d-b249-bfb4580c6c11",
@@ -865,7 +1071,9 @@
       "evaluacion_rendimiento": "Rendimiento Mixto",
       "titulos_relevantes": [
         "Copa del Mundo 2022"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Lionel Messi requiere contrastar ambas perspectivas: por un lado, Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales. Por otro lado, Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "beaf47a5-81e3-40c8-809d-73463aa08807",
@@ -879,7 +1087,9 @@
       "evaluacion_rendimiento": "Talento Intermitente",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Neymar requiere contrastar ambas perspectivas: por un lado, Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI. Por otro lado, Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "ac915d2f-d235-4bcf-815e-cc3531e9f53b",
@@ -896,7 +1106,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico (900+ goles)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "563b5f8a-ba60-41fb-9175-e8e2dede377d",
@@ -913,7 +1125,9 @@
         "2 The Best FIFA",
         "Bota de Oro Europea (2 veces)",
         "Pichichi de LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Robert Lewandowski, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "6a75270d-b44f-4c90-8075-720ec5eb7d1c",
@@ -927,7 +1141,9 @@
       "evaluacion_rendimiento": "Deuda en Mundiales",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Neymar, los datos y títulos demuestran argumentos contundentes: Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI."
     },
     {
       "id": "d3272c58-e1f0-4b3f-8fd6-80be85b1ee27",
@@ -944,7 +1160,9 @@
         "2 Scudettos Serie A con Napoli",
         "Copa UEFA 1989",
         "Subcampeón del Mundo 1990"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Diego Maradona, un análisis riguroso no debe omitir sus aspectos a mejorar: Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "252a076e-b185-4400-b667-e458748c3e39",
@@ -961,7 +1179,9 @@
         "UEFA Champions League 2006",
         "Balón de Oro 2005",
         "Copa Libertadores 2013"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldinho, un análisis riguroso no debe omitir sus aspectos a mejorar: Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "69b1e606-9eef-4815-9e6c-559d18491bf7",
@@ -978,7 +1198,9 @@
         "Balón de Oro 2018",
         "Subcampeón del Mundo 2018",
         "Bronce Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luka Modrić, un análisis riguroso no debe omitir sus aspectos a mejorar: Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "815cf27c-5418-4a00-9669-d7bb2d3c4b7c",
@@ -995,7 +1217,9 @@
         "Premio Puskás 2020",
         "Oro Juegos Asiáticos 2018",
         "Finalista Champions 2019"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Son Heung-min, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "1ad30548-7ad1-4f77-bda4-820212654ff7",
@@ -1012,7 +1236,9 @@
         "Copa América 2011",
         "2 Botas de Oro Europeas",
         "5 LaLiga (Barcelona y Atlético)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Suárez, un análisis riguroso no debe omitir sus aspectos a mejorar: Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "2e198d3c-8d4b-420e-b875-a2afd7a02e35",
@@ -1026,7 +1252,9 @@
       "evaluacion_rendimiento": "Objetivo No Cumplido",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Neymar, los datos y títulos demuestran argumentos contundentes: Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI."
     },
     {
       "id": "070d410c-aea5-460a-80a1-84e049340bc0",
@@ -1040,7 +1268,9 @@
       "evaluacion_rendimiento": "Problemas de Peso",
       "titulos_relevantes": [
         "2 Copas del Mundo (1994, 2002)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Ronaldo Nazário, los datos y títulos demuestran argumentos contundentes: Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era."
     },
     {
       "id": "d8f18951-ddcb-4130-a134-42596360b00a",
@@ -1054,7 +1284,9 @@
       "evaluacion_rendimiento": "Sequía Visitante",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Suárez requiere contrastar ambas perspectivas: por un lado, Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área. Por otro lado, Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "4ef06c18-1a87-4dcc-8907-b0b47c1c2122",
@@ -1068,7 +1300,9 @@
       "evaluacion_rendimiento": "Bajo Rendimiento",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Sadio Mané, los datos y títulos demuestran argumentos contundentes: Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor."
     },
     {
       "id": "0e5e6b1d-ee3e-48e3-91f8-304d5b1c79cc",
@@ -1082,7 +1316,9 @@
       "evaluacion_rendimiento": "Pérdida de Aceleración",
       "titulos_relevantes": [
         "Bota de Oro Premier League 2022 (sin penales)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Son Heung-min requiere contrastar ambas perspectivas: por un lado, Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa. Por otro lado, Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "8055ffae-cfc5-44bc-b6c9-3503f46d9beb",
@@ -1099,7 +1335,9 @@
         "Balón de Oro 2018",
         "Subcampeón del Mundo 2018",
         "Bronce Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luka Modrić, un análisis riguroso no debe omitir sus aspectos a mejorar: Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "d11c4fbd-a335-443b-8f3b-9ec990ad98da",
@@ -1116,7 +1354,9 @@
         "FA Cup y Carabao Cup con Liverpool",
         "2 Primeira Liga con Porto",
         "Finalista Champions 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "3a8a9366-ef1c-4374-8e87-a21c132a4531",
@@ -1133,7 +1373,9 @@
         "2 Balones de Oro (1997, 2002)",
         "2 Copas América",
         "Bota de Oro Mundial 2002"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldo Nazário, un análisis riguroso no debe omitir sus aspectos a mejorar: Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "83408883-dbbf-40c6-be99-2f774ff7fcbd",
@@ -1147,7 +1389,9 @@
       "evaluacion_rendimiento": "Poco Asociativo",
       "titulos_relevantes": [
         "UEFA Champions League 2023 (Triplete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Erling Haaland requiere contrastar ambas perspectivas: por un lado, Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido. Por otro lado, Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "ece5d7a7-add8-4eeb-ad9c-b8c29a9864e8",
@@ -1161,7 +1405,9 @@
       "evaluacion_rendimiento": "Frustración Mundialista",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Diego Maradona, los datos y títulos demuestran argumentos contundentes: La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A."
     },
     {
       "id": "578617cd-7f5b-4c3d-b125-b8dc332391a5",
@@ -1175,7 +1421,9 @@
       "evaluacion_rendimiento": "Inofensivo en Final",
       "titulos_relevantes": [
         "Bota de Oro Premier League 2022 (sin penales)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Son Heung-min, los datos y títulos demuestran argumentos contundentes: Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa."
     },
     {
       "id": "7a1bc451-68f9-4e1d-b6b4-ae91362c1e6a",
@@ -1192,7 +1440,9 @@
         "FA Cup y Carabao Cup con Liverpool",
         "2 Primeira Liga con Porto",
         "Finalista Champions 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "dc1f176e-a4bb-4ff2-863c-dc849b71024d",
@@ -1206,7 +1456,9 @@
       "evaluacion_rendimiento": "Cima Muy Corta",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldinho requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu. Por otro lado, Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "6fe78afe-460e-4965-b124-dac02fcd2231",
@@ -1220,7 +1472,9 @@
       "evaluacion_rendimiento": "Deuda con Bélgica",
       "titulos_relevantes": [
         "UEFA Champions League 2023"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kevin De Bruyne requiere contrastar ambas perspectivas: por un lado, El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba. Por otro lado, Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "7cc2b969-55b9-4ae9-9a36-8e1f67fd471a",
@@ -1234,7 +1488,9 @@
       "evaluacion_rendimiento": "Anacronismo Táctico",
       "titulos_relevantes": [
         "Bota de Oro Mundial 2014"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de James Rodríguez requiere contrastar ambas perspectivas: por un lado, Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia. Por otro lado, Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "ba780a6a-d2cf-4f26-9e25-8860f668a381",
@@ -1251,7 +1507,9 @@
         "Premier League 2020",
         "Copa Africana de Naciones 2022",
         "Bota de Oro Premier"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Sadio Mané, un análisis riguroso no debe omitir sus aspectos a mejorar: Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "c8f14f12-8350-4e83-8f4b-65bf951e528e",
@@ -1268,7 +1526,9 @@
         "FA Cup y Carabao Cup con Liverpool",
         "2 Primeira Liga con Porto",
         "Finalista Champions 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "8d5a3373-4c7b-4cb9-a886-e706304394aa",
@@ -1285,7 +1545,9 @@
         "2 The Best FIFA",
         "Bota de Oro Europea (2 veces)",
         "Pichichi de LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Robert Lewandowski, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "8baccb95-7a7f-400c-9692-426fb7a24534",
@@ -1299,7 +1561,9 @@
       "evaluacion_rendimiento": "Galáctico sin Equilibrio",
       "titulos_relevantes": [
         "2 Copas del Mundo (1994, 2002)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldo Nazário requiere contrastar ambas perspectivas: por un lado, Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era. Por otro lado, Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "3c98a0c0-0767-4e9d-9a11-873b8c704932",
@@ -1316,7 +1580,9 @@
         "2 Premier League",
         "2 Botas de Oro Premier League",
         "Bota de Oro Europea"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Erling Haaland, un análisis riguroso no debe omitir sus aspectos a mejorar: Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "3aaebe4c-5820-43e6-86e3-54c8f738c448",
@@ -1333,7 +1599,9 @@
         "2 Premier League",
         "2 Botas de Oro Premier League",
         "Bota de Oro Europea"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Erling Haaland, un análisis riguroso no debe omitir sus aspectos a mejorar: Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "b9a455ca-50f5-4e48-9bca-38cef0fbb54f",
@@ -1347,7 +1615,9 @@
       "evaluacion_rendimiento": "Limitación Nacional",
       "titulos_relevantes": [
         "UEFA Champions League 2020 (Sextete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Robert Lewandowski requiere contrastar ambas perspectivas: por un lado, Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern. Por otro lado, Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "e4266079-97c8-4eb4-91b9-4ea33129865e",
@@ -1361,7 +1631,9 @@
       "evaluacion_rendimiento": "Polémica de Conducta",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luis Suárez, los datos y títulos demuestran argumentos contundentes: Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área."
     },
     {
       "id": "37e3d0df-9d52-49d2-a342-4d61e4dfdad2",
@@ -1378,7 +1650,9 @@
         "UEFA Champions League 2006",
         "Balón de Oro 2005",
         "Copa Libertadores 2013"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldinho, un análisis riguroso no debe omitir sus aspectos a mejorar: Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "3f338e0b-153d-4871-b7df-5546b130773c",
@@ -1395,7 +1669,9 @@
         "2 Premier League",
         "2 Botas de Oro Premier League",
         "Bota de Oro Europea"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Erling Haaland, un análisis riguroso no debe omitir sus aspectos a mejorar: Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "4dd509c5-3481-4c1d-8f07-c999b4d43cb7",
@@ -1409,7 +1685,9 @@
       "evaluacion_rendimiento": "Paso Breve por Barça",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Diego Maradona requiere contrastar ambas perspectivas: por un lado, La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A. Por otro lado, Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "5e7f8085-0c8c-412c-a8ad-00aafd7e0b2d",
@@ -1423,7 +1701,9 @@
       "evaluacion_rendimiento": "Evolución Posicional",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Mohamed Salah requiere contrastar ambas perspectivas: por un lado, Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas. Por otro lado, Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "5136feab-8cb7-46df-91dd-9f08c78c469a",
@@ -1440,7 +1720,9 @@
         "Copa América 2011",
         "2 Botas de Oro Europeas",
         "5 LaLiga (Barcelona y Atlético)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Suárez, un análisis riguroso no debe omitir sus aspectos a mejorar: Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "47b68c22-833a-40fb-bc03-c321c9162088",
@@ -1454,7 +1736,9 @@
       "evaluacion_rendimiento": "Veteranía Táctica",
       "titulos_relevantes": [
         "UEFA Champions League 2020 (Sextete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Robert Lewandowski requiere contrastar ambas perspectivas: por un lado, Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern. Por otro lado, Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "857aaf0a-e12e-49d5-8691-ee7da200f435",
@@ -1471,7 +1755,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "a43b84c9-65cc-4f6d-b4f0-5e1054a25ed6",
@@ -1485,7 +1771,9 @@
       "evaluacion_rendimiento": "Fracaso en 1966",
       "titulos_relevantes": [
         "3 Copas del Mundo (1958, 1962, 1970)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Pelé, los datos y títulos demuestran argumentos contundentes: El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno."
     },
     {
       "id": "613e2f55-3810-4e6c-86fc-6dbc9fe4ae25",
@@ -1499,7 +1787,9 @@
       "evaluacion_rendimiento": "Déficit Físico",
       "titulos_relevantes": [
         "UEFA Champions League 2020 (Sextete)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Robert Lewandowski, los datos y títulos demuestran argumentos contundentes: Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern."
     },
     {
       "id": "6b10bad7-0b69-4f00-bde5-2c304664ab39",
@@ -1516,7 +1806,9 @@
         "Premier League 2020",
         "Copa Africana de Naciones 2022",
         "Bota de Oro Premier"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Sadio Mané, un análisis riguroso no debe omitir sus aspectos a mejorar: Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "1f195df2-9289-497c-830c-d0eb04e32c33",
@@ -1530,7 +1822,9 @@
       "evaluacion_rendimiento": "Inicio Cuestionado",
       "titulos_relevantes": [
         "6 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luka Modrić, los datos y títulos demuestran argumentos contundentes: Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia."
     },
     {
       "id": "51a517b7-775d-445e-a791-b01b63777959",
@@ -1544,7 +1838,9 @@
       "evaluacion_rendimiento": "Propenso a Lesión",
       "titulos_relevantes": [
         "UEFA Champions League 2023"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kevin De Bruyne requiere contrastar ambas perspectivas: por un lado, El mejor asistente de Europa en la última década, líder futbolístico del Manchester City multicampeón y golpeo de balón insuperable en precisión y comba. Por otro lado, Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "c828b980-61bd-4486-b8fd-e2e04e0a5864",
@@ -1558,7 +1854,9 @@
       "evaluacion_rendimiento": "Rol Secundario",
       "titulos_relevantes": [
         "6 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luka Modrić requiere contrastar ambas perspectivas: por un lado, Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia. Por otro lado, Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "7a3bf795-49d1-4aed-96c6-43a7e45e78ce",
@@ -1575,7 +1873,9 @@
         "UEFA Champions League 2006",
         "Balón de Oro 2005",
         "Copa Libertadores 2013"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldinho, un análisis riguroso no debe omitir sus aspectos a mejorar: Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "75333304-56e0-4cdb-9517-efca6ac84bd3",
@@ -1592,7 +1892,9 @@
         "Balón de Oro 2018",
         "Subcampeón del Mundo 2018",
         "Bronce Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luka Modrić, un análisis riguroso no debe omitir sus aspectos a mejorar: Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "12bdcf29-317d-4440-a10d-c87a81805a4e",
@@ -1609,7 +1911,9 @@
         "Bota de Oro Mundial 2022",
         "6 Ligue 1",
         "UEFA Nations League 2021"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "483c1a60-34d7-4307-9cbc-9af5c5b93e7a",
@@ -1626,7 +1930,9 @@
         "Mejor Jugador Copa América 2024",
         "2 UEFA Champions League",
         "2 LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de James Rodríguez, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "c805353e-d3f0-4852-9fd5-6becdb8f89fa",
@@ -1640,7 +1946,9 @@
       "evaluacion_rendimiento": "Carrera Truncada",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Diego Maradona requiere contrastar ambas perspectivas: por un lado, La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A. Por otro lado, Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "51a25a38-d17f-499d-b6af-dbc2c30ae477",
@@ -1657,7 +1965,9 @@
         "UEFA Champions League 2002",
         "Eurocopa 2000",
         "Balón de Oro 1998"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Zinedine Zidane, un análisis riguroso no debe omitir sus aspectos a mejorar: Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "cfecded5-06e1-4353-a8da-e27be3df3c2a",
@@ -1674,7 +1984,9 @@
         "2 Copas Libertadores",
         "2 Copas Intercontinentales",
         "Más de 1200 goles oficiales y amistosos"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Pelé, un análisis riguroso no debe omitir sus aspectos a mejorar: Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "7dfc998b-352c-46c8-b9f5-2cb34cde94d4",
@@ -1691,7 +2003,9 @@
         "2 The Best FIFA",
         "Bota de Oro Europea (2 veces)",
         "Pichichi de LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Robert Lewandowski, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "11664ec6-f21a-4a54-8b64-188c0c6de73d",
@@ -1705,7 +2019,9 @@
       "evaluacion_rendimiento": "Deuda en 2006",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldinho requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu. Por otro lado, Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "956bb2ed-f135-427d-ba42-3e200d8c6853",
@@ -1719,7 +2035,9 @@
       "evaluacion_rendimiento": "Retiro Dorado",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Sadio Mané requiere contrastar ambas perspectivas: por un lado, Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor. Por otro lado, Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "97c50084-0827-48ad-b191-e5438a1619ac",
@@ -1736,7 +2054,9 @@
         "2 The Best FIFA",
         "Bota de Oro Europea (2 veces)",
         "Pichichi de LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Robert Lewandowski, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "010c7791-2d32-4c67-9148-4538152025b8",
@@ -1753,7 +2073,9 @@
         "2 Copas Libertadores",
         "2 Copas Intercontinentales",
         "Más de 1200 goles oficiales y amistosos"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Pelé, un análisis riguroso no debe omitir sus aspectos a mejorar: Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "d6dfd6cd-3809-4487-b977-52921cf5ccb9",
@@ -1770,7 +2092,9 @@
         "UEFA Champions League 2002",
         "Eurocopa 2000",
         "Balón de Oro 1998"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Zinedine Zidane, un análisis riguroso no debe omitir sus aspectos a mejorar: Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "4f9f42e6-df4b-40f8-8eb7-6ecf59b3443d",
@@ -1784,7 +2108,9 @@
       "evaluacion_rendimiento": "Lesiones en Mundiales",
       "titulos_relevantes": [
         "3 Copas del Mundo (1958, 1962, 1970)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Pelé requiere contrastar ambas perspectivas: por un lado, El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno. Por otro lado, Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "372fc5d2-6aab-46fd-b0f0-6f342a1cb0f9",
@@ -1801,7 +2127,9 @@
         "UEFA Champions League 2002",
         "Eurocopa 2000",
         "Balón de Oro 1998"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Zinedine Zidane, un análisis riguroso no debe omitir sus aspectos a mejorar: Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "6c91452b-7492-4a57-9a93-e6ee736d7e66",
@@ -1818,7 +2146,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "3a512715-2389-43bd-a721-0f6e46d4a340",
@@ -1832,7 +2162,9 @@
       "evaluacion_rendimiento": "Finales Perdidas",
       "titulos_relevantes": [
         "Copa del Mundo 1998"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Zinedine Zidane requiere contrastar ambas perspectivas: por un lado, Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro. Por otro lado, Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "a84aee50-6173-4b61-bbe3-4dd39513f5d2",
@@ -1849,7 +2181,9 @@
         "Copa Libertadores 2011",
         "Oro Olímpico Río 2016",
         "Máximo goleador histórico de Brasil"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Neymar, un análisis riguroso no debe omitir sus aspectos a mejorar: Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "a343a1d1-3b78-4d46-8956-30171fdab5dd",
@@ -1866,7 +2200,9 @@
         "2 The Best FIFA",
         "Bota de Oro Europea (2 veces)",
         "Pichichi de LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Robert Lewandowski, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor capacidad de generar peligro por sí mismo cuando el equipo no logra someter al rival ni llevar el balón al área contraria."
     },
     {
       "id": "12877e80-46de-4fdc-892b-87e085f522b6",
@@ -1880,7 +2216,9 @@
       "evaluacion_rendimiento": "Expulsión en Final",
       "titulos_relevantes": [
         "Copa del Mundo 1998"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Zinedine Zidane, los datos y títulos demuestran argumentos contundentes: Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro."
     },
     {
       "id": "0382d8f1-707e-40e0-8bbd-8536885cabce",
@@ -1894,7 +2232,9 @@
       "evaluacion_rendimiento": "Cuestionado",
       "titulos_relevantes": [
         "Copa del Mundo 2022"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Lionel Messi, los datos y títulos demuestran argumentos contundentes: Máximo ganador de Balones de Oro (8), campeón mundial en Catar 2022 siendo MVP absoluto, 4 Champions League y más de 800 goles oficiales."
     },
     {
       "id": "e8299891-6e71-4ad5-8d82-4b4a091dae52",
@@ -1911,7 +2251,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico (900+ goles)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "13446193-7202-447c-8a4a-a06bde6ccff6",
@@ -1928,7 +2270,9 @@
         "6 Premier League",
         "Máximo Asistente histórico de Premier",
         "2 Mejor Jugador PFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kevin De Bruyne, un análisis riguroso no debe omitir sus aspectos a mejorar: Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "8f85eb75-ce1e-49f5-9e62-08a71d3a8ef5",
@@ -1942,7 +2286,9 @@
       "evaluacion_rendimiento": "Irregular",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Neymar requiere contrastar ambas perspectivas: por un lado, Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI. Por otro lado, Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "6400ae10-897a-4dd7-82ce-e0031362f060",
@@ -1959,7 +2305,9 @@
         "3 LaLiga de España",
         "1 Mundial de Clubes FIFA",
         "Supercopa de Europa"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Vinícius Júnior, un análisis riguroso no debe omitir sus aspectos a mejorar: Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "d0ecaa4c-91b7-47b1-9850-62462b7b4264",
@@ -1976,7 +2324,9 @@
         "2 Balones de Oro (1997, 2002)",
         "2 Copas América",
         "Bota de Oro Mundial 2002"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldo Nazário, un análisis riguroso no debe omitir sus aspectos a mejorar: Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "b5c1731e-f1be-4605-bbb9-6b258144e174",
@@ -1990,7 +2340,9 @@
       "evaluacion_rendimiento": "Fragilidad Muscular",
       "titulos_relevantes": [
         "Bota de Oro Mundial 2014"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia James Rodríguez, los datos y títulos demuestran argumentos contundentes: Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia."
     },
     {
       "id": "76a62b19-0cf8-4d66-bb88-1cb9ddc89c25",
@@ -2004,7 +2356,9 @@
       "evaluacion_rendimiento": "Inconstancia en Clubes",
       "titulos_relevantes": [
         "Bota de Oro Mundial 2014"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de James Rodríguez requiere contrastar ambas perspectivas: por un lado, Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia. Por otro lado, Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "37b9dc4a-d29a-4e52-8c6c-5457f5377fe3",
@@ -2021,7 +2375,9 @@
         "Premier League 2020",
         "Copa Africana de Naciones 2022",
         "Bota de Oro Premier"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Sadio Mané, un análisis riguroso no debe omitir sus aspectos a mejorar: Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "60c90067-42f9-43ee-99a5-94078da6e547",
@@ -2038,7 +2394,9 @@
         "2 Copas Libertadores",
         "2 Copas Intercontinentales",
         "Más de 1200 goles oficiales y amistosos"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Pelé, un análisis riguroso no debe omitir sus aspectos a mejorar: Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "f561d6d5-ce6d-458e-8256-0a6236859442",
@@ -2052,7 +2410,9 @@
       "evaluacion_rendimiento": "Polémica Interna",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Sadio Mané, los datos y títulos demuestran argumentos contundentes: Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor."
     },
     {
       "id": "321c9144-e235-4bdd-ae55-9fce22f837c0",
@@ -2069,7 +2429,9 @@
         "Copa Libertadores 2011",
         "Oro Olímpico Río 2016",
         "Máximo goleador histórico de Brasil"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Neymar, un análisis riguroso no debe omitir sus aspectos a mejorar: Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "02e0ba8b-7c07-47aa-8787-f67476fe072f",
@@ -2086,7 +2448,9 @@
         "Copa Libertadores 2011",
         "Oro Olímpico Río 2016",
         "Máximo goleador histórico de Brasil"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Neymar, un análisis riguroso no debe omitir sus aspectos a mejorar: Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "b6f4d57d-5665-4c21-88c0-27ac56557c4c",
@@ -2100,7 +2464,9 @@
       "evaluacion_rendimiento": "Salida Forzada",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Ronaldinho, los datos y títulos demuestran argumentos contundentes: Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu."
     },
     {
       "id": "ec0b5acd-13c0-4932-a78e-b47b5a80fc71",
@@ -2117,7 +2483,9 @@
         "UEFA Champions League 2006",
         "Balón de Oro 2005",
         "Copa Libertadores 2013"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldinho, un análisis riguroso no debe omitir sus aspectos a mejorar: Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "811a94bc-2bb6-4522-906f-9017f15ccc55",
@@ -2131,7 +2499,9 @@
       "evaluacion_rendimiento": "En Recuperación",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Neymar requiere contrastar ambas perspectivas: por un lado, Máximo goleador histórico de la selección brasileña, figura estelar del triplete con el Barcelona y uno de los regateadores más virtuosos del siglo XXI. Por otro lado, Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "606a4897-0c09-4189-801d-9f0546f5738a",
@@ -2148,7 +2518,9 @@
         "6 Premier League",
         "Máximo Asistente histórico de Premier",
         "2 Mejor Jugador PFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kevin De Bruyne, un análisis riguroso no debe omitir sus aspectos a mejorar: Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "4a92972c-4615-49c3-a07a-224129d3b849",
@@ -2165,7 +2537,9 @@
         "2 Scudettos Serie A con Napoli",
         "Copa UEFA 1989",
         "Subcampeón del Mundo 1990"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Diego Maradona, un análisis riguroso no debe omitir sus aspectos a mejorar: Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "93ed963b-9bda-4062-a4ae-245ee0f5be97",
@@ -2179,7 +2553,9 @@
       "evaluacion_rendimiento": "Adaptación Táctica",
       "titulos_relevantes": [
         "Copa del Mundo 2018"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kylian Mbappé requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles. Por otro lado, Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "712e7ab7-d523-42d5-a61c-a973e3182bc7",
@@ -2196,7 +2572,9 @@
         "UEFA Champions League 2002",
         "Eurocopa 2000",
         "Balón de Oro 1998"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Zinedine Zidane, un análisis riguroso no debe omitir sus aspectos a mejorar: Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "035acd73-5146-4d15-81af-f3c3fe3e0735",
@@ -2213,7 +2591,9 @@
         "6 Premier League",
         "Máximo Asistente histórico de Premier",
         "2 Mejor Jugador PFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kevin De Bruyne, un análisis riguroso no debe omitir sus aspectos a mejorar: Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "2bb97bf2-edee-44b3-bc8d-f632dcbe22f7",
@@ -2227,7 +2607,9 @@
       "evaluacion_rendimiento": "Vida Extradeportiva",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Diego Maradona, los datos y títulos demuestran argumentos contundentes: La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A."
     },
     {
       "id": "139fb722-3101-46f8-8bae-0442e3bbcfcb",
@@ -2244,7 +2626,9 @@
         "Premio Puskás 2020",
         "Oro Juegos Asiáticos 2018",
         "Finalista Champions 2019"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Son Heung-min, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "b3b78029-4c8b-45bb-9339-4f9653ce1b80",
@@ -2261,7 +2645,9 @@
         "2 Copas Libertadores",
         "2 Copas Intercontinentales",
         "Más de 1200 goles oficiales y amistosos"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Pelé, un análisis riguroso no debe omitir sus aspectos a mejorar: Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "02031b9a-64e7-4704-ad1d-f66660fa7697",
@@ -2275,7 +2661,9 @@
       "evaluacion_rendimiento": "Ausencia Mundialista",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Sadio Mané requiere contrastar ambas perspectivas: por un lado, Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor. Por otro lado, Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "9438ba1f-43e3-4773-8f23-065e029460db",
@@ -2292,7 +2680,9 @@
         "3 LaLiga de España",
         "1 Mundial de Clubes FIFA",
         "Supercopa de Europa"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Vinícius Júnior, un análisis riguroso no debe omitir sus aspectos a mejorar: Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "e64adf89-e6d6-4553-beed-41dad1ea8ced",
@@ -2309,7 +2699,9 @@
         "Copa América 2011",
         "2 Botas de Oro Europeas",
         "5 LaLiga (Barcelona y Atlético)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Suárez, un análisis riguroso no debe omitir sus aspectos a mejorar: Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "cce623ee-354f-41a6-a6d0-c979eaf4cb23",
@@ -2326,7 +2718,9 @@
         "Premier League 2020",
         "3 Botas de Oro Premier League",
         "Mundial de Clubes FIFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Mohamed Salah, un análisis riguroso no debe omitir sus aspectos a mejorar: Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "67deb0b8-3c17-4e90-a1c7-3888ae04b4d3",
@@ -2340,7 +2734,9 @@
       "evaluacion_rendimiento": "Régimen Reducido",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Suárez requiere contrastar ambas perspectivas: por un lado, Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área. Por otro lado, Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "329b7c92-39a7-483f-9376-f6a6b655666f",
@@ -2357,7 +2753,9 @@
         "Copa América 2011",
         "2 Botas de Oro Europeas",
         "5 LaLiga (Barcelona y Atlético)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Suárez, un análisis riguroso no debe omitir sus aspectos a mejorar: Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "03c05ced-4e04-4cb1-8625-61ab75aaf76b",
@@ -2374,7 +2772,9 @@
         "Mejor Jugador Copa América 2024",
         "2 UEFA Champions League",
         "2 LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de James Rodríguez, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "3ee0bbc6-d8f0-453c-93c7-30e910cd13a5",
@@ -2391,7 +2791,9 @@
         "Copa Libertadores 2011",
         "Oro Olímpico Río 2016",
         "Máximo goleador histórico de Brasil"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Neymar, un análisis riguroso no debe omitir sus aspectos a mejorar: Lesiones recurrentes en fases decisivas de Champions League, distracciones extracancha y falta de regularidad sostenida en su etapa con el PSG."
     },
     {
       "id": "872fc865-9697-4162-8988-9ab19cf57719",
@@ -2408,7 +2810,9 @@
         "2 Balones de Oro (1997, 2002)",
         "2 Copas América",
         "Bota de Oro Mundial 2002"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldo Nazário, un análisis riguroso no debe omitir sus aspectos a mejorar: Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "d16d7449-8f36-4da2-bedd-dfd7b7f2109c",
@@ -2425,7 +2829,9 @@
         "FA Cup y Carabao Cup con Liverpool",
         "2 Primeira Liga con Porto",
         "Finalista Champions 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Díaz, un análisis riguroso no debe omitir sus aspectos a mejorar: Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "d0c5fd5e-e62e-48b9-bd43-566819e09472",
@@ -2439,7 +2845,9 @@
       "evaluacion_rendimiento": "Minutos Medidos",
       "titulos_relevantes": [
         "6 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luka Modrić requiere contrastar ambas perspectivas: por un lado, Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia. Por otro lado, Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "61d807c2-e913-4a3e-a8df-c102171aa918",
@@ -2453,7 +2861,9 @@
       "evaluacion_rendimiento": "Fracaso Colectivo",
       "titulos_relevantes": [
         "Copa del Mundo 1998"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Zinedine Zidane, los datos y títulos demuestran argumentos contundentes: Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro."
     },
     {
       "id": "c4a0ab14-0894-424c-8ecb-2cfcfe6bd411",
@@ -2470,7 +2880,9 @@
         "6 Premier League",
         "Máximo Asistente histórico de Premier",
         "2 Mejor Jugador PFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kevin De Bruyne, un análisis riguroso no debe omitir sus aspectos a mejorar: Historial de lesiones musculares en momentos decisivos (incluyendo dos finales de Champions League) y la ausencia de títulos mayores con la selección belga."
     },
     {
       "id": "276ebc18-401d-4a59-89f4-6a5818e022ad",
@@ -2484,7 +2896,9 @@
       "evaluacion_rendimiento": "Dependencia Colectiva",
       "titulos_relevantes": [
         "UEFA Champions League 2023 (Triplete)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Erling Haaland requiere contrastar ambas perspectivas: por un lado, Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido. Por otro lado, Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "cc74b4ff-8f83-4145-9722-0e894359bf29",
@@ -2501,7 +2915,9 @@
         "3 LaLiga de España",
         "1 Mundial de Clubes FIFA",
         "Supercopa de Europa"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Vinícius Júnior, un análisis riguroso no debe omitir sus aspectos a mejorar: Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "7ba37f0f-f297-4e57-8be2-5d97ff51957d",
@@ -2515,7 +2931,9 @@
       "evaluacion_rendimiento": "Falta de Autocontrol",
       "titulos_relevantes": [
         "2 UEFA Champions League (gol en final)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Vinícius Júnior, los datos y títulos demuestran argumentos contundentes: Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno."
     },
     {
       "id": "edf906e2-0ef2-4618-9b60-d7a4ae2c6557",
@@ -2532,7 +2950,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico (900+ goles)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "90467ff4-587b-4e3b-8049-426291a7eb07",
@@ -2546,7 +2966,9 @@
       "evaluacion_rendimiento": "Segunda Juventud Breve",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldinho requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu. Por otro lado, Un periodo en la cima europea relativamente breve (2003-2006) al descuidar la disciplina física y los entrenamientos en el Barcelona."
     },
     {
       "id": "741326f9-5780-498b-a19f-17b82333141c",
@@ -2560,7 +2982,9 @@
       "evaluacion_rendimiento": "Debacle Europea",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luis Suárez, los datos y títulos demuestran argumentos contundentes: Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área."
     },
     {
       "id": "8d52846d-49b9-403c-a7a6-bff3f0fe779c",
@@ -2574,7 +2998,9 @@
       "evaluacion_rendimiento": "Época Incomparable",
       "titulos_relevantes": [
         "3 Copas del Mundo (1958, 1962, 1970)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Pelé, los datos y títulos demuestran argumentos contundentes: El único futbolista con 3 Copas del Mundo ganadas, más de 1200 goles convertidos y el creador originario de casi todos los gestos técnicos del fútbol moderno."
     },
     {
       "id": "612b5c6d-7d78-4e56-a115-97b9e3764890",
@@ -2588,7 +3014,9 @@
       "evaluacion_rendimiento": "Falta de Trofeos",
       "titulos_relevantes": [
         "Bota de Oro Premier League 2022 (sin penales)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Son Heung-min requiere contrastar ambas perspectivas: por un lado, Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa. Por otro lado, Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "de120b01-21f6-4c4b-afe7-0df540d1f291",
@@ -2602,7 +3030,9 @@
       "evaluacion_rendimiento": "Debacle en París 98",
       "titulos_relevantes": [
         "2 Copas del Mundo (1994, 2002)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Ronaldo Nazário, los datos y títulos demuestran argumentos contundentes: Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era."
     },
     {
       "id": "7249e0eb-0f52-4d66-ad8f-bf53c77365a4",
@@ -2616,7 +3046,9 @@
       "evaluacion_rendimiento": "Caída Europea",
       "titulos_relevantes": [
         "UEFA Champions League 2020 (Sextete)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Robert Lewandowski, los datos y títulos demuestran argumentos contundentes: Dos premios The Best de la FIFA, récord histórico de 41 goles en una temporada de Bundesliga, más de 650 goles oficiales y sextete histórico con el Bayern."
     },
     {
       "id": "2b2a2ae7-ebdc-4003-af77-48df9d5d41f2",
@@ -2630,7 +3062,9 @@
       "evaluacion_rendimiento": "Fácilmente Aislado",
       "titulos_relevantes": [
         "UEFA Champions League 2023 (Triplete)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Erling Haaland, los datos y títulos demuestran argumentos contundentes: Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido."
     },
     {
       "id": "35832ed9-89ee-4433-ab63-fbe22ebf9946",
@@ -2647,7 +3081,9 @@
         "Premier League 2020",
         "3 Botas de Oro Premier League",
         "Mundial de Clubes FIFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Mohamed Salah, un análisis riguroso no debe omitir sus aspectos a mejorar: Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "6acfe4c1-9a4f-4b01-8144-c17f92662e10",
@@ -2661,7 +3097,9 @@
       "evaluacion_rendimiento": "Tragedia de Rodillas",
       "titulos_relevantes": [
         "2 Copas del Mundo (1994, 2002)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Ronaldo Nazário requiere contrastar ambas perspectivas: por un lado, Dos Copas del Mundo (héroe y Bota de Oro en 2002 tras superar su calvario de rodillas), dos Balones de Oro y el delantero centro más devastador de su era. Por otro lado, Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "32e812fc-2ab7-4f07-8192-da685258c674",
@@ -2678,7 +3116,9 @@
         "2 Premier League",
         "2 Botas de Oro Premier League",
         "Bota de Oro Europea"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Erling Haaland, un análisis riguroso no debe omitir sus aspectos a mejorar: Poca participación en el circuito de toques asociativo fuera del área penal y partidos de alta tensión (semifinales y finales europeas) donde ha sido neutralizado por marcas férreas."
     },
     {
       "id": "ac2faef5-ca3f-4f54-a20b-041656a78b8e",
@@ -2695,7 +3135,9 @@
         "Bota de Oro Mundial 2022",
         "6 Ligue 1",
         "UEFA Nations League 2021"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "52acc49e-a05f-4937-9740-66fefdf1b30d",
@@ -2712,7 +3154,9 @@
         "3 LaLiga de España",
         "1 Mundial de Clubes FIFA",
         "Supercopa de Europa"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Vinícius Júnior, un análisis riguroso no debe omitir sus aspectos a mejorar: Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "d9cca727-8a89-41c5-bfef-32af03a10a38",
@@ -2726,7 +3170,9 @@
       "evaluacion_rendimiento": "Sin Copa Asiática",
       "titulos_relevantes": [
         "Bota de Oro Premier League 2022 (sin penales)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Son Heung-min requiere contrastar ambas perspectivas: por un lado, Bota de Oro de la Premier League sin lanzar un solo tiro penal, remate letal con ambas piernas y referente indiscutible del fútbol asiático en Europa. Por otro lado, Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "f6b70dd1-80be-4ad7-9994-d5004e67bfd8",
@@ -2743,7 +3189,9 @@
         "Premier League 2020",
         "3 Botas de Oro Premier League",
         "Mundial de Clubes FIFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Mohamed Salah, un análisis riguroso no debe omitir sus aspectos a mejorar: Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "f44b8edd-29f4-4d18-827a-ad0b303da175",
@@ -2760,7 +3208,9 @@
         "5 Balones de Oro",
         "Eurocopa 2016",
         "Máximo goleador histórico (900+ goles)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Cristiano Ronaldo, un análisis riguroso no debe omitir sus aspectos a mejorar: Menor participación asociativa en la gestación colectiva fuera del área y dependencia del abastecimiento en ataque que puede restar fluidez ante bloques muy cerrados."
     },
     {
       "id": "7b35c56e-443b-4700-94c1-42e92ebf1fe0",
@@ -2777,7 +3227,9 @@
         "Balón de Oro 2018",
         "Subcampeón del Mundo 2018",
         "Bronce Mundial 2022"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luka Modrić, un análisis riguroso no debe omitir sus aspectos a mejorar: Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "5551137e-382d-4970-a0b5-35d654e1c5d5",
@@ -2791,7 +3243,9 @@
       "evaluacion_rendimiento": "Trampa Arbitral",
       "titulos_relevantes": [
         "Copa del Mundo México 1986"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Diego Maradona, los datos y títulos demuestran argumentos contundentes: La actuación individual más determinante en la historia de los Mundiales (México 1986) y la hazaña histórica de llevar al humilde Napoli a dos títulos de Serie A."
     },
     {
       "id": "db39bab7-0f0f-4688-8753-17a7d4175bd5",
@@ -2805,7 +3259,9 @@
       "evaluacion_rendimiento": "Declive Físico",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Ronaldinho, los datos y títulos demuestran argumentos contundentes: Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu."
     },
     {
       "id": "1cfa51d5-4bb2-462f-8444-4f39b70b3879",
@@ -2819,7 +3275,9 @@
       "evaluacion_rendimiento": "Espacios Reducidos",
       "titulos_relevantes": [
         "Copa del Mundo 2018"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kylian Mbappé requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles. Por otro lado, Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "ba1fbf02-072b-4a9f-a704-d504ee0e12f3",
@@ -2833,7 +3291,9 @@
       "evaluacion_rendimiento": "Desbordado en Repliegue",
       "titulos_relevantes": [
         "6 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luka Modrić, los datos y títulos demuestran argumentos contundentes: Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia."
     },
     {
       "id": "ec9ad164-e56f-44eb-a21b-c1b66ee266ea",
@@ -2850,7 +3310,9 @@
         "Bota de Oro Mundial 2022",
         "6 Ligue 1",
         "UEFA Nations League 2021"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Kylian Mbappé, un análisis riguroso no debe omitir sus aspectos a mejorar: Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "d63c373b-6bab-4418-bada-3c7b0400901b",
@@ -2867,7 +3329,9 @@
         "Premier League 2020",
         "Copa Africana de Naciones 2022",
         "Bota de Oro Premier"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Sadio Mané, un análisis riguroso no debe omitir sus aspectos a mejorar: Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "f8252e78-bdd2-4cce-abd7-577bb4ce7bff",
@@ -2881,7 +3345,9 @@
       "evaluacion_rendimiento": "Pausa por Lesión",
       "titulos_relevantes": [
         "Goleador Copa América 2021"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Díaz requiere contrastar ambas perspectivas: por un lado, Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League. Por otro lado, Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "79d0196f-f0d4-4d18-9ea7-f19f5c95b156",
@@ -2895,7 +3361,9 @@
       "evaluacion_rendimiento": "Aislamiento Táctico",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Mohamed Salah, los datos y títulos demuestran argumentos contundentes: Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas."
     },
     {
       "id": "d2682259-a55e-48bb-bffe-68184f3eb105",
@@ -2909,7 +3377,9 @@
       "evaluacion_rendimiento": "Desaparecido en Finales",
       "titulos_relevantes": [
         "UEFA Champions League 2023 (Triplete)"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Erling Haaland, los datos y títulos demuestran argumentos contundentes: Pulverizó el récord histórico de goles de la Premier League en su primera temporada, conquistó el Triplete con Man City y promedia casi un gol por partido."
     },
     {
       "id": "e8ec814b-e001-4c11-9dfe-46036730711c",
@@ -2926,7 +3396,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "e0a68c80-0e1b-4735-b4b6-e8a24738217e",
@@ -2940,7 +3412,9 @@
       "evaluacion_rendimiento": "Previsible al Centro",
       "titulos_relevantes": [
         "Goleador Copa América 2021"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Díaz requiere contrastar ambas perspectivas: por un lado, Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League. Por otro lado, Ocasional falta de serenidad y eficacia en la definición final tras grandes cabalgadas individuales, debiendo consolidar registros goleadores más altos."
     },
     {
       "id": "77115d9d-698f-4130-a17d-4fee6d460602",
@@ -2954,7 +3428,9 @@
       "evaluacion_rendimiento": "Bajo Impacto",
       "titulos_relevantes": [
         "Copa del Mundo 2018"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Kylian Mbappé, los datos y títulos demuestran argumentos contundentes: Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles."
     },
     {
       "id": "70a15a03-43b4-49cf-95f2-b59e62576ac9",
@@ -2971,7 +3447,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     },
     {
       "id": "2b3a42b2-d5e4-452e-a16b-7ac18298876e",
@@ -2985,7 +3463,9 @@
       "evaluacion_rendimiento": "Cierre Amargo",
       "titulos_relevantes": [
         "6 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luka Modrić requiere contrastar ambas perspectivas: por un lado, Seis Champions League ganadas, Balón de Oro 2018 en plena era Messi-Cristiano y dos podios mundialistas inolvidables capitaneando a Croacia. Por otro lado, Lógica disminución del despliegue en transiciones de alta velocidad debido a su edad, requiriendo protección en partidos de ida y vuelta constante."
     },
     {
       "id": "86767de4-bfa8-4611-99dc-34a4a48ec94a",
@@ -3002,7 +3482,9 @@
         "2 Copas Libertadores",
         "2 Copas Intercontinentales",
         "Más de 1200 goles oficiales y amistosos"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Pelé, un análisis riguroso no debe omitir sus aspectos a mejorar: Disputó casi toda su carrera de clubes en el Santos y el Cosmos sin competir en el exigente calendario de ligas y copas europeas de su tiempo."
     },
     {
       "id": "d55df697-49a2-4a38-ab72-88fefdee891f",
@@ -3016,7 +3498,9 @@
       "evaluacion_rendimiento": "Fallo en Final",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Mohamed Salah, los datos y títulos demuestran argumentos contundentes: Tres Botas de Oro en la exigente Premier League, artífice del regreso a la gloria del Liverpool y regularidad goleadora durante más de seis temporadas."
     },
     {
       "id": "b12cb7e5-4c0f-4eec-ba32-e43a8838139d",
@@ -3030,7 +3514,9 @@
       "evaluacion_rendimiento": "Aparición Selectiva",
       "titulos_relevantes": [
         "Copa del Mundo 1998"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Zinedine Zidane requiere contrastar ambas perspectivas: por un lado, Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro. Por otro lado, Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "1962891f-0848-4b73-a8fb-0d37881fc859",
@@ -3047,7 +3533,9 @@
         "2 Balones de Oro (1997, 2002)",
         "2 Copas América",
         "Bota de Oro Mundial 2002"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Ronaldo Nazário, un análisis riguroso no debe omitir sus aspectos a mejorar: Dos graves roturas del tendón rotuliano que condicionaron su carrera y el hecho de no haber podido conquistar ninguna UEFA Champions League a nivel de clubes."
     },
     {
       "id": "7ccda004-7950-4536-bb10-9fe5a6be12cf",
@@ -3064,7 +3552,9 @@
         "Mejor Jugador Copa América 2024",
         "2 UEFA Champions League",
         "2 LaLiga"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de James Rodríguez, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "f4c97260-c78d-41c5-9cbf-064281cd9ce1",
@@ -3081,7 +3571,9 @@
         "2 Scudettos Serie A con Napoli",
         "Copa UEFA 1989",
         "Subcampeón del Mundo 1990"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Diego Maradona, un análisis riguroso no debe omitir sus aspectos a mejorar: Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "e4d06f46-b9f2-4f2a-9740-f243fc80974c",
@@ -3098,7 +3590,9 @@
         "Premier League 2020",
         "Copa Africana de Naciones 2022",
         "Bota de Oro Premier"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Sadio Mané, un análisis riguroso no debe omitir sus aspectos a mejorar: Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "3a710998-264d-4151-bf85-868a7e976577",
@@ -3115,7 +3609,9 @@
         "Copa América 2011",
         "2 Botas de Oro Europeas",
         "5 LaLiga (Barcelona y Atlético)"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Luis Suárez, un análisis riguroso no debe omitir sus aspectos a mejorar: Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "fa204994-c973-4114-b187-cba38cb831a1",
@@ -3132,7 +3628,9 @@
         "Premio Puskás 2020",
         "Oro Juegos Asiáticos 2018",
         "Finalista Champions 2019"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Son Heung-min, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "5bd55971-dcc9-45a2-a020-d3d217e931f4",
@@ -3146,7 +3644,9 @@
       "evaluacion_rendimiento": "Bajo Registro Goleador",
       "titulos_relevantes": [
         "Goleador Copa América 2021"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Luis Díaz, los datos y títulos demuestran argumentos contundentes: Regate eléctrico, cambio de ritmo desequilibrante en banda y un despliegue de sacrificio y presión defensiva admirable en la Premier League."
     },
     {
       "id": "3436f2c4-90b9-40b6-b700-4bfeb82d3f7b",
@@ -3160,7 +3660,9 @@
       "evaluacion_rendimiento": "Paso Opaco por Bayern",
       "titulos_relevantes": [
         "UEFA Champions League 2019"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Sadio Mané requiere contrastar ambas perspectivas: por un lado, Héroe nacional consagrando a Senegal campeona de África, campeón de Europa y Premier con el Liverpool y delantero de un despliegue táctico demoledor. Por otro lado, Pérdida de continuidad y chispa en su paso por el Bayern Múnich tras su salida del Liverpool, alejándose de los primeros focos europeos."
     },
     {
       "id": "bebf0c09-78f7-46e0-ad33-0cf097bd806d",
@@ -3174,7 +3676,9 @@
       "evaluacion_rendimiento": "Actitud Cuestionable",
       "titulos_relevantes": [
         "5 UEFA Champions League"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Cristiano Ronaldo, los datos y títulos demuestran argumentos contundentes: Máximo goleador en la historia del fútbol profesional (más de 900 goles), 5 Champions League con goles decisivos en cuartos, semifinales y finales."
     },
     {
       "id": "a6281aef-3df9-4a3a-a60d-89b45991227a",
@@ -3191,7 +3695,9 @@
         "Premier League 2020",
         "3 Botas de Oro Premier League",
         "Mundial de Clubes FIFA"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Mohamed Salah, un análisis riguroso no debe omitir sus aspectos a mejorar: Baches de puntería o menor frescura física en los tramos definitorios de primavera y finales perdidas con la selección de Egipto."
     },
     {
       "id": "cde11e2e-f51b-43e8-989e-bb5a2884cbaa",
@@ -3208,7 +3714,9 @@
         "2 Scudettos Serie A con Napoli",
         "Copa UEFA 1989",
         "Subcampeón del Mundo 1990"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Diego Maradona, un análisis riguroso no debe omitir sus aspectos a mejorar: Conflictos disciplinarios extracancha y suspensiones que acortaron su regularidad física y su presencia sostenida en la élite europea."
     },
     {
       "id": "e49f1169-df05-4390-8854-a04db3245007",
@@ -3222,7 +3730,9 @@
       "evaluacion_rendimiento": "Individualista",
       "titulos_relevantes": [
         "Copa del Mundo 2018"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Kylian Mbappé requiere contrastar ambas perspectivas: por un lado, Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles. Por otro lado, Poco compromiso en la presión y repliegue defensivo, y menor comodidad táctica cuando debe fijar centrales de espaldas en vez de explotar su velocidad al espacio."
     },
     {
       "id": "73125648-34fd-4b51-b492-c2ee91e953fa",
@@ -3236,7 +3746,9 @@
       "evaluacion_rendimiento": "Desgaste de Rodilla",
       "titulos_relevantes": [
         "UEFA Champions League 2015"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Luis Suárez requiere contrastar ambas perspectivas: por un lado, Dos Botas de Oro en la época de plenitud de Messi y Cristiano Ronaldo, triplete con el Barcelona y uno de los 9 más completos, combativos e inteligentes del área. Por otro lado, Prolongadas sequías goleadoras en condición de visitante en Champions League y sanciones disciplinarias que perjudicaron a sus equipos en torneos clave."
     },
     {
       "id": "9351b585-f7c5-4407-915f-ea9e7638e6b8",
@@ -3253,7 +3765,9 @@
         "Premio Puskás 2020",
         "Oro Juegos Asiáticos 2018",
         "Finalista Champions 2019"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Son Heung-min, un análisis riguroso no debe omitir sus aspectos a mejorar: Falta de títulos mayores a nivel de clubes a lo largo de su carrera y menor lucimiento cuando las defensas se repliegan y le niegan espacios en carrera."
     },
     {
       "id": "f836a676-31ad-460d-89ef-51ebefa1d92d",
@@ -3267,7 +3781,9 @@
       "evaluacion_rendimiento": "Bajo Promedio Goleador",
       "titulos_relevantes": [
         "Copa del Mundo 1998"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Zinedine Zidane requiere contrastar ambas perspectivas: por un lado, Aparición estelar en las citas más trascendentes: dos goles en la final de Francia 1998, el mejor gol de volea en finales de Champions (2002) y Balón de Oro. Por otro lado, Temporadas con lagunas de regularidad en liga y reacciones temperamentales que le acarrearon expulsiones graves, como la final del Mundial 2006."
     },
     {
       "id": "8d720835-232b-4cfa-be38-8250b9a47a1c",
@@ -3281,7 +3797,9 @@
       "evaluacion_rendimiento": "Autoboicot Deportivo",
       "titulos_relevantes": [
         "Copa del Mundo 2002"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Ronaldinho, los datos y títulos demuestran argumentos contundentes: Campeón del Mundo 2002, Balón de Oro 2005, artífice del renacimiento del FC Barcelona y autor de jugadas mágicas que arrancaron aplausos en el Bernabéu."
     },
     {
       "id": "40b7ef35-7134-4c8d-a253-d19a402721c1",
@@ -3295,7 +3813,9 @@
       "evaluacion_rendimiento": "Deuda con Brasil",
       "titulos_relevantes": [
         "2 UEFA Champions League (gol en final)"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de Vinícius Júnior requiere contrastar ambas perspectivas: por un lado, Goles de la victoria en dos finales de UEFA Champions League (2022 y 2024), Balón de Plata y el jugador más desequilibrante del planeta en el uno contra uno. Por otro lado, Desgaste y desconexión anímica frecuente en discusiones arbitrales y provocaciones, sumado a un nivel con la selección de Brasil que aún no iguala sus exhibiciones con el Real Madrid."
     },
     {
       "id": "7d821ca1-a777-45fa-8c1d-406f8a885923",
@@ -3309,7 +3829,9 @@
       "evaluacion_rendimiento": "Carente de Marca",
       "titulos_relevantes": [
         "Copa del Mundo 2018"
-      ]
+      ],
+      "tipo_opinion": "mala",
+      "contraargumento": "Contraargumento de objetividad deportiva: Frente a las críticas o el desmerecimiento hacia Kylian Mbappé, los datos y títulos demuestran argumentos contundentes: Campeón del Mundo a los 19 años, hat-trick en una final de Copa del Mundo y una zancada y definición en carrera prácticamente indefendibles."
     },
     {
       "id": "0a48f92b-3070-42e6-ae52-6ee5a09bc487",
@@ -3323,7 +3845,9 @@
       "evaluacion_rendimiento": "Doble Cara",
       "titulos_relevantes": [
         "Bota de Oro Mundial 2014"
-      ]
+      ],
+      "tipo_opinion": "intermedia",
+      "contraargumento": "Contraargumento de objetividad deportiva: El análisis de James Rodríguez requiere contrastar ambas perspectivas: por un lado, Bota de Oro del Mundial 2014, MVP absoluto de la Copa América 2024 y una zurda prodigiosa para filtrar pases de gol y anotar desde media distancia. Por otro lado, Falta de continuidad y pocos minutos en clubes europeos de primer nivel en los últimos años por dificultades para encajar en sistemas de repliegue intensivo."
     },
     {
       "id": "b5876161-71cc-413d-8c69-9d6024f55199",
@@ -3340,7 +3864,9 @@
         "8 Balones de Oro",
         "4 UEFA Champions League",
         "2 Copas América"
-      ]
+      ],
+      "tipo_opinion": "buena",
+      "contraargumento": "Contraargumento de objetividad deportiva: Pese al favoritismo y los reconocimientos de Lionel Messi, un análisis riguroso no debe omitir sus aspectos a mejorar: Dificultades en eliminatorias europeas con remontadas sufridas (Roma 2018, Liverpool 2019, Bayern 2020) y un bajo repliegue defensivo que exige que el equipo corra por él."
     }
   ]
 }

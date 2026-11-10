@@ -462,6 +462,29 @@ def render_mensaje(msg):
         cards_html = f'<div class="player-split-block">{card_j1_full}</div>'
         stats_widget = visual.generar_widget_stats(jid, None, nombre, "")
 
+    tipo_op = msg.get("tipo_opinion")
+    if not tipo_op:
+        s_base = msg.get("sentimiento", "neutral").lower()
+        tipo_op = "buena" if s_base == "positivo" else ("mala" if s_base == "negativo" else "intermedia")
+
+    TIPO_MAPA = {
+        "buena": ("👍 Opinión: Buena", "pill-verde"),
+        "mala": ("👎 Opinión: Mala", "pill-rojo"),
+        "intermedia": ("⚖️ Opinión: Intermedia", "pill-amarillo")
+    }
+    etq_tipo, clase_tipo = TIPO_MAPA.get(tipo_op.lower(), ("⚖️ Opinión: Intermedia", "pill-amarillo"))
+    pill_tipo = f'<span class="pill {clase_tipo}">{etq_tipo}</span>'
+
+    contra = msg.get("contraargumento", "")
+    contra_html = ""
+    if contra and contra.strip():
+        contra_html = f"""
+        <div class="contra-box">
+            <div class="contra-title">⚖️ Contraargumento de objetividad deportiva</div>
+            <div class="contra-text">{esc(contra)}</div>
+        </div>
+        """
+
     st.markdown(
         limpiar_html(f"""
         <div class="msg-bot-row">
@@ -469,16 +492,19 @@ def render_mensaje(msg):
                 <span class="bot-icon-glow">🤖</span>
                 <span class="bot-name">SOCCER AGENT</span>
                 {pill_liga}
+                {pill_tipo}
                 <span class="pill pill-{color}">{ICONO_COLOR[color]} Rendimiento: {TEXTO_COLOR[color]}</span>
             </div>
             <div class="bot-card border-{color}">
                 <div class="analysis-text">{esc(msg.get("analisis", ""))}</div>
+                {contra_html}
                 <div style="display:flex;gap:14px;align-items:stretch;flex-wrap:nowrap">
                     {cards_html}
                     {stats_widget}
                 </div>
                 <div class="bot-foot">
-                    <div>
+                    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                        {pill_tipo}
                         <span>Sentimiento: <strong>{esc(msg.get("sentimiento", "neutral"))}</strong></span> ·
                         <span class="pill pill-{color}">{ICONO_COLOR[color]} {TEXTO_COLOR[color]}</span>
                     </div>
@@ -506,6 +532,13 @@ def procesar_mensaje(texto):
         else:
             resultado = motor_ia.procesar_opinion(jugador=jugador_actual, opinion_usuario=texto, modelo=modelo)
 
+    tipo_op = resultado.get("tipo_opinion")
+    if not tipo_op:
+        sent_calc = resultado.get("sentimiento", "neutral")
+        tipo_op = "buena" if sent_calc == "positivo" else ("mala" if sent_calc == "negativo" else "intermedia")
+
+    contra_calc = resultado.get("contraargumento", "")
+
     registro = gestor_datos.guardar_opinion(
         jugador_id=jugador_actual["id"],
         jugador_nombre=jugador_actual["nombre"],
@@ -515,6 +548,8 @@ def procesar_mensaje(texto):
         color_rendimiento=resultado.get("color_rendimiento", "verde"),
         titulos_relevantes=resultado.get("titulos_relevantes", []),
         evaluacion_rendimiento=resultado.get("evaluacion_rendimiento", ""),
+        contraargumento=contra_calc,
+        tipo_opinion=tipo_op
     )
 
     jugador_comp = motor_ia.detectar_jugador_comparado(texto, jugador_actual["id"])
@@ -528,8 +563,10 @@ def procesar_mensaje(texto):
         "tipo": "asistente", "jugador_id": jugador_actual["id"],
         "jugador_nombre": jugador_actual["nombre"],
         "sentimiento": resultado.get("sentimiento", "neutral"),
+        "tipo_opinion": tipo_op,
         "color_rendimiento": resultado.get("color_rendimiento", "verde"),
         "analisis": resultado.get("analisis_objetivo", ""),
+        "contraargumento": contra_calc,
         "rendimiento": resultado.get("evaluacion_rendimiento", ""),
         "titulos": resultado.get("titulos_relevantes", []),
         "id_registro": registro["id"],
@@ -637,7 +674,7 @@ def render_opiniones():
                 format_func=lambda j: "Todos los futbolistas" if j == "todos" else f"{nombre_de(j)} ({JUG[j]['pais']})",
             )
         with f3:
-            filtro_sent = st.selectbox("💬 Sentimiento", ["Todos", "positivo", "neutral", "negativo"])
+            filtro_tipo = st.selectbox("💬 Tipo de opinión", ["Todos", "Buena (elogio)", "Intermedia (balanceada)", "Mala (crítica)"])
         with f4:
             filtro_color = st.selectbox("🚦 Semáforo", ["Todos", *COLORES])
 
@@ -647,8 +684,13 @@ def render_opiniones():
             filtradas = [o for o in filtradas if o.get("jugador_id") in ids_set]
         if filtro_jugador != "todos":
             filtradas = [o for o in filtradas if o.get("jugador_id") == filtro_jugador]
-        if filtro_sent != "Todos":
-            filtradas = [o for o in filtradas if o.get("sentimiento") == filtro_sent]
+        if filtro_tipo != "Todos":
+            if "Buena" in filtro_tipo:
+                filtradas = [o for o in filtradas if o.get("tipo_opinion") == "buena" or o.get("sentimiento") == "positivo"]
+            elif "Mala" in filtro_tipo:
+                filtradas = [o for o in filtradas if o.get("tipo_opinion") == "mala" or o.get("sentimiento") == "negativo"]
+            elif "Intermedia" in filtro_tipo:
+                filtradas = [o for o in filtradas if o.get("tipo_opinion") == "intermedia" or o.get("sentimiento") == "neutral"]
         if filtro_color != "Todos":
             filtradas = [o for o in filtradas if o.get("color_rendimiento") == filtro_color]
 
@@ -695,6 +737,18 @@ def render_opiniones():
                 jid = o.get("jugador_id")
                 escudos = "".join(visual.img_escudo(k) for k in visual.ligas_de(jid))
                 titulos = "".join(f'<span class="trophy-badge">🏆 {esc(t)}</span>' for t in o.get("titulos_relevantes", [])[:3])
+                
+                top = o.get("tipo_opinion")
+                if not top:
+                    s_val = o.get("sentimiento", "neutral").lower()
+                    top = "buena" if s_val == "positivo" else ("mala" if s_val == "negativo" else "intermedia")
+                pill_clase = "pill-verde" if top == "buena" else ("pill-rojo" if top == "mala" else "pill-amarillo")
+                pill_icono = "👍" if top == "buena" else ("👎" if top == "mala" else "⚖️")
+                pill_tipo_op = f'<span class="pill {pill_clase}">{pill_icono} {top.upper()}</span>'
+
+                contra_text = o.get("contraargumento", "")
+                contra_markup = f'<div class="contra-box" style="margin:8px 0 6px;padding:8px 12px"><div class="contra-title" style="font-size:0.72rem">⚖️ Contraargumento de objetividad</div><div class="contra-text" style="font-size:0.83rem">{esc(contra_text)}</div></div>' if contra_text else ""
+
                 st.markdown(
                     limpiar_html(f"""
                     <div class="op-card border-{color}">
@@ -702,11 +756,13 @@ def render_opiniones():
                         <div style="flex:1;min-width:0">
                             <div class="op-head">
                                 <span class="op-name">{esc(o.get('jugador_nombre'))}</span>
+                                {pill_tipo_op}
                                 <span class="pill pill-{color}">{ICONO_COLOR[color]} {TEXTO_COLOR[color]}</span>
                                 <span class="pill pill-liga">{escudos} {esc(o.get('sentimiento', '').upper())}</span>
                             </div>
                             <div class="op-quote">“{esc(o.get('opinion_usuario'))}”</div>
                             <div class="op-text">{esc(o.get('analisis_objetivo'))}</div>
+                            {contra_markup}
                             <div style="margin-top:6px">{titulos}</div>
                             <div class="op-meta">{esc(o.get('timestamp', '')[:16].replace('T', ' '))} · ID {esc(o.get('id', '')[:8])}</div>
                         </div>

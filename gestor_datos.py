@@ -56,12 +56,18 @@ def guardar_opinion(
     analisis_objetivo: str,
     color_rendimiento: str,
     titulos_relevantes: Optional[List[str]] = None,
-    evaluacion_rendimiento: Optional[str] = None
+    evaluacion_rendimiento: Optional[str] = None,
+    contraargumento: Optional[str] = None,
+    tipo_opinion: Optional[str] = None
 ) -> Dict:
     """
     Guarda una nueva opinión en datos/opiniones.json y retorna el registro creado con su UUID.
+    Incluye clasificación directa de opinión (buena/intermedia/mala) y contraargumento de objetividad.
     """
     opiniones = cargar_opiniones()
+    
+    tipo_map = {"positivo": "buena", "negativo": "mala", "neutral": "intermedia"}
+    tipo_final = (tipo_opinion.lower() if tipo_opinion else tipo_map.get(sentimiento.lower(), "intermedia"))
     
     nuevo_registro = {
         "id": str(uuid.uuid4()),
@@ -70,8 +76,10 @@ def guardar_opinion(
         "jugador_nombre": jugador_nombre,
         "opinion_usuario": opinion_usuario,
         "sentimiento": sentimiento.lower(),  # positivo, neutral, negativo
+        "tipo_opinion": tipo_final,  # buena, intermedia, mala
         "color_rendimiento": color_rendimiento.lower(),  # verde, amarillo, rojo
         "analisis_objetivo": analisis_objetivo,
+        "contraargumento": contraargumento or "",
         "evaluacion_rendimiento": evaluacion_rendimiento or "",
         "titulos_relevantes": titulos_relevantes or []
     }
